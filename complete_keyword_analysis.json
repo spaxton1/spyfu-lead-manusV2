@@ -1,0 +1,977 @@
+{
+  "generatedAt": "2025-10-23T08:29:53.276Z",
+  "description": "Complete keyword analysis combining Page 1 (rank 1-10) and Money Keywords (rank 11-75)",
+  "dataSources": {
+    "page1": "combined_domain_report_with_rankings.json (rank 1-10)",
+    "moneyKeywords": "low_hanging_fruit_keywords_v2.json (rank 11-75)",
+    "cityDatabase": "us_cities_lookup.json (29,880 cities)"
+  },
+  "results": [
+    {
+      "domain": "salemplasticsurgery.com",
+      "page1Analysis": {
+        "top10CPC": [
+          {
+            "keyword": "dermaplaning winston salem",
+            "rank": 4,
+            "cpc": 20.41,
+            "volume": 40,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "laser hair removal winston-salem",
+            "rank": 8,
+            "cpc": 13.79,
+            "volume": 28,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "botox Winston-Salem",
+            "rank": 10,
+            "cpc": 7.88,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "flank lipo",
+            "rank": 9,
+            "cpc": 6.55,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "plastic surgeon Winston-Salem",
+            "rank": 1,
+            "cpc": 6.52,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "breast augmentation winston salem nc",
+            "rank": 3,
+            "cpc": 5.65,
+            "volume": 40,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "breast augmentation winston salem nc",
+            "rank": 2,
+            "cpc": 5.65,
+            "volume": 40,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "salem plastic surgery winston salem",
+            "rank": 1,
+            "cpc": 5.2,
+            "volume": 28,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "breast lift operation",
+            "rank": 9,
+            "cpc": 4.37,
+            "volume": 1,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "plastic surgery salem or",
+            "rank": 6,
+            "cpc": 4.14,
+            "volume": 24,
+            "source": "Page 1"
+          }
+        ],
+        "top10Local": [
+          {
+            "keyword": "dermaplaning winston salem",
+            "rank": 4,
+            "cpc": 20.41,
+            "volume": 40,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "laser hair removal winston-salem",
+            "rank": 8,
+            "cpc": 13.79,
+            "volume": 28,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "botox Winston-Salem",
+            "rank": 10,
+            "cpc": 7.88,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "plastic surgeon Winston-Salem",
+            "rank": 1,
+            "cpc": 6.52,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "breast augmentation winston salem nc",
+            "rank": 3,
+            "cpc": 5.65,
+            "volume": 40,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "breast augmentation winston salem nc",
+            "rank": 2,
+            "cpc": 5.65,
+            "volume": 40,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "salem plastic surgery winston salem",
+            "rank": 1,
+            "cpc": 5.2,
+            "volume": 28,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "plastic surgery salem or",
+            "rank": 6,
+            "cpc": 4.14,
+            "volume": 24,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "plastic surgery winston salem nc",
+            "rank": 8,
+            "cpc": 3.67,
+            "volume": 55,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "plastic surgery winston salem nc",
+            "rank": 1,
+            "cpc": 3.67,
+            "volume": 55,
+            "source": "Page 1"
+          }
+        ]
+      },
+      "moneyKeywordsAnalysis": {
+        "top5Money": [
+          {
+            "keyword": "aesthetic surgeons",
+            "rank": 60,
+            "cpc": 11.42,
+            "volume": 12,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "plastic surgery jacksonville nc",
+            "rank": 55,
+            "cpc": 10.36,
+            "volume": 44,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "smart lipo for men",
+            "rank": 17,
+            "cpc": 9.91,
+            "volume": 28,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "co2 laser for face",
+            "rank": 45,
+            "cpc": 9.75,
+            "volume": 200,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "breast lift procedure",
+            "rank": 30,
+            "cpc": 9.38,
+            "volume": 270,
+            "source": "Rank 11-75"
+          }
+        ],
+        "top3Local": [
+          {
+            "keyword": "plastic surgery jacksonville nc",
+            "rank": 55,
+            "cpc": 10.36,
+            "volume": 44,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "plastic surgery north carolina",
+            "rank": 14,
+            "cpc": 8.65,
+            "volume": 44,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "plastic surgeon nc",
+            "rank": 27,
+            "cpc": 8,
+            "volume": 190,
+            "source": "Rank 11-75"
+          }
+        ]
+      },
+      "trafficKeywords": [
+        {
+          "keyword": "obagi skin products",
+          "rank": 51,
+          "cpc": 6.81,
+          "volume": 2400,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "boob lift",
+          "rank": 42,
+          "cpc": 1.41,
+          "volume": 1500,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "chin surgery",
+          "rank": 65,
+          "cpc": 2.61,
+          "volume": 1300,
+          "source": "Rank 11-75"
+        }
+      ],
+      "summary": {
+        "totalPage1Keywords": 233,
+        "totalMoneyKeywords": 161,
+        "totalKeywords": 394
+      }
+    },
+    {
+      "domain": "aestheticinstitute.ie",
+      "page1Analysis": {
+        "top10CPC": [
+          {
+            "keyword": "liposuction dublin",
+            "rank": 6,
+            "cpc": 1.44,
+            "volume": 10,
+            "source": "Page 1"
+          }
+        ],
+        "top10Local": [
+          {
+            "keyword": "liposuction dublin",
+            "rank": 6,
+            "cpc": 1.44,
+            "volume": 10,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "dublin lip fillers",
+            "rank": 9,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "dublin plastic surgery",
+            "rank": 9,
+            "cpc": 0,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "facelifts dublin",
+            "rank": 9,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "breast augmentation surgery dublin",
+            "rank": 8,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "dublin aesthetics",
+            "rank": 8,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "aesthetic institute reviews",
+            "rank": 7,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "lip augmentation dublin",
+            "rank": 6,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "breast enlargement dublin",
+            "rank": 6,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "plastic surgery in dublin",
+            "rank": 6,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          }
+        ]
+      },
+      "moneyKeywordsAnalysis": {
+        "top5Money": [
+          {
+            "keyword": "fraxel laser cost",
+            "rank": 67,
+            "cpc": 3.08,
+            "volume": 630,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "jawline surgery",
+            "rank": 56,
+            "cpc": 2.96,
+            "volume": 1300,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "loose skin on thighs",
+            "rank": 68,
+            "cpc": 1.65,
+            "volume": 90,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "macrolane",
+            "rank": 48,
+            "cpc": 1.19,
+            "volume": 44,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "ear pin back",
+            "rank": 74,
+            "cpc": 1.18,
+            "volume": 12,
+            "source": "Rank 11-75"
+          }
+        ],
+        "top3Local": [
+          {
+            "keyword": "fraxel laser cost",
+            "rank": 67,
+            "cpc": 3.08,
+            "volume": 630,
+            "source": "Rank 11-75"
+          }
+        ]
+      },
+      "trafficKeywords": [
+        {
+          "keyword": "jawline surgery",
+          "rank": 56,
+          "cpc": 2.96,
+          "volume": 1300,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "fraxel laser cost",
+          "rank": 67,
+          "cpc": 3.08,
+          "volume": 630,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "akademikliniken",
+          "rank": 5,
+          "cpc": 0,
+          "volume": 100,
+          "source": "Page 1"
+        }
+      ],
+      "summary": {
+        "totalPage1Keywords": 28,
+        "totalMoneyKeywords": 5,
+        "totalKeywords": 33
+      }
+    },
+    {
+      "domain": "coppellwellness.com",
+      "page1Analysis": {
+        "top10CPC": [],
+        "top10Local": [
+          {
+            "keyword": "coppell wellness center",
+            "rank": 1,
+            "cpc": 0,
+            "volume": 135,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "coppell wellness",
+            "rank": 1,
+            "cpc": 0,
+            "volume": 420,
+            "source": "Page 1"
+          }
+        ]
+      },
+      "moneyKeywordsAnalysis": {
+        "top5Money": [],
+        "top3Local": []
+      },
+      "trafficKeywords": [
+        {
+          "keyword": "coppell wellness",
+          "rank": 1,
+          "cpc": 0,
+          "volume": 420,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "coppell wellness center",
+          "rank": 1,
+          "cpc": 0,
+          "volume": 135,
+          "source": "Page 1"
+        }
+      ],
+      "summary": {
+        "totalPage1Keywords": 2,
+        "totalMoneyKeywords": 0,
+        "totalKeywords": 2
+      }
+    },
+    {
+      "domain": "axiominjury.com",
+      "page1Analysis": {
+        "top10CPC": [],
+        "top10Local": [
+          {
+            "keyword": "carrollton injury rehab & chiropractic",
+            "rank": 9,
+            "cpc": 0,
+            "volume": 55,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "chiropractor in Carrolton Tx",
+            "rank": 7,
+            "cpc": 0,
+            "volume": 0,
+            "source": "Page 1"
+          }
+        ]
+      },
+      "moneyKeywordsAnalysis": {
+        "top5Money": [
+          {
+            "keyword": "chiropractors carrollton tx",
+            "rank": 43,
+            "cpc": 9,
+            "volume": 28,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractors carrollton tx",
+            "rank": 35,
+            "cpc": 9,
+            "volume": 28,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractor carrollton tx",
+            "rank": 32,
+            "cpc": 5.56,
+            "volume": 180,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractor carrollton tx",
+            "rank": 42,
+            "cpc": 5.56,
+            "volume": 180,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractor carrollton",
+            "rank": 39,
+            "cpc": 2.83,
+            "volume": 100,
+            "source": "Rank 11-75"
+          }
+        ],
+        "top3Local": [
+          {
+            "keyword": "chiropractors carrollton tx",
+            "rank": 43,
+            "cpc": 9,
+            "volume": 28,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractors carrollton tx",
+            "rank": 35,
+            "cpc": 9,
+            "volume": 28,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractor carrollton tx",
+            "rank": 32,
+            "cpc": 5.56,
+            "volume": 180,
+            "source": "Rank 11-75"
+          }
+        ]
+      },
+      "trafficKeywords": [
+        {
+          "keyword": "chiropractor carrollton tx",
+          "rank": 32,
+          "cpc": 5.56,
+          "volume": 180,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "chiropractor carrollton tx",
+          "rank": 42,
+          "cpc": 5.56,
+          "volume": 180,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "chiropractor carrollton",
+          "rank": 39,
+          "cpc": 2.83,
+          "volume": 100,
+          "source": "Rank 11-75"
+        }
+      ],
+      "summary": {
+        "totalPage1Keywords": 2,
+        "totalMoneyKeywords": 7,
+        "totalKeywords": 9
+      }
+    },
+    {
+      "domain": "alignwc.com",
+      "page1Analysis": {
+        "top10CPC": [
+          {
+            "keyword": "surgery for vertigo",
+            "rank": 1,
+            "cpc": 8.54,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "can tmj cause dizziness floating feeling",
+            "rank": 10,
+            "cpc": 6.2,
+            "volume": 320,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "acupuncture for dizziness",
+            "rank": 9,
+            "cpc": 4.55,
+            "volume": 135,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "acupuncture for dizziness",
+            "rank": 5,
+            "cpc": 4.55,
+            "volume": 135,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "corrective chiropractic near me",
+            "rank": 8,
+            "cpc": 4.12,
+            "volume": 750,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "vertigo massage techniques",
+            "rank": 3,
+            "cpc": 3.95,
+            "volume": 28,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "vertigo massage therapy",
+            "rank": 9,
+            "cpc": 3.94,
+            "volume": 28,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "sciatica laser surgery",
+            "rank": 1,
+            "cpc": 3.84,
+            "volume": 70,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "laser treatment for sciatica",
+            "rank": 1,
+            "cpc": 3.64,
+            "volume": 190,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "acupuncture vertigo",
+            "rank": 6,
+            "cpc": 3.47,
+            "volume": 220,
+            "source": "Page 1"
+          }
+        ],
+        "top10Local": [
+          {
+            "keyword": "northbrook chiropractic",
+            "rank": 6,
+            "cpc": 2.34,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "northbrook chiropractic",
+            "rank": 1,
+            "cpc": 2.34,
+            "volume": 0,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "align wellness center",
+            "rank": 1,
+            "cpc": 2.24,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "pressure point dizziness",
+            "rank": 2,
+            "cpc": 2.1,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "acupressure points for dizziness",
+            "rank": 2,
+            "cpc": 1.17,
+            "volume": 260,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "acupressure points vertigo",
+            "rank": 2,
+            "cpc": 1.15,
+            "volume": 28,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "acupressure point for dizziness",
+            "rank": 2,
+            "cpc": 0.98,
+            "volume": 125,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "pain in pressure point behind ear",
+            "rank": 8,
+            "cpc": 0.89,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "acupuncture points for vertigo",
+            "rank": 1,
+            "cpc": 0.71,
+            "volume": 135,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "pressure points for dizziness",
+            "rank": 1,
+            "cpc": 0.54,
+            "volume": 44,
+            "source": "Page 1"
+          }
+        ]
+      },
+      "moneyKeywordsAnalysis": {
+        "top5Money": [
+          {
+            "keyword": "North Shore Chiropractic",
+            "rank": 29,
+            "cpc": 9.36,
+            "volume": 135,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "sciatic pinched nerve",
+            "rank": 65,
+            "cpc": 8.83,
+            "volume": 44,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "migraine and vertigo",
+            "rank": 45,
+            "cpc": 8.24,
+            "volume": 135,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "alleviate sciatica",
+            "rank": 72,
+            "cpc": 7.85,
+            "volume": 80,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "sciatica hip pain relief",
+            "rank": 41,
+            "cpc": 7.82,
+            "volume": 260,
+            "source": "Rank 11-75"
+          }
+        ],
+        "top3Local": [
+          {
+            "keyword": "North Shore Chiropractic",
+            "rank": 29,
+            "cpc": 9.36,
+            "volume": 135,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "massage pressure points",
+            "rank": 59,
+            "cpc": 3.38,
+            "volume": 135,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "northfield chiropractic",
+            "rank": 23,
+            "cpc": 3.08,
+            "volume": 44,
+            "source": "Rank 11-75"
+          }
+        ]
+      },
+      "trafficKeywords": [
+        {
+          "keyword": "how to get rid of a migraine",
+          "rank": 47,
+          "cpc": 3.6,
+          "volume": 3400,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "sciatic nerve pain relief",
+          "rank": 75,
+          "cpc": 1.24,
+          "volume": 3400,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "stretches for neck pain",
+          "rank": 30,
+          "cpc": 1.36,
+          "volume": 1200,
+          "source": "Rank 11-75"
+        }
+      ],
+      "summary": {
+        "totalPage1Keywords": 535,
+        "totalMoneyKeywords": 74,
+        "totalKeywords": 609
+      }
+    },
+    {
+      "domain": "infinityspine.com",
+      "page1Analysis": {
+        "top10CPC": [],
+        "top10Local": []
+      },
+      "moneyKeywordsAnalysis": {
+        "top5Money": [
+          {
+            "keyword": "infinity of scottsdale",
+            "rank": 50,
+            "cpc": 2.76,
+            "volume": 70,
+            "source": "Rank 11-75"
+          }
+        ],
+        "top3Local": [
+          {
+            "keyword": "infinity of scottsdale",
+            "rank": 50,
+            "cpc": 2.76,
+            "volume": 70,
+            "source": "Rank 11-75"
+          }
+        ]
+      },
+      "trafficKeywords": [
+        {
+          "keyword": "infinity of scottsdale",
+          "rank": 50,
+          "cpc": 2.76,
+          "volume": 70,
+          "source": "Rank 11-75"
+        }
+      ],
+      "summary": {
+        "totalPage1Keywords": 0,
+        "totalMoneyKeywords": 1,
+        "totalKeywords": 1
+      }
+    },
+    {
+      "domain": "painreliefkc.com",
+      "page1Analysis": {
+        "top10CPC": [
+          {
+            "keyword": "kinesiology chiropractic",
+            "rank": 7,
+            "cpc": 5.74,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "chiropractic kinesiology",
+            "rank": 3,
+            "cpc": 5.13,
+            "volume": 44,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "kinesiology chiropractor",
+            "rank": 4,
+            "cpc": 3.53,
+            "volume": 300,
+            "source": "Page 1"
+          },
+          {
+            "keyword": "chiropractic manual",
+            "rank": 5,
+            "cpc": 0.41,
+            "volume": 80,
+            "source": "Page 1"
+          }
+        ],
+        "top10Local": []
+      },
+      "moneyKeywordsAnalysis": {
+        "top5Money": [
+          {
+            "keyword": "applied kinesiology chiropractor",
+            "rank": 30,
+            "cpc": 7.58,
+            "volume": 230,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "integrated chiropractic",
+            "rank": 70,
+            "cpc": 7.55,
+            "volume": 180,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractic kinesiology",
+            "rank": 69,
+            "cpc": 5.13,
+            "volume": 44,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "chiropractor and knee pain",
+            "rank": 43,
+            "cpc": 4.96,
+            "volume": 44,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "integrative chiropractic",
+            "rank": 59,
+            "cpc": 4.39,
+            "volume": 480,
+            "source": "Rank 11-75"
+          }
+        ],
+        "top3Local": [
+          {
+            "keyword": "chiropractor overland park",
+            "rank": 54,
+            "cpc": 3.82,
+            "volume": 135,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "kingston chiropractor",
+            "rank": 67,
+            "cpc": 3.26,
+            "volume": 125,
+            "source": "Rank 11-75"
+          },
+          {
+            "keyword": "muscle energy techniques",
+            "rank": 48,
+            "cpc": 1.57,
+            "volume": 220,
+            "source": "Rank 11-75"
+          }
+        ]
+      },
+      "trafficKeywords": [
+        {
+          "keyword": "cranial sacral therapy",
+          "rank": 49,
+          "cpc": 1.9,
+          "volume": 1400,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "integrative chiropractic",
+          "rank": 59,
+          "cpc": 4.39,
+          "volume": 480,
+          "source": "Rank 11-75"
+        },
+        {
+          "keyword": "integrative chiropractic",
+          "rank": 24,
+          "cpc": 4.39,
+          "volume": 480,
+          "source": "Rank 11-75"
+        }
+      ],
+      "summary": {
+        "totalPage1Keywords": 15,
+        "totalMoneyKeywords": 18,
+        "totalKeywords": 33
+      }
+    }
+  ]
+}
