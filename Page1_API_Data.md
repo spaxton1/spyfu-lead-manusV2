@@ -216,6 +216,121 @@ Lost 40 KWs (9.3%) | –$331 Value | –37 Clicks | Authority +1
 
 ---
 
+### 3. Money Keywords & Local Keywords API - getMostValuableKeywords (Rank 11-75)
+
+**Purpose:** Identify high-value keywords in positions 11-75 (Page 2-8) and categorize them into:
+- **Top 5 Money Keywords** - Pure highest CPC keywords (no location filter)
+- **Top 3 Local Keywords** - Highest CPC keywords with specific location identifiers
+
+**API Cost:** Variable - (keyword_count / 1000) × $0.50
+- **Average:** $0.0133 per domain (V2 extended range)
+- **Example:** 266 keywords = $0.1330 for 10 domains = $0.0133/domain
+
+**API Request (V2 - Extended Range):**
+```bash
+curl --request GET \
+     --url 'https://api.spyfu.com/apis/serp_api/v2/seo/getMostValuableKeywords?query=example.com&searchVolume.min=10&searchVolume.max=50000&rank.min=11&rank.max=75&costPerClick.min=1&costPerClick.max=1000&costPerClickOption=Exact&pageSize=500&sortBy=ExactCostPerClick' \
+     --header 'accept: application/json' \
+     --header 'Authorization: Basic {API_KEY}'
+```
+
+**Key Parameters:**
+- `query` = domain name
+- `searchVolume.min=10` = exclude keywords with <10 monthly searches
+- `searchVolume.max=50000` = cap at 50K searches (broad keywords)
+- `rank.min=11&rank.max=75` = **V2 Extended Range** (Pages 2-8 instead of 2-5)
+- `costPerClick.min=1` = only keywords worth $1+ CPC
+- `costPerClick.max=1000` = cap at $1,000 CPC
+- `costPerClickOption=Exact` = get exact match CPC data
+- `pageSize=500` = return up to 500 keywords
+- `sortBy=ExactCostPerClick` = sort by highest CPC first
+
+**Returns for each keyword:**
+- keyword (text)
+- rank (11-75)
+- searchVolume (monthly traffic)
+- exactCostPerClick ($)
+- phraseCostPerClick ($)
+- broadCostPerClick ($)
+- topRankedUrl
+
+**Local Keyword Detection System:**
+- **29,880 US Cities Database** - All cities including small towns (Spokane, Boise, Tulsa)
+- **All 50 US States** - Full names ("north carolina") and abbreviations ("nc")
+- **ZIP Codes** - 5-digit (90210) and ZIP+4 (90210-1234)
+- **Geographic Descriptors** - "north shore", "east side", "west coast"
+- **Excluded Terms** - "near me", "local", "city", "nearby" (nationwide searches)
+
+**Script:** `identify_money_keywords.js --v2`
+
+**Output Format:**
+```
+MoneyKW1   | smart lipo for men                       | $  9.91 CPC |     28 Vol | Rank #17
+MoneyKW2   | co2 laser for face                       | $  9.75 CPC |    200 Vol | Rank #45
+MoneyKW3   | breast lift procedure                    | $  9.38 CPC |    270 Vol | Rank #30
+MoneyKW4   | plastic surgery north carolina           | $  8.65 CPC |     44 Vol | Rank #14
+MoneyKW5   | liposuction flanks                       | $  8.45 CPC |    220 Vol | Rank #11
+
+LocalKW1   | plastic surgery north carolina           | $  8.65 CPC |     44 Vol | Rank #14
+LocalKW2   | plastic surgeon nc                       | $  8.00 CPC |    190 Vol | Rank #27
+LocalKW3   | coolsculpting greensboro                 | $  7.00 CPC |     55 Vol | Rank #48
+```
+
+**Selection Algorithm:**
+1. **Money Keywords** - Sort by highest CPC, take top 5
+2. **Local Keywords** - Filter for location identifiers, sort by CPC, take top 3
+
+**Why V2 (Rank 11-75) vs V1 (Rank 11-50):**
+- **More Local Keywords** - Small businesses rank for smaller cities on pages 2-8
+- **Better Coverage** - 266 keywords vs 147 keywords (81% more data)
+- **Still Low Cost** - $0.0133/domain (well within $0.10-0.12 budget)
+- **More Talking Points** - More opportunities to show in cold calls
+
+**Cold Calling Usage:**
+```
+"Hi [Name], I was analyzing your SEO and found something interesting. 
+You're ranking #17 for 'smart lipo for men' - that's a $9.91 per click 
+keyword. But what really caught my attention is you're #14 for 'plastic 
+surgery north carolina' at $8.65 per click - those 44 monthly searches 
+are people specifically looking in North Carolina, not generic nationwide 
+searches. If we could move just 5 of these high-value keywords from page 
+2 to page 1..."
+```
+
+**JSON Output Structure:**
+```json
+{
+  "generatedAt": "2025-10-23T08:04:11.559Z",
+  "dataSource": "V2 (Rank 11-75)",
+  "algorithm": {
+    "step1": "Sort by highest CPC",
+    "step2": "Apply local identifier check (29,880 cities + states + ZIP codes)",
+    "excluded": "Removed generic nationwide searches: 'near me', 'local', 'city'"
+  },
+  "cityDatabase": {
+    "totalCities": 29880,
+    "source": "https://github.com/kelvins/US-Cities-Database"
+  },
+  "results": [
+    {
+      "domain": "salemplasticsurgery.com",
+      "totalKeywords": 89,
+      "moneyKeywords": [...],
+      "localKeywords": [...]
+    }
+  ]
+}
+```
+
+**V2 Results (10 domains tested):**
+- **Total Keywords Analyzed:** 266
+- **Total Money Keywords:** 26 (top 5 per domain)
+- **Total Local Keywords:** 21 (top 3 per domain)
+- **Domains with Local Keywords:** 6/6 (100%)
+- **Average API Cost:** $0.0133/domain ✅ WITHIN BUDGET
+
+---
+
 ### 4. Low-Hanging Fruit Analysis
 
 **Script:** `identify_low_hanging_fruit.js`
@@ -288,24 +403,26 @@ const highTrafficKeywords = [...nonPosition1Keywords]
 
 ## Cost Summary
 
-**Average API Cost Per Domain:** $0.0432
+**Average API Cost Per Domain:** $0.0565
 
 **Breakdown:**
 - 4-Month Domain Trend API: $0.0020 (4 rows)
-- SEO Keywords API: $0.00 to $0.2675 (variable based on keyword count)
+- SEO Keywords API (Page 1): $0.00 to $0.2675 (variable based on keyword count)
+- Money + Local Keywords API (V2): $0.0133 average (positions 11-75)
 
-**Total Cost for 10 Domains:** $0.4315
+**Total Cost for 10 Domains:** $0.5645
 
 **Cost Range by Domain:**
 - Minimum: $0.0020 (no keywords tracked)
-- Maximum: $0.2700 (alignwc.com with 535 keywords + 4 months trend)
-- Median: $0.0020
+- Maximum: $0.2833 (alignwc.com with 535 Page 1 KWs + 4 months trend + V2 Money KWs)
+- Median: $0.0153
 
 **Budget Fit:**
 - Target: $0.10-0.12 per lead
-- Actual: $0.0432 average per lead
+- Actual: $0.0565 average per lead
 - 4-Month Trend Data: $0.0020 per domain
-- Remaining for keyword analysis: $0.096-0.116 per lead
+- Page 1 Keywords: $0.00-0.2675 per domain
+- Money + Local Keywords (V2): $0.0133 per domain
 - **Well within budget!** ✅
 
 ---
@@ -379,6 +496,15 @@ const highTrafficKeywords = [...nonPosition1Keywords]
 6. **Identify opportunities:** `node identify_low_hanging_fruit.js`
    - Finds top CPC and high traffic keywords not at #1
 
+7. **Identify Money + Local Keywords (V2):** `node identify_money_keywords.js --v2`
+   - Fetches keywords ranking positions 11-75 (extended range)
+   - Sorts by highest CPC to identify top 5 Money Keywords
+   - Filters for local identifiers (29,880 cities + states + ZIP codes)
+   - Identifies top 3 Local Keywords with highest CPC
+   - Excludes generic nationwide searches ("near me", "local", "city")
+   - Saves to `money_keywords_report_v2.json`
+   - Average cost: $0.0133 per domain
+
 ---
 
 ## Next Steps
@@ -391,7 +517,24 @@ const highTrafficKeywords = [...nonPosition1Keywords]
 
 ---
 
+## Summary of All API Requests
+
+| API Request | Purpose | Rank Range | Cost/Domain | Data Points |
+|-------------|---------|------------|-------------|-------------|
+| **4-Month Domain Trends** | Historical performance | N/A | $0.0020 | Peak decline analysis |
+| **Page 1 Keywords** | Top 10 rankings | 1-10 | $0.00-0.2675 | Page 1 performance |
+| **Money + Local Keywords (V2)** | High-value opportunities | 11-75 | $0.0133 | Top 5 Money + Top 3 Local |
+
+**Total Average Cost:** $0.0565 per domain  
+**Budget Target:** $0.10-0.12 per lead  
+**Status:** ✅ Well within budget (47-56% of budget)
+
+---
+
 **Last Updated:** 2025-10-23  
 **Total Domains Analyzed:** 10  
-**Total API Cost:** $0.4315  
-**New Feature:** 4-Month Peak Decline Analysis with Auto-Generated Cold Calling Scripts
+**Total API Cost:** $0.5645  
+**New Features:** 
+- 4-Month Peak Decline Analysis with Auto-Generated Cold Calling Scripts
+- Money Keywords + Local Keywords Identification (V2 Extended Range)
+- Comprehensive 29,880 City Database for Local Detection
