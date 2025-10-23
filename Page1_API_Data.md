@@ -533,8 +533,15 @@ const highTrafficKeywords = [...nonPosition1Keywords]
 
 **Last Updated:** 2025-10-23  
 **Total Domains Analyzed:** 10  
-**Total API Cost:** $0.5645  
+**Total API Cost (Basic):** $0.5645  
+**Total API Cost (With Competitors):** $2.52-5.28 per domain
 **New Features:** 
 - 4-Month Peak Decline Analysis with Auto-Generated Cold Calling Scripts
 - Money Keywords + Local Keywords Identification (V2 Extended Range)
 - Comprehensive 29,880 City Database for Local Detection
+- **Top 5 Competitors Analysis with 3-Row Comparison System**
+  - CompHotButton: Authority gap hook (≤40 chars)
+  - CompGaps: 4-metric gap analysis (≤40 chars)
+  - BestComp: Top competitor comparison (≤40 chars)
+  - Auto-generated sales talking points
+  - Complete competitive intelligence for call center popups
