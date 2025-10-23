@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-23T09:21:45.855Z",
+  "generatedAt": "2025-10-23T11:06:56.261Z",
   "description": "Complete keyword analysis combining Page 1 (rank 1-10) and Money Keywords (rank 11-75)",
   "dataSources": {
     "page1": "combined_domain_report_with_rankings.json (rank 1-10)",

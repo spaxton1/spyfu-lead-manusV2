@@ -126,9 +126,13 @@ function analyzeKeywords(domain) {
   const deduplicatedMoney = deduplicateKeywords(moneyKeywords);
   
   console.log(`\n📊 Dataset Summary:`);
-  console.log(`   Page 1 Keywords (Rank 1-10): ${page1Keywords.length} raw → ${deduplicatedPage1.length} unique`);
-  console.log(`   Money Keywords (Rank 11-75): ${moneyKeywords.length} raw → ${deduplicatedMoney.length} unique`);
-  console.log(`   Total Combined: ${allKeywords.length} raw → ${deduplicatedKeywords.length} unique`);
+  console.log(`   Page 1 Rankings: ${page1Keywords.length} (including multi-position rankings)`);
+  console.log(`   Money Keyword Rankings: ${moneyKeywords.length}`);
+  console.log(`   Total Rankings: ${allKeywords.length}`);
+  console.log(`   `);
+  console.log(`   Unique Keywords: ${deduplicatedKeywords.length}`);
+  console.log(`   Multi-Position Rankings: ${allKeywords.length - deduplicatedKeywords.length} keywords rank multiple times`);
+  console.log(`   → Lists below show best position for each unique keyword`);
   
   // === PAGE 1 ANALYSIS ===
   console.log(`\n\n${'━'.repeat(80)}`);
