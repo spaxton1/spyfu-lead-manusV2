@@ -62,6 +62,31 @@ function hasLocalIdentifier(keyword) {
   return false;
 }
 
+/**
+ * Deduplicate keywords by keeping the best instance
+ * Priority: Highest CPC, then lowest rank
+ */
+function deduplicateKeywords(keywords) {
+  const keywordMap = new Map();
+  
+  for (const kw of keywords) {
+    const key = kw.keyword.toLowerCase().trim();
+    
+    if (!keywordMap.has(key)) {
+      keywordMap.set(key, kw);
+    } else {
+      const existing = keywordMap.get(key);
+      
+      // Keep the one with higher CPC, or if same CPC, lower rank
+      if (kw.cpc > existing.cpc || (kw.cpc === existing.cpc && kw.rank < existing.rank)) {
+        keywordMap.set(key, kw);
+      }
+    }
+  }
+  
+  return Array.from(keywordMap.values());
+}
+
 function analyzeKeywords(domain) {
   console.log(`\n${'═'.repeat(80)}`);
   console.log(`🏢 DOMAIN: ${domain}`);
@@ -87,11 +112,6 @@ function analyzeKeywords(domain) {
     source: 'Rank 11-75'
   })) : [];
   
-  console.log(`\n📊 Dataset Summary:`);
-  console.log(`   Page 1 Keywords (Rank 1-10): ${page1Keywords.length}`);
-  console.log(`   Money Keywords (Rank 11-75): ${moneyKeywords.length}`);
-  console.log(`   Total Combined: ${page1Keywords.length + moneyKeywords.length}`);
-  
   // Combine all keywords
   const allKeywords = [...page1Keywords, ...moneyKeywords];
   
@@ -100,13 +120,23 @@ function analyzeKeywords(domain) {
     return null;
   }
   
+  // Deduplicate ALL keywords first (keep best instance by CPC/rank)
+  const deduplicatedKeywords = deduplicateKeywords(allKeywords);
+  const deduplicatedPage1 = deduplicateKeywords(page1Keywords);
+  const deduplicatedMoney = deduplicateKeywords(moneyKeywords);
+  
+  console.log(`\n📊 Dataset Summary:`);
+  console.log(`   Page 1 Keywords (Rank 1-10): ${page1Keywords.length} raw → ${deduplicatedPage1.length} unique`);
+  console.log(`   Money Keywords (Rank 11-75): ${moneyKeywords.length} raw → ${deduplicatedMoney.length} unique`);
+  console.log(`   Total Combined: ${allKeywords.length} raw → ${deduplicatedKeywords.length} unique`);
+  
   // === PAGE 1 ANALYSIS ===
   console.log(`\n\n${'━'.repeat(80)}`);
   console.log(`📈 PAGE 1 ANALYSIS (Rank 1-10)`);
   console.log('━'.repeat(80));
   
-  // Top 10 CPC from Page 1
-  const page1ByCPC = [...page1Keywords]
+  // Top 10 CPC from Page 1 (deduplicated)
+  const page1ByCPC = [...deduplicatedPage1]
     .filter(kw => kw.cpc > 0)
     .sort((a, b) => b.cpc - a.cpc)
     .slice(0, 10);
@@ -122,8 +152,8 @@ function analyzeKeywords(domain) {
     });
   }
   
-  // Top 10 Local from Page 1
-  const page1Local = [...page1Keywords]
+  // Top 10 Local from Page 1 (deduplicated)
+  const page1Local = [...deduplicatedPage1]
     .filter(kw => hasLocalIdentifier(kw.keyword))
     .sort((a, b) => b.cpc - a.cpc)
     .slice(0, 10);
@@ -144,8 +174,8 @@ function analyzeKeywords(domain) {
   console.log(`🎯 QUICK WINS & LOCAL WINS (Top 10 Page 1 Keywords)`);
   console.log('━'.repeat(80));
   
-  // QuickWin: Top 3 highest CPC from Top 10 (Page 1)
-  const quickWins = [...page1Keywords]
+  // QuickWin: Top 3 highest CPC from Top 10 (Page 1) - deduplicated
+  const quickWins = [...deduplicatedPage1]
     .filter(kw => kw.cpc > 0 && kw.rank >= 1 && kw.rank <= 10)
     .sort((a, b) => b.cpc - a.cpc)
     .slice(0, 3);
@@ -161,8 +191,8 @@ function analyzeKeywords(domain) {
     });
   }
   
-  // LocalWin: Top 2 highest CPC LOCAL keywords from Top 10 (Page 1)
-  const localWins = [...page1Keywords]
+  // LocalWin: Top 2 highest CPC LOCAL keywords from Top 10 (Page 1) - deduplicated
+  const localWins = [...deduplicatedPage1]
     .filter(kw => hasLocalIdentifier(kw.keyword) && kw.rank >= 1 && kw.rank <= 10)
     .sort((a, b) => b.cpc - a.cpc)
     .slice(0, 2);
@@ -183,8 +213,8 @@ function analyzeKeywords(domain) {
   console.log(`💎 MONEY KEYWORDS ANALYSIS (Rank 11-75)`);
   console.log('━'.repeat(80));
   
-  // Top 5 Money Keywords
-  const top5Money = [...moneyKeywords]
+  // Top 5 Money Keywords (deduplicated)
+  const top5Money = [...deduplicatedMoney]
     .sort((a, b) => b.cpc - a.cpc)
     .slice(0, 5);
   
@@ -199,8 +229,8 @@ function analyzeKeywords(domain) {
     });
   }
   
-  // Top 3 Local Keywords from rank 11-75
-  const top3Local = [...moneyKeywords]
+  // Top 3 Local Keywords from rank 11-75 (deduplicated)
+  const top3Local = [...deduplicatedMoney]
     .filter(kw => hasLocalIdentifier(kw.keyword))
     .sort((a, b) => b.cpc - a.cpc)
     .slice(0, 3);
@@ -221,7 +251,7 @@ function analyzeKeywords(domain) {
   console.log(`🚦 TOP 3 TRAFFIC KEYWORDS (All Sources)`);
   console.log('━'.repeat(80));
   
-  const top3Traffic = [...allKeywords]
+  const top3Traffic = [...deduplicatedKeywords]
     .filter(kw => kw.volume > 0)
     .sort((a, b) => b.volume - a.volume)
     .slice(0, 3);
@@ -253,7 +283,11 @@ function analyzeKeywords(domain) {
     summary: {
       totalPage1Keywords: page1Keywords.length,
       totalMoneyKeywords: moneyKeywords.length,
-      totalKeywords: allKeywords.length
+      totalKeywords: allKeywords.length,
+      deduplicatedPage1Keywords: deduplicatedPage1.length,
+      deduplicatedMoneyKeywords: deduplicatedMoney.length,
+      deduplicatedTotalKeywords: deduplicatedKeywords.length,
+      duplicatesRemoved: allKeywords.length - deduplicatedKeywords.length
     }
   };
 }
