@@ -1,0 +1,548 @@
+
+================================================================================
+COMPREHENSIVE TEST: 8 MODELS × 3 DOMAIN SIZES
+================================================================================
+
+
+################################################################################
+# DOMAIN SIZE: SMALL (custompoolsbyjeff.com)
+################################################################################
+
+================================================================================
+Testing GROUP A1: 10¢ BASIC on custompoolsbyjeff.com
+================================================================================
+
+  → Overview: getLiveSeoStats (custompoolsbyjeff.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Valuable keywords: getMostValuableKeywords (custompoolsbyjeff.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements: getLostRanksKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Drops: getGainedRanksKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (custompoolsbyjeff.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.1)
+
+================================================================================
+Testing GROUP A2: 12¢ COMPETITOR ASSAULT on custompoolsbyjeff.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (custompoolsbyjeff.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Top competitor overview: getLiveSeoStats (premierpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (custompoolsbyjeff.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor keywords: getSeoKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (custompoolsbyjeff.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.12)
+
+================================================================================
+Testing GROUP A3: 15¢ INTELLIGENCE on custompoolsbyjeff.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (custompoolsbyjeff.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (custompoolsbyjeff.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor 1 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Competitor 2 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (premierpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (custompoolsbyjeff.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.15)
+
+================================================================================
+Testing GROUP A4: 20¢ DOMINATION on custompoolsbyjeff.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (custompoolsbyjeff.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (custompoolsbyjeff.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor 1 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 60)
+     ✗ Error: HTTP 500: 
+  → Competitor 2 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 40)
+     ✗ Error: HTTP 500: 
+  → Competitor 3 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (custompoolsbyjeff.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (custompoolsbyjeff.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Comp1 improvements: getLostRanksKeywords (premierpoolsandspas.com, limit: 15)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (premierpoolsandspas.com, limit: 15)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (custompoolsbyjeff.com, limit: 10)
+     ✗ Error: HTTP 500: 
+  → Your fell off page 1: getJustFellOffKeywords (custompoolsbyjeff.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.2)
+
+================================================================================
+Testing GROUP B1: 12¢ MOMENTUM TRACKER on custompoolsbyjeff.com
+================================================================================
+
+  → Current overview: getLiveSeoStats (custompoolsbyjeff.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Current state: getMostValuableKeywords (custompoolsbyjeff.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements last 30d: getLostRanksKeywords (custompoolsbyjeff.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Drops last 30d: getGainedRanksKeywords (custompoolsbyjeff.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → New entries: getNewlyRankedKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (custompoolsbyjeff.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.12)
+
+================================================================================
+Testing GROUP B2: 15¢ TREND ANALYZER on custompoolsbyjeff.com
+================================================================================
+
+  → Current state: getLiveSeoStats (custompoolsbyjeff.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Current keywords: getMostValuableKeywords (custompoolsbyjeff.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements last 30d: getLostRanksKeywords (custompoolsbyjeff.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Drops last 30d: getGainedRanksKeywords (custompoolsbyjeff.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → New entries: getNewlyRankedKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Almost There zone #11-16: getSeoKeywords (custompoolsbyjeff.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.15)
+
+================================================================================
+Testing GROUP B3: 20¢ HISTORICAL BATTLEFIELD on custompoolsbyjeff.com
+================================================================================
+
+  → Your current: getLiveSeoStats (custompoolsbyjeff.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your keywords: getMostValuableKeywords (custompoolsbyjeff.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Comp1 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 60)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (custompoolsbyjeff.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (custompoolsbyjeff.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Comp1 improvements: getLostRanksKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your new: getNewlyRankedKeywords (custompoolsbyjeff.com, limit: 20)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.2)
+
+
+################################################################################
+# DOMAIN SIZE: MEDIUM (riverpoolsandspas.com)
+################################################################################
+
+================================================================================
+Testing GROUP A1: 10¢ BASIC on riverpoolsandspas.com
+================================================================================
+
+  → Overview: getLiveSeoStats (riverpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Valuable keywords: getMostValuableKeywords (riverpoolsandspas.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements: getLostRanksKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Drops: getGainedRanksKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (riverpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.1)
+
+================================================================================
+Testing GROUP A2: 12¢ COMPETITOR ASSAULT on riverpoolsandspas.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (riverpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Top competitor overview: getLiveSeoStats (premierpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (riverpoolsandspas.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor keywords: getSeoKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (riverpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.12)
+
+================================================================================
+Testing GROUP A3: 15¢ INTELLIGENCE on riverpoolsandspas.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (riverpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (riverpoolsandspas.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor 1 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Competitor 2 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (premierpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (riverpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.15)
+
+================================================================================
+Testing GROUP A4: 20¢ DOMINATION on riverpoolsandspas.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (riverpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (riverpoolsandspas.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor 1 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 60)
+     ✗ Error: HTTP 500: 
+  → Competitor 2 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 40)
+     ✗ Error: HTTP 500: 
+  → Competitor 3 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (riverpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (riverpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Comp1 improvements: getLostRanksKeywords (premierpoolsandspas.com, limit: 15)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (premierpoolsandspas.com, limit: 15)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (riverpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+  → Your fell off page 1: getJustFellOffKeywords (riverpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.2)
+
+================================================================================
+Testing GROUP B1: 12¢ MOMENTUM TRACKER on riverpoolsandspas.com
+================================================================================
+
+  → Current overview: getLiveSeoStats (riverpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Current state: getMostValuableKeywords (riverpoolsandspas.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements last 30d: getLostRanksKeywords (riverpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Drops last 30d: getGainedRanksKeywords (riverpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → New entries: getNewlyRankedKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (riverpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.12)
+
+================================================================================
+Testing GROUP B2: 15¢ TREND ANALYZER on riverpoolsandspas.com
+================================================================================
+
+  → Current state: getLiveSeoStats (riverpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Current keywords: getMostValuableKeywords (riverpoolsandspas.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements last 30d: getLostRanksKeywords (riverpoolsandspas.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Drops last 30d: getGainedRanksKeywords (riverpoolsandspas.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → New entries: getNewlyRankedKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Almost There zone #11-16: getSeoKeywords (riverpoolsandspas.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.15)
+
+================================================================================
+Testing GROUP B3: 20¢ HISTORICAL BATTLEFIELD on riverpoolsandspas.com
+================================================================================
+
+  → Your current: getLiveSeoStats (riverpoolsandspas.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your keywords: getMostValuableKeywords (riverpoolsandspas.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Comp1 keywords: getSeoKeywords (premierpoolsandspas.com, limit: 60)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (riverpoolsandspas.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (riverpoolsandspas.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Comp1 improvements: getLostRanksKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (premierpoolsandspas.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your new: getNewlyRankedKeywords (riverpoolsandspas.com, limit: 20)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.2)
+
+
+################################################################################
+# DOMAIN SIZE: ENTERPRISE (skyscanner.com)
+################################################################################
+
+================================================================================
+Testing GROUP A1: 10¢ BASIC on skyscanner.com
+================================================================================
+
+  → Overview: getLiveSeoStats (skyscanner.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Valuable keywords: getMostValuableKeywords (skyscanner.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements: getLostRanksKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Drops: getGainedRanksKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (skyscanner.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.1)
+
+================================================================================
+Testing GROUP A2: 12¢ COMPETITOR ASSAULT on skyscanner.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (skyscanner.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Top competitor overview: getLiveSeoStats (kayak.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (skyscanner.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor keywords: getSeoKeywords (kayak.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (skyscanner.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.12)
+
+================================================================================
+Testing GROUP A3: 15¢ INTELLIGENCE on skyscanner.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (skyscanner.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (skyscanner.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor 1 keywords: getSeoKeywords (kayak.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Competitor 2 keywords: getSeoKeywords (kayak.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (kayak.com, limit: 10)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (skyscanner.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.15)
+
+================================================================================
+Testing GROUP A4: 20¢ DOMINATION on skyscanner.com
+================================================================================
+
+  → Your overview: getLiveSeoStats (skyscanner.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your valuable keywords: getMostValuableKeywords (skyscanner.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Competitor 1 keywords: getSeoKeywords (kayak.com, limit: 60)
+     ✗ Error: HTTP 500: 
+  → Competitor 2 keywords: getSeoKeywords (kayak.com, limit: 40)
+     ✗ Error: HTTP 500: 
+  → Competitor 3 keywords: getSeoKeywords (kayak.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (skyscanner.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (skyscanner.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Comp1 improvements: getLostRanksKeywords (kayak.com, limit: 15)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (kayak.com, limit: 15)
+     ✗ Error: HTTP 500: 
+  → Your new rankings: getNewlyRankedKeywords (skyscanner.com, limit: 10)
+     ✗ Error: HTTP 500: 
+  → Your fell off page 1: getJustFellOffKeywords (skyscanner.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.2)
+
+================================================================================
+Testing GROUP B1: 12¢ MOMENTUM TRACKER on skyscanner.com
+================================================================================
+
+  → Current overview: getLiveSeoStats (skyscanner.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Current state: getMostValuableKeywords (skyscanner.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements last 30d: getLostRanksKeywords (skyscanner.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Drops last 30d: getGainedRanksKeywords (skyscanner.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → New entries: getNewlyRankedKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (skyscanner.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.12)
+
+================================================================================
+Testing GROUP B2: 15¢ TREND ANALYZER on skyscanner.com
+================================================================================
+
+  → Current state: getLiveSeoStats (skyscanner.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Current keywords: getMostValuableKeywords (skyscanner.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Improvements last 30d: getLostRanksKeywords (skyscanner.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Drops last 30d: getGainedRanksKeywords (skyscanner.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → New entries: getNewlyRankedKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Fell off page 1: getJustFellOffKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+  → Almost There zone #11-16: getSeoKeywords (skyscanner.com, limit: 10)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.15)
+
+================================================================================
+Testing GROUP B3: 20¢ HISTORICAL BATTLEFIELD on skyscanner.com
+================================================================================
+
+  → Your current: getLiveSeoStats (skyscanner.com, limit: 1)
+     ✗ Error: HTTP 500: 
+  → Your keywords: getMostValuableKeywords (skyscanner.com, limit: 150)
+     ✗ Error: HTTP 500: 
+  → Comp1 keywords: getSeoKeywords (kayak.com, limit: 60)
+     ✗ Error: HTTP 500: 
+  → Your improvements: getLostRanksKeywords (skyscanner.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Your drops: getGainedRanksKeywords (skyscanner.com, limit: 50)
+     ✗ Error: HTTP 500: 
+  → Comp1 improvements: getLostRanksKeywords (kayak.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Comp1 drops: getGainedRanksKeywords (kayak.com, limit: 30)
+     ✗ Error: HTTP 500: 
+  → Your new: getNewlyRankedKeywords (skyscanner.com, limit: 20)
+     ✗ Error: HTTP 500: 
+
+  TOTAL: 0 rows, $0.0000 (target: $0.2)
+
+
+✓ Full results saved to: all_8_models_test_results.json
+
+
+================================================================================
+SUMMARY REPORT: COSTS & DATA SAMPLES
+================================================================================
+
+## COST COMPARISON TABLE
+
+Model              | Target  | Small Domain | Medium Domain | Enterprise Domain
+-------------------|---------|--------------|---------------|------------------
+GROUP A1: 10¢ BASIC | $0.10    | ERROR        | ERROR         | ERROR
+GROUP A2: 12¢ COMPETITOR ASSAULT | $0.12    | ERROR        | ERROR         | ERROR
+GROUP A3: 15¢ INTELLIGENCE | $0.15    | ERROR        | ERROR         | ERROR
+GROUP A4: 20¢ DOMINATION | $0.20    | ERROR        | ERROR         | ERROR
+GROUP B1: 12¢ MOMENTUM TRACKER | $0.12    | ERROR        | ERROR         | ERROR
+GROUP B2: 15¢ TREND ANALYZER | $0.15    | ERROR        | ERROR         | ERROR
+GROUP B3: 20¢ HISTORICAL BATTLEFIELD | $0.20    | ERROR        | ERROR         | ERROR
+
+
+## SAMPLE CRM FIELDS (Medium Domain: riverpoolsandspas.com)
+
+
+### GROUP A1: 10¢ BASIC
+Cost: $0.0000 | Rows: 0
+
+1_Domain_Overview: 0 KWs | 0 clicks/mo | $0 value
+5_Momentum: 0 improving | 0 declining | NET: +0
+
+### GROUP A2: 12¢ COMPETITOR ASSAULT
+Cost: $0.0000 | Rows: 0
+
+1_Domain_Overview: 0 KWs | 0 clicks/mo | $0 value
+5_Momentum: 0 improving | 0 declining | NET: +0
+
+### GROUP A3: 15¢ INTELLIGENCE
+Cost: $0.0000 | Rows: 0
+
+1_Domain_Overview: 0 KWs | 0 clicks/mo | $0 value
+5_Momentum: 0 improving | 0 declining | NET: +0
+
+### GROUP A4: 20¢ DOMINATION
+Cost: $0.0000 | Rows: 0
+
+1_Domain_Overview: 0 KWs | 0 clicks/mo | $0 value
+5_Momentum: 0 improving | 0 declining | NET: +0
+
+### GROUP B1: 12¢ MOMENTUM TRACKER
+Cost: $0.0000 | Rows: 0
+
+1_Domain_Overview: 0 KWs | 0 clicks/mo | $0 value
+5_Momentum: 0 improving | 0 declining | NET: +0
+
+### GROUP B2: 15¢ TREND ANALYZER
+Cost: $0.0000 | Rows: 0
+
+1_Domain_Overview: 0 KWs | 0 clicks/mo | $0 value
+5_Momentum: 0 improving | 0 declining | NET: +0
+
+### GROUP B3: 20¢ HISTORICAL BATTLEFIELD
+Cost: $0.0000 | Rows: 0
+
+1_Domain_Overview: 0 KWs | 0 clicks/mo | $0 value
+5_Momentum: 0 improving | 0 declining | NET: +0
+
+
+✓ All tests completed!
+

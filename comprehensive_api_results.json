@@ -1,0 +1,59 @@
+{
+  "testDomain": "salemplasticsurgery.com",
+  "testDate": "2025-10-22T22:25:07.601Z",
+  "totalWorking": 5,
+  "totalTested": 13,
+  "totalCost": 0.0155,
+  "results": [
+    {
+      "success": true,
+      "category": "Domain Stats",
+      "label": "Latest Domain Stats",
+      "path": "/apis/domain_stats_api/v2/getLatestDomainStats?domain=salemplasticsurgery.com",
+      "status": 200,
+      "rows": 1,
+      "cost": 0.0005,
+      "sampleFields": "searchMonth, searchYear, averageOrganicRank, monthlyPaidClicks, averageAdRank"
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Most Valuable Keywords",
+      "path": "/apis/serp_api/v2/seo/getMostValuableKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "status": 200,
+      "rows": 10,
+      "cost": 0.005,
+      "sampleFields": "keyword, topRankedUrl, rank, rankChange, searchVolume"
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Newly Ranked Keywords",
+      "path": "/apis/serp_api/v2/seo/getNewlyRankedKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "status": 200,
+      "rows": 10,
+      "cost": 0.005,
+      "sampleFields": "keyword, topRankedUrl, rank, rankChange, searchVolume"
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Top Pages",
+      "path": "/apis/serp_api/v2/seo/getTopPages?query=salemplasticsurgery.com&pageSize=10",
+      "status": 200,
+      "rows": 10,
+      "cost": 0.005,
+      "sampleFields": "title, url, keywordCount, estMonthlySeoClicks, topKeyword"
+    },
+    {
+      "success": true,
+      "category": "Ad History",
+      "label": "Domain Ad History",
+      "path": "/apis/cloud_ad_history_api/v2/domain/getDomainAdHistory?domain=salemplasticsurgery.com&pageSize=10",
+      "status": 200,
+      "rows": 0,
+      "cost": 0,
+      "sampleFields": ""
+    }
+  ]
+}

@@ -1,0 +1,1414 @@
+================================================================================
+COMPREHENSIVE SPYFU API EXPLORATION
+Testing ALL endpoints with REAL domains
+================================================================================
+
+
+################################################################################
+PHASE 1: COMPREHENSIVE TEST WITH SMALL DOMAIN
+Domain: viridisenergy.com
+################################################################################
+
+================================================================================
+TESTING: getLiveSeoStats (Domain Stats)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 1
+   Total available: unknown
+   Cost: $0.0005
+   Keys: resultCount, domain, url, totalOrganicResults, monthlyOrganicClicks, monthlyOrganicClickValue, totalSearchVolume
+
+   Data Structure:
+      resultCount: number
+      domain: string
+      url: string
+      totalOrganicResults: number
+      monthlyOrganicClicks: number
+      monthlyOrganicClickValue: number
+      totalSearchVolume: number
+
+   Sample Data (first item):
+{
+  "resultCount": 1,
+  "domain": "viridisenergy.com",
+  "url": "http://viridisenergy.com/",
+  "totalOrganicResults": 15129,
+  "monthlyOrganicClicks": 428,
+  "monthlyOrganicClickValue": 12989.649981021881,
+  "totalSearchVolume": 127074
+}
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 1 | Cost: $0.0005
+
+================================================================================
+TESTING: getAllDomainStats (Domain Stats)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 400
+   Error: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-73b22837e0d463d2bc2058cf64cda956-e2932c4d574eb89e-00","errors":
+
+================================================================================
+TESTING: getSeoKeywords (SEO Keywords)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 15129
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: object
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: object
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "photovoltaic cell",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 51,
+    "rankChange": null,
+    "searchVolume": 8100,
+    "keywordDifficulty": 46,
+    "broadCostPerClick": 2.39,
+    "phraseCostPerClick": 3.79,
+    "exactCostPerClick": 2.49,
+    "seoClicks": 28,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 2900,
+    "percentMobileSearches": 0.298789239234868,
+    "percentDesktopSearches": 0.701210760765132,
+    "percentNotClicked": 0.646728971962617,
+    "percentPaidClicks": 0.0264550263150528,
+    "percentOrganicClicks": 0.973544968393942,
+    "broadMonthlyCost": 166.5,
+    "phraseMonthlyCost": 39.58,
+    "exactMonthlyCost": 70.8,
+    "paidCompetitors": 0,
+    "ra
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getMostValuableKeywords (SEO Keywords)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 15129
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: object
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: object
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "photovoltaic cell",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 51,
+    "rankChange": null,
+    "searchVolume": 8100,
+    "keywordDifficulty": 46,
+    "broadCostPerClick": 2.39,
+    "phraseCostPerClick": 3.79,
+    "exactCostPerClick": 2.49,
+    "seoClicks": 28,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 2900,
+    "percentMobileSearches": 0.298789239234868,
+    "percentDesktopSearches": 0.701210760765132,
+    "percentNotClicked": 0.646728971962617,
+    "percentPaidClicks": 0.0264550263150528,
+    "percentOrganicClicks": 0.973544968393942,
+    "broadMonthlyCost": 166.5,
+    "phraseMonthlyCost": 39.58,
+    "exactMonthlyCost": 70.8,
+    "paidCompetitors": 0,
+    "ra
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getMostRecentKeywords (SEO Keywords)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: unknown
+
+================================================================================
+TESTING: getNewlyRankedKeywords (Ranking Changes)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 2507
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: object
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: object
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "photovoltaic cell",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 51,
+    "rankChange": null,
+    "searchVolume": 8100,
+    "keywordDifficulty": 46,
+    "broadCostPerClick": 2.39,
+    "phraseCostPerClick": 3.79,
+    "exactCostPerClick": 2.49,
+    "seoClicks": 28,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 2900,
+    "percentMobileSearches": 0.298789239234868,
+    "percentDesktopSearches": 0.701210760765132,
+    "percentNotClicked": 0.646728971962617,
+    "percentPaidClicks": 0.0264550263150528,
+    "percentOrganicClicks": 0.973544968393942,
+    "broadMonthlyCost": 166.5,
+    "phraseMonthlyCost": 39.58,
+    "exactMonthlyCost": 70.8,
+    "paidCompetitors": 0,
+    "ra
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getGainedRanksKeywords (Ranking Changes)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 5315
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: object
+      phraseCostPerClick: object
+      exactCostPerClick: object
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: number
+      phraseMonthlyCost: object
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "how do photovoltaic cells work",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 37,
+    "rankChange": 31,
+    "searchVolume": 1200,
+    "keywordDifficulty": 23,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 6,
+    "seoClicksChange": 3,
+    "totalMonthlyClicks": 720,
+    "percentMobileSearches": 0.3090625,
+    "percentDesktopSearches": 0.6909375,
+    "percentNotClicked": 0.375,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 0,
+    "yourRank": null,
+    "yourRankCh
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getLostRanksKeywords (Ranking Changes)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 5914
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "solar panel output",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/38/understanding-solar-panel-output-how-much-energy-does-one-solar-panel-produce",
+    "rank": 42,
+    "rankChange": -2,
+    "searchVolume": 720,
+    "keywordDifficulty": 22,
+    "broadCostPerClick": 2.07,
+    "phraseCostPerClick": 1.87,
+    "exactCostPerClick": 1.81,
+    "seoClicks": 3,
+    "seoClicksChange": 0,
+    "totalMonthlyClicks": 380,
+    "percentMobileSearches": 0.558015625,
+    "percentDesktopSearches": 0.441984375,
+    "percentNotClicked": 0.45625,
+    "percentPaidClicks": 0.252873560311798,
+    "percentOrganicClicks": 0.747126428193949,
+    "broadMonthlyCost": 56.1,
+    "phraseMonthlyCost": 17.4,
+    "exactMonthlyCost": 9,
+    "paidCompetitors": 0,
+    "rankingH
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getGainedClicksKeywords (Ranking Changes)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 40
+   Total available: 40
+   Cost: $0.0200
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: object
+      phraseCostPerClick: object
+      exactCostPerClick: object
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: number
+      phraseMonthlyCost: object
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "how do photovoltaic cells work",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 37,
+    "rankChange": 31,
+    "searchVolume": 1200,
+    "keywordDifficulty": 23,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 6,
+    "seoClicksChange": 3,
+    "totalMonthlyClicks": 720,
+    "percentMobileSearches": 0.3090625,
+    "percentDesktopSearches": 0.6909375,
+    "percentNotClicked": 0.375,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 0,
+    "yourRank": null,
+    "yourRankCh
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 40 | Cost: $0.0200
+
+================================================================================
+TESTING: getLostClicksKeywords (Ranking Changes)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 50
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: object
+      phraseCostPerClick: object
+      exactCostPerClick: object
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: object
+      percentDesktopSearches: object
+      percentNotClicked: object
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: object
+      phraseMonthlyCost: object
+      exactMonthlyCost: object
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "how much energy does solar energy produce",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/38/understanding-solar-panel-output-how-much-energy-does-one-solar-panel-produce",
+    "rank": 25,
+    "rankChange": -7,
+    "searchVolume": 480,
+    "keywordDifficulty": 37,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 3,
+    "seoClicksChange": -2,
+    "totalMonthlyClicks": 240,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": null,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": null,
+    "paidCompetitors": 0,
+    "rankingHomepages": 1,
+  
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 50 | Cost: $0.0250
+
+================================================================================
+TESTING: getJustFellOffKeywords (Ranking Changes)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 1111
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: object
+      phraseCostPerClick: object
+      exactCostPerClick: object
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: object
+      percentDesktopSearches: object
+      percentNotClicked: object
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: object
+      phraseMonthlyCost: object
+      exactMonthlyCost: object
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "one solar panel output",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/38/understanding-solar-panel-output-how-much-energy-does-one-solar-panel-produce",
+    "rank": 17,
+    "rankChange": -9,
+    "searchVolume": 44,
+    "keywordDifficulty": 22,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 0,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 0,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": null,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": null,
+    "paidCompetitors": 0,
+    "rankingHomepages": 1,
+    "yourRank": null,
+  
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getRemovedKeywords (Ranking Changes)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: unknown
+
+================================================================================
+TESTING: getTopSeoCompetitors (Competitors)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: unknown
+
+================================================================================
+TESTING: getSeoCompetitors (Competitors)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: unknown
+
+================================================================================
+TESTING: getCompetingSeoKeywords (Kombat)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: <!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"V
+
+================================================================================
+TESTING: getRelatedKeywords (Related Keywords)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" cont
+
+================================================================================
+TESTING: getQuestionKeywords (Related Keywords)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" cont
+
+================================================================================
+TESTING: getBuyingKeywords (Related Keywords)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" cont
+
+================================================================================
+TESTING: getBacklinks (Backlinks)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" cont
+
+================================================================================
+TESTING: getBacklinksDomains (Backlinks)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" cont
+
+================================================================================
+TESTING: getRankingHistory (History)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: unknown
+
+================================================================================
+TESTING: getKeywordRankHistory (History)
+Domain: viridisenergy.com
+================================================================================
+
+--- Test 1: Default parameters ---
+❌ FAILED
+   Status: 404
+   Error: unknown
+
+
+################################################################################
+PHASE 2: VERIFY WITH MEDIUM DOMAIN
+Domain: poolsbybradley.com
+################################################################################
+
+Testing 9 working endpoints...
+
+================================================================================
+TESTING: getLiveSeoStats (Domain Stats)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 1
+   Total available: unknown
+   Cost: $0.0005
+   Keys: resultCount, domain, url, totalOrganicResults, monthlyOrganicClicks, monthlyOrganicClickValue, totalSearchVolume
+
+   Data Structure:
+      resultCount: number
+      domain: string
+      url: string
+      totalOrganicResults: number
+      monthlyOrganicClicks: number
+      monthlyOrganicClickValue: number
+      totalSearchVolume: number
+
+   Sample Data (first item):
+{
+  "resultCount": 1,
+  "domain": "poolsbybradley.com",
+  "url": "http://poolsbybradley.com/",
+  "totalOrganicResults": 1436,
+  "monthlyOrganicClicks": 493,
+  "monthlyOrganicClickValue": 3263.5799703598022,
+  "totalSearchVolume": 78780
+}
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 1 | Cost: $0.0005
+
+================================================================================
+TESTING: getSeoKeywords (SEO Keywords)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 1436
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+ 
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getMostValuableKeywords (SEO Keywords)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 1436
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+ 
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getNewlyRankedKeywords (Ranking Changes)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 543
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: object
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: object
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "pool designers near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 43,
+    "rankChange": null,
+    "searchVolume": 1800,
+    "keywordDifficulty": 47,
+    "broadCostPerClick": 3.35,
+    "phraseCostPerClick": 3.94,
+    "exactCostPerClick": 3.94,
+    "seoClicks": 8,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 1400,
+    "percentMobileSearches": 0.245295857988166,
+    "percentDesktopSearches": 0.754704142011834,
+    "percentNotClicked": 0.230769230769231,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 215.1,
+    "phraseMonthlyCost": 10.2,
+    "exactMonthlyCost": 8.7,
+    "paidCompetitors": 0,
+    "rankingHomepages": 62,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getGainedRanksKeywords (Ranking Changes)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 329
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+ 
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getLostRanksKeywords (Ranking Changes)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 506
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: object
+      phraseCostPerClick: object
+      exactCostPerClick: object
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: object
+      percentDesktopSearches: object
+      percentNotClicked: object
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: number
+      phraseMonthlyCost: object
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "minto builders florida",
+    "topRankedUrl": "https://poolsbybradley.com/our-story/builders/minto-homes-logo/",
+    "rank": 34,
+    "rankChange": -9,
+    "searchVolume": 750,
+    "keywordDifficulty": 21,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 4,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 570,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 1,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "how 
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 200 | Cost: $0.1000
+
+================================================================================
+TESTING: getGainedClicksKeywords (Ranking Changes)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 27
+   Total available: 27
+   Cost: $0.0135
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: number
+      phraseCostPerClick: number
+      exactCostPerClick: number
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: number
+      percentDesktopSearches: number
+      percentNotClicked: number
+      percentPaidClicks: number
+      percentOrganicClicks: number
+      broadMonthlyCost: number
+      phraseMonthlyCost: number
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+ 
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 27 | Cost: $0.0135
+
+================================================================================
+TESTING: getLostClicksKeywords (Ranking Changes)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 71
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: object
+      phraseCostPerClick: object
+      exactCostPerClick: object
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: object
+      percentDesktopSearches: object
+      percentNotClicked: object
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: number
+      phraseMonthlyCost: object
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "minto builders florida",
+    "topRankedUrl": "https://poolsbybradley.com/our-story/builders/minto-homes-logo/",
+    "rank": 34,
+    "rankChange": -9,
+    "searchVolume": 750,
+    "keywordDifficulty": 21,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 4,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 570,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 1,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "how 
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 71 | Cost: $0.0355
+
+================================================================================
+TESTING: getJustFellOffKeywords (Ranking Changes)
+Domain: poolsbybradley.com
+================================================================================
+
+--- Test 1: Default parameters ---
+✅ SUCCESS
+   Rows returned: 50
+   Total available: 62
+   Cost: $0.0250
+   Keys: resultCount, results, totalMatchingResults
+
+   Data Structure:
+      keyword: string
+      topRankedUrl: string
+      rank: number
+      rankChange: number
+      searchVolume: number
+      keywordDifficulty: number
+      broadCostPerClick: object
+      phraseCostPerClick: object
+      exactCostPerClick: object
+      seoClicks: number
+      seoClicksChange: number
+      totalMonthlyClicks: number
+      percentMobileSearches: object
+      percentDesktopSearches: object
+      percentNotClicked: object
+      percentPaidClicks: object
+      percentOrganicClicks: object
+      broadMonthlyCost: number
+      phraseMonthlyCost: object
+      exactMonthlyCost: number
+      paidCompetitors: number
+      rankingHomepages: number
+      yourRank: object
+      yourRankChange: object
+      yourUrl: string
+
+   Sample Data (first item):
+[
+  {
+    "keyword": "how much water does a pool lose to evaporation",
+    "topRankedUrl": "https://poolsbybradley.com/normal-pool-evaporation-central-florida/",
+    "rank": 13,
+    "rankChange": -3,
+    "searchVolume": 90,
+    "keywordDifficulty": 13,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 1,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 90,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 0,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  }
+
+--- Test 2: Larger page size (200) ---
+✅ Rows: 62 | Cost: $0.0310
+
+
+================================================================================
+COMPREHENSIVE ENDPOINT INVENTORY
+================================================================================
+
+| Endpoint | Category | Status | Small Rows | Medium Rows | Avg Cost | Cold Call Value |
+|----------|----------|--------|------------|-------------|----------|-----------------|
+| getLiveSeoStats                | Domain Stats    | ✅ | 1          | 1           | $0.0005  | 0/10            |
+| getAllDomainStats              | Domain Stats    | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getSeoKeywords                 | SEO Keywords    | ✅ | 50         | 50          | $0.0250  | 10/10           |
+| getMostValuableKeywords        | SEO Keywords    | ✅ | 50         | 50          | $0.0250  | 10/10           |
+| getMostRecentKeywords          | SEO Keywords    | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getNewlyRankedKeywords         | Ranking Changes | ✅ | 50         | 50          | $0.0250  | 10/10           |
+| getGainedRanksKeywords         | Ranking Changes | ✅ | 50         | 50          | $0.0250  | 7/10            |
+| getLostRanksKeywords           | Ranking Changes | ✅ | 50         | 50          | $0.0250  | 10/10           |
+| getGainedClicksKeywords        | Ranking Changes | ✅ | 40         | 27          | $0.0168  | 7/10            |
+| getLostClicksKeywords          | Ranking Changes | ✅ | 50         | 50          | $0.0250  | 7/10            |
+| getJustFellOffKeywords         | Ranking Changes | ✅ | 50         | 50          | $0.0250  | 7/10            |
+| getRemovedKeywords             | Ranking Changes | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getTopSeoCompetitors           | Competitors     | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getSeoCompetitors              | Competitors     | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getCompetingSeoKeywords        | Kombat          | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getRelatedKeywords             | Related Keywords | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getQuestionKeywords            | Related Keywords | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getBuyingKeywords              | Related Keywords | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getBacklinks                   | Backlinks       | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getBacklinksDomains            | Backlinks       | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getRankingHistory              | History         | ❌ | 0          | 0           | $N/A     | ?/10            |
+| getKeywordRankHistory          | History         | ❌ | 0          | 0           | $N/A     | ?/10            |
+
+
+✅ Exploration complete! Results saved to comprehensive_exploration_results.json
+
+📊 SUMMARY: 9 working endpoints found
+
+Top endpoints by cold call value:
+   getSeoKeywords: 10/10 (SEO Keywords)
+   getMostValuableKeywords: 10/10 (SEO Keywords)
+   getNewlyRankedKeywords: 10/10 (Ranking Changes)
+   getLostRanksKeywords: 10/10 (Ranking Changes)
+   getGainedRanksKeywords: 7/10 (Ranking Changes)
+   getGainedClicksKeywords: 7/10 (Ranking Changes)
+   getLostClicksKeywords: 7/10 (Ranking Changes)
+   getJustFellOffKeywords: 7/10 (Ranking Changes)
+   getLiveSeoStats: 0/10 (Domain Stats)

@@ -1,0 +1,1144 @@
+================================================================================
+SPYFU API COMPREHENSIVE ENDPOINT TESTING
+================================================================================
+
+
+================================================================================
+TESTING: VIRIDISENERGY.COM (SMALL DOMAIN)
+================================================================================
+
+--- getAllDomainStats ---
+  Testing URL: https://api.spyfu.com/apis/domain_stats_api/v2/getAllDomainStats?query=viridisenergy.com
+Status: FAILED
+❌ FAILED: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-4348d2554a9c9f3ea99ce36c0e68962e-3c0d6d5c74c59368-00","errors":{"Domain":["The Domain field is required.","Domain cannot be empty"]}}
+
+--- getSeoKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getSeoKeywords?query=viridisenergy.com&pageSize=200
+Status: SUCCESS
+✅ Row Count: 200
+   Cost: $0.1000
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "photovoltaic cell",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 51,
+    "rankChange": null,
+    "searchVolume": 8100,
+    "keywordDifficulty": 46,
+    "broadCostPerClick": 2.39,
+    "phraseCostPerClick": 3.79,
+    "exactCostPerClick": 2.49,
+    "seoClicks": 28,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 2900,
+    "percentMobileSearches": 0.298789239234868,
+    "percentDesktopSearches": 0.701210760765132,
+    "percentNotClicked": 0.646728971962617,
+    "percentPaidClicks": 0.0264550263150528,
+    "percentOrganicClicks": 0.973544968393942,
+    "broadMonthlyCost": 166.5,
+    "phraseMonthlyCost": 39.58,
+    "exactMonthlyCost": 70.8,
+    "paidCompetitors": 0,
+    "rankingHomepages": 3,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "net metering",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesso
+
+--- getMostValuableKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getMostValuableKeywords?query=viridisenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "photovoltaic cell",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 51,
+    "rankChange": null,
+    "searchVolume": 8100,
+    "keywordDifficulty": 46,
+    "broadCostPerClick": 2.39,
+    "phraseCostPerClick": 3.79,
+    "exactCostPerClick": 2.49,
+    "seoClicks": 28,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 2900,
+    "percentMobileSearches": 0.298789239234868,
+    "percentDesktopSearches": 0.701210760765132,
+    "percentNotClicked": 0.646728971962617,
+    "percentPaidClicks": 0.0264550263150528,
+    "percentOrganicClicks": 0.973544968393942,
+    "broadMonthlyCost": 166.5,
+    "phraseMonthlyCost": 39.58,
+    "exactMonthlyCost": 70.8,
+    "paidCompetitors": 0,
+    "rankingHomepages": 3,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "net metering",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesso
+
+--- getNewlyRankedKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getNewlyRankedKeywords?query=viridisenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "photovoltaic cell",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 51,
+    "rankChange": null,
+    "searchVolume": 8100,
+    "keywordDifficulty": 46,
+    "broadCostPerClick": 2.39,
+    "phraseCostPerClick": 3.79,
+    "exactCostPerClick": 2.49,
+    "seoClicks": 28,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 2900,
+    "percentMobileSearches": 0.298789239234868,
+    "percentDesktopSearches": 0.701210760765132,
+    "percentNotClicked": 0.646728971962617,
+    "percentPaidClicks": 0.0264550263150528,
+    "percentOrganicClicks": 0.973544968393942,
+    "broadMonthlyCost": 166.5,
+    "phraseMonthlyCost": 39.58,
+    "exactMonthlyCost": 70.8,
+    "paidCompetitors": 0,
+    "rankingHomepages": 3,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "net metering",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesso
+
+--- getGainedRanksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getGainedRanksKeywords?query=viridisenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "how do photovoltaic cells work",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 37,
+    "rankChange": 31,
+    "searchVolume": 1200,
+    "keywordDifficulty": 23,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 6,
+    "seoClicksChange": 3,
+    "totalMonthlyClicks": 720,
+    "percentMobileSearches": 0.3090625,
+    "percentDesktopSearches": 0.6909375,
+    "percentNotClicked": 0.375,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 0,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "microinverter",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/19/what-is-a-microinverter-on-a-solar-panel",
+    "ran
+
+--- getLostRanksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getLostRanksKeywords?query=viridisenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "solar panel output",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/38/understanding-solar-panel-output-how-much-energy-does-one-solar-panel-produce",
+    "rank": 42,
+    "rankChange": -2,
+    "searchVolume": 720,
+    "keywordDifficulty": 22,
+    "broadCostPerClick": 2.07,
+    "phraseCostPerClick": 1.87,
+    "exactCostPerClick": 1.81,
+    "seoClicks": 3,
+    "seoClicksChange": 0,
+    "totalMonthlyClicks": 380,
+    "percentMobileSearches": 0.558015625,
+    "percentDesktopSearches": 0.441984375,
+    "percentNotClicked": 0.45625,
+    "percentPaidClicks": 0.252873560311798,
+    "percentOrganicClicks": 0.747126428193949,
+    "broadMonthlyCost": 56.1,
+    "phraseMonthlyCost": 17.4,
+    "exactMonthlyCost": 9,
+    "paidCompetitors": 0,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "how much energy does solar energy produce",
+    "topRankedUrl": "https://www.viridisenergy.co
+
+--- getGainedClicksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getGainedClicksKeywords?query=viridisenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 40
+   Cost: $0.0200
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "how do photovoltaic cells work",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/10/how-do-solar-photovoltaic-pv-cells-actually-work",
+    "rank": 37,
+    "rankChange": 31,
+    "searchVolume": 1200,
+    "keywordDifficulty": 23,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 6,
+    "seoClicksChange": 3,
+    "totalMonthlyClicks": 720,
+    "percentMobileSearches": 0.3090625,
+    "percentDesktopSearches": 0.6909375,
+    "percentNotClicked": 0.375,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 0,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "solar off grid",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/3/on-grid-vs-off-grid-vs-hybrid-solar-power-system",
+
+
+--- getLostClicksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getLostClicksKeywords?query=viridisenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "how much energy does solar energy produce",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/38/understanding-solar-panel-output-how-much-energy-does-one-solar-panel-produce",
+    "rank": 25,
+    "rankChange": -7,
+    "searchVolume": 480,
+    "keywordDifficulty": 37,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 3,
+    "seoClicksChange": -2,
+    "totalMonthlyClicks": 240,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": null,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": null,
+    "paidCompetitors": 0,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "solarize milton",
+    "topRankedUrl": "https://www.viridisenergy.com/projects/92/solar-milton-ma",
+    "rank"
+
+--- getJustFellOffKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getJustFellOffKeywords?query=viridisenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "one solar panel output",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/38/understanding-solar-panel-output-how-much-energy-does-one-solar-panel-produce",
+    "rank": 17,
+    "rankChange": -9,
+    "searchVolume": 44,
+    "keywordDifficulty": 22,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 0,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 0,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": null,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": null,
+    "paidCompetitors": 0,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "on grid solar",
+    "topRankedUrl": "https://www.viridisenergy.com/learning-center/lesson/3/on-grid-vs-off-grid-vs-hybrid-solar-pow
+
+--- getTopSeoCompetitors ---
+  Testing URL: https://api.spyfu.com/apis/competitors_api/v2/getTopSeoCompetitors?query=viridisenergy.com&pageSize=10
+Status: FAILED
+❌ FAILED: 404
+
+--- getCompetingSeoKeywords ---
+  Testing URL: https://api.spyfu.com/apis/kombat_api/v2/getCompetingSeoKeywords?query=viridisenergy.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color
+
+--- getRelatedKeywords ---
+  Testing URL: https://api.spyfu.com/apis/related_keywords_api/v2/getRelatedKeywords?query=viridisenergy.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+
+--- getQuestionKeywords ---
+  Testing URL: https://api.spyfu.com/apis/related_keywords_api/v2/getQuestionKeywords?query=viridisenergy.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+
+================================================================================
+TESTING: POOLSBYBRADLEY.COM (MEDIUM DOMAIN)
+================================================================================
+
+--- getAllDomainStats ---
+  Testing URL: https://api.spyfu.com/apis/domain_stats_api/v2/getAllDomainStats?query=poolsbybradley.com
+Status: FAILED
+❌ FAILED: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-a5fb03a3e9e00e555fc25939b395a39c-885165b41330bcdb-00","errors":{"Domain":["The Domain field is required.","Domain cannot be empty"]}}
+
+--- getSeoKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getSeoKeywords?query=poolsbybradley.com&pageSize=200
+Status: SUCCESS
+✅ Row Count: 200
+   Cost: $0.1000
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "pool designers near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 43,
+    "rankChange": null,
+    "searchVolume": 1800,
+    "keywordDiff
+
+--- getMostValuableKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getMostValuableKeywords?query=poolsbybradley.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "pool designers near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 43,
+    "rankChange": null,
+    "searchVolume": 1800,
+    "keywordDiff
+
+--- getNewlyRankedKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getNewlyRankedKeywords?query=poolsbybradley.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "pool designers near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 43,
+    "rankChange": null,
+    "searchVolume": 1800,
+    "keywordDifficulty": 47,
+    "broadCostPerClick": 3.35,
+    "phraseCostPerClick": 3.94,
+    "exactCostPerClick": 3.94,
+    "seoClicks": 8,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 1400,
+    "percentMobileSearches": 0.245295857988166,
+    "percentDesktopSearches": 0.754704142011834,
+    "percentNotClicked": 0.230769230769231,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 215.1,
+    "phraseMonthlyCost": 10.2,
+    "exactMonthlyCost": 8.7,
+    "paidCompetitors": 0,
+    "rankingHomepages": 62,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "pool design",
+    "topRankedUrl": "https://poolsbybradley.com/understanding-pool-design-shapes/",
+    "rank": 98,
+    "rankChange": null,
+    "searchVolume": 840,
+    "keywordDifficulty": 
+
+--- getGainedRanksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getGainedRanksKeywords?query=poolsbybradley.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "what causes evaporation",
+    "topRankedUrl": "https://poolsbybradley.com/what-causes-pool-evaporation/",
+    "rank": 43,
+    "rankChange": 3,
+    "searchVolu
+
+--- getLostRanksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getLostRanksKeywords?query=poolsbybradley.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "minto builders florida",
+    "topRankedUrl": "https://poolsbybradley.com/our-story/builders/minto-homes-logo/",
+    "rank": 34,
+    "rankChange": -9,
+    "searchVolume": 750,
+    "keywordDifficulty": 21,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 4,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 570,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 1,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "how long does it take for a pool to heat up by the sun",
+    "topRankedUrl": "https://poolsbybradley.com/what-causes-pool-evaporation/",
+    "rank": 70,
+    "rankChange": -26,
+    "searchVolume": 480,
+   
+
+--- getGainedClicksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getGainedClicksKeywords?query=poolsbybradley.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 27
+   Cost: $0.0135
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "pool builders near me",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 56,
+    "rankChange": 36,
+    "searchVolume": 20900,
+    "keywordDifficulty": 60,
+    "broadCostPerClick": 3.96,
+    "phraseCostPerClick": 4.15,
+    "exactCostPerClick": 4.23,
+    "seoClicks": 70,
+    "seoClicksChange": 26,
+    "totalMonthlyClicks": 14200,
+    "percentMobileSearches": 0.604586522493726,
+    "percentDesktopSearches": 0.395413477506274,
+    "percentNotClicked": 0.321554770318021,
+    "percentPaidClicks": 0.114583333034939,
+    "percentOrganicClicks": 0.885416664360894,
+    "broadMonthlyCost": 1717.8,
+    "phraseMonthlyCost": 1350.3,
+    "exactMonthlyCost": 1312.5,
+    "paidCompetitors": 1,
+    "rankingHomepages": 52,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "pool shapes",
+    "topRankedUrl": "https://poolsbybradley.com/understanding-pool-design-shapes/",
+    "rank": 30,
+    "rankChange": 7,
+    "searchVolume": 660
+
+--- getLostClicksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getLostClicksKeywords?query=poolsbybradley.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "minto builders florida",
+    "topRankedUrl": "https://poolsbybradley.com/our-story/builders/minto-homes-logo/",
+    "rank": 34,
+    "rankChange": -9,
+    "searchVolume": 750,
+    "keywordDifficulty": 21,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 4,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 570,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 1,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "how long does it take for a pool to heat up by the sun",
+    "topRankedUrl": "https://poolsbybradley.com/what-causes-pool-evaporation/",
+    "rank": 70,
+    "rankChange": -26,
+    "searchVolume": 480,
+   
+
+--- getJustFellOffKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getJustFellOffKeywords?query=poolsbybradley.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "how much water does a pool lose to evaporation",
+    "topRankedUrl": "https://poolsbybradley.com/normal-pool-evaporation-central-florida/",
+    "rank": 13,
+    "rankChange": -3,
+    "searchVolume": 90,
+    "keywordDifficulty": 13,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 1,
+    "seoClicksChange": -1,
+    "totalMonthlyClicks": 90,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 0,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "florida pool builders",
+    "topRankedUrl": "https://poolsbybradley.com/",
+    "rank": 13,
+    "rankChange": -3,
+    "searchVolume": 44,
+    "keywordDifficulty": 34,
+    "broadCo
+
+--- getTopSeoCompetitors ---
+  Testing URL: https://api.spyfu.com/apis/competitors_api/v2/getTopSeoCompetitors?query=poolsbybradley.com&pageSize=10
+Status: FAILED
+❌ FAILED: 404
+
+--- getCompetingSeoKeywords ---
+  Testing URL: https://api.spyfu.com/apis/kombat_api/v2/getCompetingSeoKeywords?query=poolsbybradley.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color
+
+--- getRelatedKeywords ---
+  Testing URL: https://api.spyfu.com/apis/related_keywords_api/v2/getRelatedKeywords?query=poolsbybradley.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+
+--- getQuestionKeywords ---
+  Testing URL: https://api.spyfu.com/apis/related_keywords_api/v2/getQuestionKeywords?query=poolsbybradley.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+
+================================================================================
+TESTING: NEWERASOLARENERGY.COM (LARGE DOMAIN)
+================================================================================
+
+--- getAllDomainStats ---
+  Testing URL: https://api.spyfu.com/apis/domain_stats_api/v2/getAllDomainStats?query=newerasolarenergy.com
+Status: FAILED
+❌ FAILED: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-4d4c757984786bfe49cd65f99a03bfa8-e9bbce7c0580812b-00","errors":{"Domain":["The Domain field is required.","Domain cannot be empty"]}}
+
+--- getSeoKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getSeoKeywords?query=newerasolarenergy.com&pageSize=200
+Status: SUCCESS
+✅ Row Count: 74
+   Cost: $0.0370
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "graphene battery vs lithium ion",
+    "topRankedUrl": "https://newerasolarenergy.com/graphene-based-batteries-vs-lithium-ion-the-future-of-home-energy-storage-explained/",
+    "rank": 22,
+    "rankChange": 0,
+    "searchVolume": 510,
+    "keywordDifficulty": 15,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 4,
+    "seoClicksChange": 0,
+    "totalMonthlyClicks": 270,
+    "percentMobileSearches": 0.707034331628926,
+    "percentDesktopSearches": 0.292965668371074,
+    "percentNotClicked": 0.45945945945946,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": null,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": null,
+    "paidCompetitors": 0,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "graphene battery vs lithium",
+    "topRankedUrl": "https://newerasolarenergy.com/graphene-based-batter
+
+--- getMostValuableKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getMostValuableKeywords?query=newerasolarenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 50
+   Cost: $0.0250
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "graphene battery vs lithium ion",
+    "topRankedUrl": "https://newerasolarenergy.com/graphene-based-batteries-vs-lithium-ion-the-future-of-home-energy-storage-explained/",
+    "rank": 22,
+    "rankChange": 0,
+    "searchVolume": 510,
+    "keywordDifficulty": 15,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 4,
+    "seoClicksChange": 0,
+    "totalMonthlyClicks": 270,
+    "percentMobileSearches": 0.707034331628926,
+    "percentDesktopSearches": 0.292965668371074,
+    "percentNotClicked": 0.45945945945946,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": null,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": null,
+    "paidCompetitors": 0,
+    "rankingHomepages": 1,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "graphene battery vs lithium",
+    "topRankedUrl": "https://newerasolarenergy.com/graphene-based-batter
+
+--- getNewlyRankedKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getNewlyRankedKeywords?query=newerasolarenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 30
+   Cost: $0.0150
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "graphene lithium ion battery",
+    "topRankedUrl": "https://newerasolarenergy.com/graphene-based-batteries-vs-lithium-ion-the-future-of-home-energy-storage-explained/",
+    "rank": 55,
+    "rankChange": null,
+    "searchVolume": 135,
+    "keywordDifficulty": 28,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 0,
+    "seoClicksChange": null,
+    "totalMonthlyClicks": 125,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 3,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "solera energy",
+    "topRankedUrl": "https://newerasolarenergy.com/",
+    "rank": 81,
+    "rankChange": null,
+    "searchVolume": 125,
+    "key
+
+--- getGainedRanksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getGainedRanksKeywords?query=newerasolarenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 20
+   Cost: $0.0100
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "graphene battery vs lithium",
+    "topRankedUrl": "https://newerasolarenergy.com/graphene-based-batteries-vs-lithium-ion-the-future-of-home-energy-storage-explained/",
+    "rank": 23,
+    "rankChange": 8,
+    "searchVolume": 135,
+    "keywordDifficulty": 15,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 1,
+    "seoClicksChange": 0,
+    "totalMonthlyClicks": 85,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 0,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "new era energy",
+    "topRankedUrl": "https://newerasolarenergy.com/",
+    "rank": 24,
+    "rankChange": 40,
+    "searchVolume": 135,
+    "keywordDiffi
+
+--- getLostRanksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getLostRanksKeywords?query=newerasolarenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 12
+   Cost: $0.0060
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "solar sales training in fl",
+    "topRankedUrl": "https://newerasolarenergy.com/careers/solar-sales-representative-tampa-fl/",
+    "rank": 71,
+    "rankChange": -11,
+    "searchVolume": 125,
+    "keywordDifficulty": 40,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 0,
+    "seoClicksChange": 0,
+    "totalMonthlyClicks": 110,
+    "percentMobileSearches": null,
+    "percentDesktopSearches": null,
+    "percentNotClicked": null,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": null,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": null,
+    "paidCompetitors": 1,
+    "rankingHomepages": 14,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "solar sales training in fl",
+    "topRankedUrl": "https://newerasolarenergy.com/careers/solar-sales-representative-orlando-fl/",
+    "rank": 80,
+    "rankChange": -11,
+    "searchVol
+
+--- getGainedClicksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getGainedClicksKeywords?query=newerasolarenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 2
+   Cost: $0.0010
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[
+  {
+    "keyword": "new era energy",
+    "topRankedUrl": "https://newerasolarenergy.com/",
+    "rank": 24,
+    "rankChange": 40,
+    "searchVolume": 135,
+    "keywordDifficulty": 44,
+    "broadCostPerClick": null,
+    "phraseCostPerClick": null,
+    "exactCostPerClick": null,
+    "seoClicks": 1,
+    "seoClicksChange": 1,
+    "totalMonthlyClicks": 135,
+    "percentMobileSearches": 0.503714285714286,
+    "percentDesktopSearches": 0.496285714285714,
+    "percentNotClicked": 0.428571428571429,
+    "percentPaidClicks": null,
+    "percentOrganicClicks": null,
+    "broadMonthlyCost": 0,
+    "phraseMonthlyCost": null,
+    "exactMonthlyCost": 0,
+    "paidCompetitors": 0,
+    "rankingHomepages": 17,
+    "yourRank": null,
+    "yourRankChange": null,
+    "yourUrl": ""
+  },
+  {
+    "keyword": "solar Era",
+    "topRankedUrl": "https://newerasolarenergy.com/",
+    "rank": 14,
+    "rankChange": 3,
+    "searchVolume": 44,
+    "keywordDifficulty": 44,
+    "broadCostPerClick": null,
+    "phraseCostPerC
+
+--- getLostClicksKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getLostClicksKeywords?query=newerasolarenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 0
+   Cost: $0.0000
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[]
+
+--- getJustFellOffKeywords ---
+  Testing URL: https://api.spyfu.com/apis/serp_api/v2/seo/getJustFellOffKeywords?query=newerasolarenergy.com&pageSize=50
+Status: SUCCESS
+✅ Row Count: 0
+   Cost: $0.0000
+   Top Keys: resultCount, results, totalMatchingResults
+
+   Sample Data (first 3 items):
+[]
+
+--- getTopSeoCompetitors ---
+  Testing URL: https://api.spyfu.com/apis/competitors_api/v2/getTopSeoCompetitors?query=newerasolarenergy.com&pageSize=10
+Status: FAILED
+❌ FAILED: 404
+
+--- getCompetingSeoKeywords ---
+  Testing URL: https://api.spyfu.com/apis/kombat_api/v2/getCompetingSeoKeywords?query=newerasolarenergy.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html>
+<html>
+    <head>
+        <title>The resource cannot be found.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color
+
+--- getRelatedKeywords ---
+  Testing URL: https://api.spyfu.com/apis/related_keywords_api/v2/getRelatedKeywords?query=newerasolarenergy.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+
+--- getQuestionKeywords ---
+  Testing URL: https://api.spyfu.com/apis/related_keywords_api/v2/getQuestionKeywords?query=newerasolarenergy.com&pageSize=50
+Status: FAILED
+❌ FAILED: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+<title>404 - File or directory not found.</title>
+<style type="text/css">
+<!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+
+
+================================================================================
+ENDPOINT SUMMARY
+================================================================================
+
+| Endpoint | Status | Small | Medium | Large | Avg Cost |
+|----------|--------|-------|--------|-------|----------|
+| getAllDomainStats | ❌ | 0 | 0 | 0 | $N/A |
+| getSeoKeywords | ✅ | 200 | 200 | 74 | $0.0790 |
+| getMostValuableKeywords | ✅ | 50 | 50 | 50 | $0.0250 |
+| getNewlyRankedKeywords | ✅ | 50 | 50 | 30 | $0.0217 |
+| getGainedRanksKeywords | ✅ | 50 | 50 | 20 | $0.0200 |
+| getLostRanksKeywords | ✅ | 50 | 50 | 12 | $0.0187 |
+| getGainedClicksKeywords | ✅ | 40 | 27 | 2 | $0.0115 |
+| getLostClicksKeywords | ✅ | 50 | 50 | 0 | $0.0167 |
+| getJustFellOffKeywords | ✅ | 50 | 50 | 0 | $0.0167 |
+| getTopSeoCompetitors | ❌ | 0 | 0 | 0 | $N/A |
+| getCompetingSeoKeywords | ❌ | 0 | 0 | 0 | $N/A |
+| getRelatedKeywords | ❌ | 0 | 0 | 0 | $N/A |
+| getQuestionKeywords | ❌ | 0 | 0 | 0 | $N/A |

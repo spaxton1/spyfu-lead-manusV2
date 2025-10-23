@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SpyFu Roofing Dashboards - CORRECTED</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    .container { max-width: 1200px; margin: 0 auto; }
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+    .alert {
+      background: #ffd700;
+      color: #000;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .dashboard {
+      background: white;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+      position: relative;
+    }
+    .dashboard-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #667eea;
+    }
+    .dashboard-header h2 {
+      color: #2d3748;
+      font-size: 1.8em;
+    }
+    .size-badge {
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 0.9em;
+      text-transform: uppercase;
+    }
+    .size-small { background: #48bb78; color: white; }
+    .size-medium { background: #ed8936; color: white; }
+    .size-large { background: #e53e3e; color: white; }
+    .package-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .package-header h3 {
+      font-size: 1.3em;
+      margin-bottom: 5px;
+    }
+    .package-meta {
+      font-size: 0.9em;
+      opacity: 0.9;
+    }
+    .crm-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .crm-table tr {
+      border-bottom: 1px solid #e2e8f0;
+    }
+    .crm-table tr:last-child {
+      border-bottom: none;
+    }
+    .field-label {
+      background: #f7fafc;
+      font-weight: bold;
+      color: #2d3748;
+      padding: 15px 20px;
+      width: 30%;
+      vertical-align: top;
+    }
+    .field-value {
+      padding: 15px 20px;
+      color: #4a5568;
+    }
+    .cost-badge {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      background: #48bb78;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .sample-note {
+      margin-top: 15px;
+      padding: 12px;
+      background: #edf2f7;
+      border-left: 4px solid #667eea;
+      font-size: 0.9em;
+      color: #4a5568;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🏗️ SpyFu Roofing Dashboards - CORRECTED APPROACH</h1>
+    
+    <div class="alert">
+      ⚠️ CORRECTED VERSION: Shows actual API data without false calculations
+    </div>
+
+    <div class="dashboard">
+      <div class="dashboard-header">
+        <h2>latite.com</h2>
+        <span class="size-badge size-small">SMALL</span>
+      </div>
+      <div class="package-header">
+        <h3>10¢ OPPORTUNITY HUNTER</h3>
+        <div class="package-meta">FOCUS: High-value keywords & quick wins from sample analysis</div>
+      </div>
+      <table class="crm-table">
+        <tr><td class="field-label">1. Overview</td><td class="field-value">1,337 total keywords | $13,965/mo traffic value | 679 clicks/mo</td></tr>
+        <tr><td class="field-label">2. Sample Data</td><td class="field-value">Analyzed 5 keyword sample | Found 1 high-CPC keywords (≥$2.00)</td></tr>
+        <tr><td class="field-label">3. Almost Page 1</td><td class="field-value">Found 1 keywords at ranks #11-20 (just off page 1)</td></tr>
+        <tr><td class="field-label">4. High-Value KW #1</td><td class="field-value">"clay tile" at #76 | $2.74 CPC | Rank #76 - optimization opportunity</td></tr>
+        <tr><td class="field-label">5. Page 1 Presence</td><td class="field-value">Found 1 keywords on page 1 in sample - shows SEO capability!</td></tr>
+        <tr><td class="field-label">Next Step</td><td class="field-value">Full keyword audit recommended - sample shows 1 high-value opportunities worth targeting</td></tr>
+      </table>
+      <div class="cost-badge">Cost: $0.10</div>
+      <div class="sample-note">* Based on keyword sample analysis. Full audit available.</div>
+    </div>
+    <div class="dashboard">
+      <div class="dashboard-header">
+        <h2>metalroofingsource.com</h2>
+        <span class="size-badge size-medium">MEDIUM</span>
+      </div>
+      <div class="package-header">
+        <h3>10¢ OPPORTUNITY HUNTER</h3>
+        <div class="package-meta">FOCUS: High-value keywords & quick wins from sample analysis</div>
+      </div>
+      <table class="crm-table">
+        <tr><td class="field-label">1. Overview</td><td class="field-value">7,284 total keywords | $38,962/mo traffic value | 3,859 clicks/mo</td></tr>
+        <tr><td class="field-label">2. Sample Data</td><td class="field-value">Analyzed 5 keyword sample | Found 5 high-CPC keywords (≥$2.00)</td></tr>
+        <tr><td class="field-label">3. Almost Page 1</td><td class="field-value">Sample shows page 1 and page 2+ rankings</td></tr>
+        <tr><td class="field-label">4. High-Value KW #1</td><td class="field-value">"metal roofing near me" at #87 | $5.66 CPC | Rank #87 - optimization opportunity</td></tr>
+        <tr><td class="field-label">5. High-Value KW #2</td><td class="field-value">"metal roofing near me" at #61 | $5.66 CPC | Rank #61 - optimization opportunity</td></tr>
+        <tr><td class="field-label">6. High-Value KW #3</td><td class="field-value">"metal roof" at #75 | $3.33 CPC | Rank #75 - optimization opportunity</td></tr>
+        <tr><td class="field-label">Next Step</td><td class="field-value">Full keyword audit recommended - sample shows 5 high-value opportunities worth targeting</td></tr>
+      </table>
+      <div class="cost-badge">Cost: $0.10</div>
+      <div class="sample-note">* Based on keyword sample analysis. Full audit available.</div>
+    </div>
+    <div class="dashboard">
+      <div class="dashboard-header">
+        <h2>billraganroofing.com</h2>
+        <span class="size-badge size-large">LARGE</span>
+      </div>
+      <div class="package-header">
+        <h3>10¢ OPPORTUNITY HUNTER</h3>
+        <div class="package-meta">FOCUS: High-value keywords & quick wins from sample analysis</div>
+      </div>
+      <table class="crm-table">
+        <tr><td class="field-label">1. Overview</td><td class="field-value">47,139 total keywords | $305,259/mo traffic value | 47,778 clicks/mo</td></tr>
+        <tr><td class="field-label">2. Sample Data</td><td class="field-value">Analyzed 5 keyword sample | Found 4 high-CPC keywords (≥$2.00)</td></tr>
+        <tr><td class="field-label">3. Almost Page 1</td><td class="field-value">Found 1 keywords at ranks #11-20 (just off page 1)</td></tr>
+        <tr><td class="field-label">4. High-Value KW #1</td><td class="field-value">"epdm" at #37 | $3.79 CPC | Rank #37 - optimization opportunity</td></tr>
+        <tr><td class="field-label">5. High-Value KW #2</td><td class="field-value">"sheathing" at #15 | $2.59 CPC | 5 spots to page 1 - QUICK WIN!</td></tr>
+        <tr><td class="field-label">6. High-Value KW #3</td><td class="field-value">"mansard roof" at #7 | $2.02 CPC | On page 1! 6 spots to #1 position</td></tr>
+        <tr><td class="field-label">7. Page 1 Presence</td><td class="field-value">Found 1 keywords on page 1 in sample - shows SEO capability!</td></tr>
+        <tr><td class="field-label">Next Step</td><td class="field-value">Full keyword audit recommended - sample shows 4 high-value opportunities worth targeting</td></tr>
+      </table>
+      <div class="cost-badge">Cost: $0.10</div>
+      <div class="sample-note">* Based on keyword sample analysis. Full audit available.</div>
+    </div>
+  </div>
+</body>
+</html>

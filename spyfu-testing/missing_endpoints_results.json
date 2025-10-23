@@ -1,0 +1,167 @@
+{
+  "viridisenergy.com": {
+    "getDomainCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getSharedRankingKeywords": {
+      "skipped": true,
+      "reason": "Requires competitor"
+    },
+    "getSeoCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getRelatedDomains": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getPaidKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getAdHistory": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getBuyingKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getPaidCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getAdVariations": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getRankedKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getKeywordRankHistory": {
+      "skipped": true,
+      "reason": "Requires keyword"
+    }
+  },
+  "poolsbybradley.com": {
+    "getDomainCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getSharedRankingKeywords": {
+      "skipped": true,
+      "reason": "Requires competitor"
+    },
+    "getSeoCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getRelatedDomains": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getPaidKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getAdHistory": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getBuyingKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getPaidCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getAdVariations": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getRankedKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getKeywordRankHistory": {
+      "skipped": true,
+      "reason": "Requires keyword"
+    }
+  },
+  "skyscanner.com": {
+    "getDomainCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getSharedRankingKeywords": {
+      "skipped": true,
+      "reason": "Requires competitor"
+    },
+    "getSeoCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getRelatedDomains": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getPaidKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getAdHistory": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getBuyingKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getPaidCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getAdVariations": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getRankedKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error"
+    },
+    "getKeywordRankHistory": {
+      "skipped": true,
+      "reason": "Requires keyword"
+    }
+  }
+}

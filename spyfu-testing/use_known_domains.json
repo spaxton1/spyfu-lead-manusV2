@@ -1,0 +1,23 @@
+{
+  "small": {
+    "domain": "poolsbybradley.com",
+    "totalKw": 1451,
+    "clicks": 498,
+    "value": 3264,
+    "industry": "Pool Construction (Small Local)"
+  },
+  "medium": {
+    "domain": "beyondexteriors.com",
+    "totalKw": 3968,
+    "clicks": 790,
+    "value": 29351,
+    "industry": "Roofing (Medium Regional)"
+  },
+  "large": {
+    "domain": "roofsimple.com",
+    "totalKw": 4997,
+    "clicks": 1563,
+    "value": 45340,
+    "industry": "Roofing (Large Regional)"
+  }
+}

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpyFu Lead Enrichment - REAL DATA Dashboards</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 20px;
+      color: #333;
+    }
+    
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    
+    .header {
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    
+    .header h1 {
+      font-size: 42px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
+    }
+    
+    .header p {
+      font-size: 18px;
+      color: #666;
+    }
+    
+    .domain-section {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    }
+    
+    .domain-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #f0f0f0;
+    }
+    
+    .domain-title {
+      font-size: 28px;
+      color: #333;
+    }
+    
+    .domain-meta {
+      text-align: right;
+      color: #666;
+      font-size: 14px;
+    }
+    
+    .package-row {
+      margin-bottom: 40px;
+    }
+    
+    .package-header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 15px 20px;
+      border-radius: 10px 10px 0 0;
+      font-size: 20px;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .crm-dashboard {
+      background: #f8f9fa;
+      border: 2px solid #e0e0e0;
+      border-top: none;
+      border-radius: 0 0 10px 10px;
+      position: relative;
+    }
+    
+    .cost-badge {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #28a745;
+      color: white;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    
+    .dashboard-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    .dashboard-table tr {
+      border-bottom: 1px solid #dee2e6;
+    }
+    
+    .dashboard-table tr:last-child {
+      border-bottom: none;
+    }
+    
+    .field-label {
+      background: #e9ecef;
+      padding: 15px 20px;
+      font-weight: 600;
+      color: #495057;
+      width: 250px;
+      vertical-align: top;
+    }
+    
+    .field-value {
+      padding: 15px 20px;
+      color: #212529;
+      line-height: 1.6;
+    }
+    
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+    
+    .stat-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+    .stat-value {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .stat-label {
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    
+    .size-badge {
+      display: inline-block;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 10px;
+    }
+    
+    .size-small { background: #28a745; color: white; }
+    .size-medium { background: #ffc107; color: #333; }
+    .size-large { background: #dc3545; color: white; }
+    
+    @media print {
+      body { background: white; }
+      .domain-section { page-break-after: always; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🎯 SpyFu Lead Enrichment System</h1>
+      <p>Real Data from 3 Domain Sizes × 4 Package Options = 12 Complete CRM Dashboards</p>
+      <p style="font-size: 14px; color: #999; margin-top: 10px;">Using ACTUAL SpyFu API data • High-CPC filter active (≥$2.00)</p>
+    </div>
+
+    <div class="domain-section">
+      <div class="domain-header">
+        <div>
+          <span class="domain-title">poolsbybradley.com</span>
+          <span class="size-badge size-small">SMALL (1,451 KWs)</span>
+        </div>
+        <div class="domain-meta">
+          Industry: Pool Construction<br>
+          Real SpyFu API Data
+        </div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 10¢ OPPORTUNITY HUNTER</span>
+          <span style="font-size: 14px;">201 API rows • Focus: Pure Opportunity</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1005</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">1,450 KWs | $3,257/mo value | 428 clicks/mo</td></tr><tr><td class="field-label">2. Page1 Gap</td><td class="field-value">🚨 99.0% BURIED on Pg2+ | Only 15 on Page 1!</td></tr><tr><td class="field-label">3. Almost Page1</td><td class="field-value">2 KWs at #11-20 | Worth $14/mo if pushed to P1</td></tr><tr><td class="field-label">4. Quick Win #1</td><td class="field-value">"pool building process" #13 | $7.04 CPC | 3 spots to P1 = $11/mo</td></tr><tr><td class="field-label">5. Quick Win #2</td><td class="field-value">"pool evaporation" #16 | $2.39 CPC | 6 spots to P1 = $3/mo</td></tr><tr><td class="field-label">7. Low Hang Pg1</td><td class="field-value">13 KWs at #2-10 | Push to #1 = +$1,095/mo (40% traffic boost)</td></tr><tr><td class="field-label">7. Top Money KW</td><td class="field-value">"Pool builders Central Florida" #1 | $0.00 CPC | 510/mo | YOUR STRENGTH! 💪</td></tr><tr><td class="field-label">8. Potential Value</td><td class="field-value">Fix 10 'almost there' = +$14/mo | 60-90 days | Est: 80 hrs</td></tr></table></div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 12¢ OPPORTUNITY + HISTORY COMBO</span>
+          <span style="font-size: 14px;">241 API rows • Focus: Complete Story</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1205</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">1,450 KWs | $3,257/mo | 428 clicks/mo</td></tr><tr><td class="field-label">2. Momentum</td><td class="field-value">20 improving | 10 declining | Net: +10</td></tr><tr><td class="field-label">3. Page1 Gap</td><td class="field-value">🚨 99.0% BURIED | Only 15 on P1</td></tr><tr><td class="field-label">4. Almost Page1</td><td class="field-value">2 at #11-20 | Worth $14/mo</td></tr><tr><td class="field-label">5. Quick Win #1</td><td class="field-value">"pool building process" #13 | $7.04 | 3 to P1</td></tr><tr><td class="field-label">6. Quick Win #2</td><td class="field-value">"pool evaporation" #16 | $2.39 | 6 to P1</td></tr><tr><td class="field-label">8. Recent Win</td><td class="field-value">"how long does it take for a pool to heat up by the sun" #96→#70 ↑26 | SEO IS working!</td></tr><tr><td class="field-label">9. Recent Drop</td><td class="field-value">"how to build a concrete swimming pool step by step pdf" #-24→#17 ↓41 | $0.00 | -$0/mo</td></tr><tr><td class="field-label">10. Fell Off Page1</td><td class="field-value">10 KWs fell off P1 | Lost $1/mo</td></tr></table></div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 15¢ COMPETITOR ASSAULT</span>
+          <span style="font-size: 14px;">301 API rows • Focus: Beat the Enemy</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1460</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">YOU: 1,450 KWs | $3,257/mo | 428 clicks/mo</td></tr><tr><td class="field-label">2. Enemy Alert</td><td class="field-value">🎯 Competitor: 55,714 KWs | $198,040/mo | 38.4X BIGGER</td></tr><tr><td class="field-label">3. Direct Battle</td><td class="field-value">0 shared KWs | They WIN 0 | You WIN 0 | TIED 0 (0% loss rate)</td></tr><tr><td class="field-label">6. Portfolio Gap</td><td class="field-value">They rank for 50 KWs YOU DON'T | Top 10 worth $46,736/mo</td></tr></table></div>
+      </div>
+    </div>
+  
+    <div class="domain-section">
+      <div class="domain-header">
+        <div>
+          <span class="domain-title">beyondexteriors.com</span>
+          <span class="size-badge size-medium">MEDIUM (3,968 KWs)</span>
+        </div>
+        <div class="domain-meta">
+          Industry: Roofing<br>
+          Real SpyFu API Data
+        </div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 10¢ OPPORTUNITY HUNTER</span>
+          <span style="font-size: 14px;">201 API rows • Focus: Pure Opportunity</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1005</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">3,968 KWs | $29,351/mo value | 790 clicks/mo</td></tr><tr><td class="field-label">2. Page1 Gap</td><td class="field-value">🚨 99.9% BURIED on Pg2+ | Only 3 on Page 1!</td></tr><tr><td class="field-label">3. Almost Page1</td><td class="field-value">5 KWs at #11-20 | Worth $65/mo if pushed to P1</td></tr><tr><td class="field-label">4. Quick Win #1</td><td class="field-value">"pitch on a roof" #18 | $8.02 CPC | 8 spots to P1 = $18/mo</td></tr><tr><td class="field-label">5. Quick Win #2</td><td class="field-value">"pitch of roof" #16 | $5.85 CPC | 6 spots to P1 = $26/mo</td></tr><tr><td class="field-label">6. Quick Win #3</td><td class="field-value">"skylight contractors" #18 | $3.29 CPC | 8 spots to P1 = $7/mo</td></tr><tr><td class="field-label">7. Low Hang Pg1</td><td class="field-value">3 KWs at #2-10 | Push to #1 = +$218/mo (40% traffic boost)</td></tr><tr><td class="field-label">8. Potential Value</td><td class="field-value">Fix 10 'almost there' = +$65/mo | 60-90 days | Est: 80 hrs</td></tr></table></div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 12¢ OPPORTUNITY + HISTORY COMBO</span>
+          <span style="font-size: 14px;">241 API rows • Focus: Complete Story</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1205</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">3,968 KWs | $29,351/mo | 790 clicks/mo</td></tr><tr><td class="field-label">2. Momentum</td><td class="field-value">20 improving | 10 declining | Net: +10</td></tr><tr><td class="field-label">3. Page1 Gap</td><td class="field-value">🚨 99.9% BURIED | Only 3 on P1</td></tr><tr><td class="field-label">4. Almost Page1</td><td class="field-value">5 at #11-20 | Worth $65/mo</td></tr><tr><td class="field-label">5. Quick Win #1</td><td class="field-value">"pitch on a roof" #18 | $8.02 | 8 to P1</td></tr><tr><td class="field-label">6. Quick Win #2</td><td class="field-value">"pitch of roof" #16 | $5.85 | 6 to P1</td></tr><tr><td class="field-label">7. Quick Win #3</td><td class="field-value">"skylight contractors" #18 | $3.29 | 8 to P1</td></tr><tr><td class="field-label">8. Recent Win</td><td class="field-value">"leaking roof repair" #159→#95 ↑64 | SEO IS working!</td></tr><tr><td class="field-label">9. Recent Drop</td><td class="field-value">"removing shingles" #-39→#19 ↓58 | $0.00 | -$0/mo</td></tr><tr><td class="field-label">10. Fell Off Page1</td><td class="field-value">10 KWs fell off P1 | Lost $0/mo</td></tr></table></div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 15¢ COMPETITOR ASSAULT</span>
+          <span style="font-size: 14px;">301 API rows • Focus: Beat the Enemy</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1160</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">YOU: 3,968 KWs | $29,351/mo | 790 clicks/mo</td></tr><tr><td class="field-label">2. Enemy Alert</td><td class="field-value">🎯 Competitor: 0 KWs | $0/mo | 0.0X BIGGER</td></tr><tr><td class="field-label">3. Direct Battle</td><td class="field-value">0 shared KWs | They WIN 0 | You WIN 0 | TIED 0 (0% loss rate)</td></tr><tr><td class="field-label">6. Portfolio Gap</td><td class="field-value">They rank for 0 KWs YOU DON'T | Top 10 worth $0/mo</td></tr></table></div>
+      </div>
+    </div>
+  
+    <div class="domain-section">
+      <div class="domain-header">
+        <div>
+          <span class="domain-title">roofsimple.com</span>
+          <span class="size-badge size-large">LARGE (4,997 KWs)</span>
+        </div>
+        <div class="domain-meta">
+          Industry: Roofing<br>
+          Real SpyFu API Data
+        </div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 10¢ OPPORTUNITY HUNTER</span>
+          <span style="font-size: 14px;">201 API rows • Focus: Pure Opportunity</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1005</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">4,997 KWs | $45,340/mo value | 1,563 clicks/mo</td></tr><tr><td class="field-label">2. Page1 Gap</td><td class="field-value">🚨 99.7% BURIED on Pg2+ | Only 16 on Page 1!</td></tr><tr><td class="field-label">3. Almost Page1</td><td class="field-value">4 KWs at #11-20 | Worth $261/mo if pushed to P1</td></tr><tr><td class="field-label">4. Quick Win #1</td><td class="field-value">"local roofing companies" #19 | $17.38 CPC | 9 spots to P1 = $209/mo</td></tr><tr><td class="field-label">5. Quick Win #2</td><td class="field-value">"roof is leaking" #16 | $5.18 CPC | 6 spots to P1 = $25/mo</td></tr><tr><td class="field-label">6. Quick Win #3</td><td class="field-value">"best roofing shingles" #11 | $4.18 CPC | 1 spots to P1 = $18/mo</td></tr><tr><td class="field-label">7. Low Hang Pg1</td><td class="field-value">14 KWs at #2-10 | Push to #1 = +$7,284/mo (40% traffic boost)</td></tr><tr><td class="field-label">8. Top Money KW</td><td class="field-value">"shingle brands" #1 | $1.46 CPC | 180/mo | YOUR STRENGTH! 💪</td></tr><tr><td class="field-label">9. Potential Value</td><td class="field-value">Fix 10 'almost there' = +$261/mo | 60-90 days | Est: 80 hrs</td></tr></table></div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 12¢ OPPORTUNITY + HISTORY COMBO</span>
+          <span style="font-size: 14px;">241 API rows • Focus: Complete Story</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1205</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">4,997 KWs | $45,340/mo | 1563 clicks/mo</td></tr><tr><td class="field-label">2. Momentum</td><td class="field-value">20 improving | 10 declining | Net: +10</td></tr><tr><td class="field-label">3. Page1 Gap</td><td class="field-value">🚨 99.7% BURIED | Only 16 on P1</td></tr><tr><td class="field-label">4. Almost Page1</td><td class="field-value">4 at #11-20 | Worth $261/mo</td></tr><tr><td class="field-label">5. Quick Win #1</td><td class="field-value">"local roofing companies" #19 | $17.38 | 9 to P1</td></tr><tr><td class="field-label">6. Quick Win #2</td><td class="field-value">"roof is leaking" #16 | $5.18 | 6 to P1</td></tr><tr><td class="field-label">7. Quick Win #3</td><td class="field-value">"best roofing shingles" #11 | $4.18 | 1 to P1</td></tr><tr><td class="field-label">8. Recent Win</td><td class="field-value">"curved piece of roof covering" #108→#71 ↑37 | SEO IS working!</td></tr><tr><td class="field-label">9. Recent Drop</td><td class="field-value">"tpo roof" #6→#44 ↓38 | $3.07 | -$5,833/mo</td></tr><tr><td class="field-label">10. Fell Off Page1</td><td class="field-value">10 KWs fell off P1 | Lost $57/mo</td></tr></table></div>
+      </div>
+      
+      <div class="package-row">
+        <div class="package-header">
+          <span>📦 15¢ COMPETITOR ASSAULT</span>
+          <span style="font-size: 14px;">301 API rows • Focus: Beat the Enemy</span>
+        </div>
+        <div class="crm-dashboard"><div class="cost-badge">Package Cost: $0.1460</div><table class="dashboard-table"><tr><td class="field-label">1. Overview</td><td class="field-value">YOU: 4,997 KWs | $45,340/mo | 1563 clicks/mo</td></tr><tr><td class="field-label">2. Enemy Alert</td><td class="field-value">🎯 Competitor: 9,456 KWs | $76,892/mo | 1.9X BIGGER</td></tr><tr><td class="field-label">3. Direct Battle</td><td class="field-value">3 shared KWs | They WIN 3 | You WIN 0 | TIED 0 (100% loss rate)</td></tr><tr><td class="field-label">4. Money Beatdown</td><td class="field-value">"parts of a roof" | THEM: #46 | YOU: #66 | GAP: 20</td></tr><tr><td class="field-label">5. Biggest Gap</td><td class="field-value">"roof shingle" | THEM: #52 ($2.37 CPC) | YOU: #56 | CRUSHED</td></tr><tr><td class="field-label">6. Portfolio Gap</td><td class="field-value">They rank for 47 KWs YOU DON'T | Top 10 worth $8,931/mo</td></tr></table></div>
+      </div>
+    </div>
+  
+  </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+═══════════════════════════════════════════════════════════════
+DOMAIN STATS - 10 DOMAINS
+API: getLatestDomainStats
+═══════════════════════════════════════════════════════════════
+
+salemplasticsurgery.com | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 1878
+  Monthly Organic Value: $15950.00
+  Monthly Organic Clicks: 1442
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+aestheticinstitute.ie | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 445
+  Monthly Organic Value: $1279.00
+  Monthly Organic Clicks: 35
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+coppellwellness.com | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 30
+  Monthly Organic Value: $70.06
+  Monthly Organic Clicks: 118
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+healthwestchiro.com | 0 API Rows | $0.0000 API Cost
+  (No data returned)
+
+100percentdoc.com | 0 API Rows | $0.0000 API Cost
+  (No data returned)
+
+axiominjury.com | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 67
+  Monthly Organic Value: $718.10
+  Monthly Organic Clicks: 13
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+houstonbackandneck.com | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 11
+  Monthly Organic Value: $88.25
+  Monthly Organic Clicks: 1
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+alignwc.com | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 4715
+  Monthly Organic Value: $12240.00
+  Monthly Organic Clicks: 2745
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+infinityspine.com | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 23
+  Monthly Organic Value: $32.90
+  Monthly Organic Clicks: 1
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+painreliefkc.com | 1 API Rows | $0.0005 API Cost
+  Total Organic Keywords: 392
+  Monthly Organic Value: $2639.00
+  Monthly Organic Clicks: 166
+  Total Paid Keywords: 0
+  Monthly PPC Budget: $0.00
+  Monthly PPC Clicks: 0
+  Organic Rank: N/A
+  Paid Rank: N/A
+  Organic Competitors: 0
+  Paid Competitors: 0
+
+═══════════════════════════════════════════════════════════════
+TOTAL API COST: $0.0040 for 10 domains
+═══════════════════════════════════════════════════════════════

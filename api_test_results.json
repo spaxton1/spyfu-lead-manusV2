@@ -1,0 +1,61 @@
+{
+  "testDomain": "salemplasticsurgery.com",
+  "testDate": "2025-10-22",
+  "results": [
+    {
+      "category": "Domain Stats API",
+      "endpoint": "getAllDomainStats",
+      "path": "/apis/domain_stats_api/v2/getAllDomainStats",
+      "status": "✅ Working",
+      "rows": 209,
+      "cost": 0.1045,
+      "callCenterValue": "⭐⭐⭐ Medium",
+      "notes": "Historical time-series data, cannot filter dates"
+    },
+    {
+      "category": "Domain Stats API",
+      "endpoint": "getLatestDomainStats",
+      "path": "/apis/domain_stats_api/v2/getLatestDomainStats",
+      "status": "✅ Working",
+      "rows": 1,
+      "cost": 0.0005,
+      "callCenterValue": "⭐⭐⭐⭐⭐ EXCELLENT - RECOMMENDED",
+      "notes": "Current month only - CHEAPEST option!"
+    },
+    {
+      "category": "Ad History API",
+      "endpoint": "getDomainAdHistory",
+      "path": "/apis/cloud_ad_history_api/v2/domain/getDomainAdHistory",
+      "status": "✅ Working (No PPC for this domain)",
+      "rows": 0,
+      "cost": 0.0000,
+      "callCenterValue": "⭐ Low",
+      "notes": "Domain has no PPC history"
+    },
+    {
+      "category": "SEO Research API",
+      "endpoint": "getMostValuableKeywords",
+      "path": "/apis/serp_api/v2/seo/getMostValuableKeywords",
+      "status": "✅ Working",
+      "rows": 10,
+      "cost": 0.0050,
+      "callCenterValue": "⭐⭐⭐⭐⭐ EXCELLENT",
+      "notes": "Shows highest value keywords - great for cold calling!"
+    },
+    {
+      "category": "SEO Research API",
+      "endpoint": "getNewlyRankedKeywords",
+      "path": "/apis/serp_api/v2/seo/getNewlyRankedKeywords",
+      "status": "✅ Working",
+      "rows": 10,
+      "cost": 0.0050,
+      "callCenterValue": "⭐⭐⭐⭐ Good",
+      "notes": "New rankings - shows recent SEO momentum"
+    }
+  ],
+  "summary": {
+    "totalTested": 5,
+    "working": 5,
+    "totalCost": 0.1150
+  }
+}

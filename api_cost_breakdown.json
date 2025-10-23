@@ -1,0 +1,102 @@
+[
+  {
+    "domain": "salemplasticsurgery.com",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.1165",
+    "fellOffApiCost": "0.0225",
+    "totalApiCost": "0.1395",
+    "totalKeywords": 1878,
+    "top10KeywordCount": 233,
+    "fellOffKeywordCount": 45
+  },
+  {
+    "domain": "aestheticinstitute.ie",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.0140",
+    "fellOffApiCost": "0.0010",
+    "totalApiCost": "0.0155",
+    "totalKeywords": 445,
+    "top10KeywordCount": 28,
+    "fellOffKeywordCount": 2
+  },
+  {
+    "domain": "coppellwellness.com",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.0010",
+    "fellOffApiCost": "0.0000",
+    "totalApiCost": "0.0015",
+    "totalKeywords": 30,
+    "top10KeywordCount": 2,
+    "fellOffKeywordCount": 0
+  },
+  {
+    "domain": "healthwestchiro.com",
+    "domainStatsApiCost": "0.0000",
+    "keywordsApiCost": "0.0000",
+    "fellOffApiCost": "0.0000",
+    "totalApiCost": "0.0000",
+    "totalKeywords": 0,
+    "top10KeywordCount": 0,
+    "fellOffKeywordCount": 0
+  },
+  {
+    "domain": "100percentdoc.com",
+    "domainStatsApiCost": "0.0000",
+    "keywordsApiCost": "0.0000",
+    "fellOffApiCost": "0.0000",
+    "totalApiCost": "0.0000",
+    "totalKeywords": 0,
+    "top10KeywordCount": 0,
+    "fellOffKeywordCount": 0
+  },
+  {
+    "domain": "axiominjury.com",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.0010",
+    "fellOffApiCost": "0.0005",
+    "totalApiCost": "0.0020",
+    "totalKeywords": 67,
+    "top10KeywordCount": 2,
+    "fellOffKeywordCount": 1
+  },
+  {
+    "domain": "houstonbackandneck.com",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.0000",
+    "fellOffApiCost": "0.0000",
+    "totalApiCost": "0.0005",
+    "totalKeywords": 11,
+    "top10KeywordCount": 0,
+    "fellOffKeywordCount": 0
+  },
+  {
+    "domain": "alignwc.com",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.2675",
+    "fellOffApiCost": "0.0445",
+    "totalApiCost": "0.3125",
+    "totalKeywords": 4715,
+    "top10KeywordCount": 535,
+    "fellOffKeywordCount": 89
+  },
+  {
+    "domain": "infinityspine.com",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.0000",
+    "fellOffApiCost": "0.0000",
+    "totalApiCost": "0.0005",
+    "totalKeywords": 23,
+    "top10KeywordCount": 0,
+    "fellOffKeywordCount": 0
+  },
+  {
+    "domain": "painreliefkc.com",
+    "domainStatsApiCost": "0.0005",
+    "keywordsApiCost": "0.0075",
+    "fellOffApiCost": "0.0020",
+    "totalApiCost": "0.0100",
+    "totalKeywords": 392,
+    "top10KeywordCount": 15,
+    "fellOffKeywordCount": 4
+  }
+]

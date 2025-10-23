@@ -1,0 +1,306 @@
+================================================================================
+SPYFU API ENDPOINT TESTING
+================================================================================
+
+
+================================================================================
+TESTING DOMAIN: VIRIDISENERGY.COM (SMALL)
+================================================================================
+
+--- Testing: getLiveSeoStats ---
+Path: /live_seo_stats
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getSeoKeywords ---
+Path: /seo_keywords
+Params: {"pageSize":200}
+Status: FAILED
+Error: 404
+
+--- Testing: getGainedRanksKeywords ---
+Path: /gained_ranks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getLostRanksKeywords ---
+Path: /lost_ranks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getGainedClicksKeywords ---
+Path: /gained_clicks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getLostClicksKeywords ---
+Path: /lost_clicks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getNewlyRankedKeywords ---
+Path: /newly_ranked_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getJustFellOffKeywords ---
+Path: /just_fell_off_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getTopSeoCompetitors ---
+Path: /top_seo_competitors
+Params: {"pageSize":10}
+Status: FAILED
+Error: 404
+
+--- Testing: getCompetingSeoKeywords ---
+Path: /competing_seo_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getRelatedKeywords ---
+Path: /related_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getTransactionalKeywords ---
+Path: /transactional_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getOrganic ---
+Path: /organic
+Params: {"pageSize":200}
+Status: FAILED
+Error: 404
+
+--- Testing: getDomainStats ---
+Path: /domain_stats
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getSeoClicks ---
+Path: /seo_clicks
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getKeywordRankHistory ---
+Path: /keyword_rank_history
+Params: {}
+Status: FAILED
+Error: 404
+
+
+================================================================================
+TESTING DOMAIN: POOLSBYBRADLEY.COM (MEDIUM)
+================================================================================
+
+--- Testing: getLiveSeoStats ---
+Path: /live_seo_stats
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getSeoKeywords ---
+Path: /seo_keywords
+Params: {"pageSize":200}
+Status: FAILED
+Error: 404
+
+--- Testing: getGainedRanksKeywords ---
+Path: /gained_ranks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getLostRanksKeywords ---
+Path: /lost_ranks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getGainedClicksKeywords ---
+Path: /gained_clicks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getLostClicksKeywords ---
+Path: /lost_clicks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getNewlyRankedKeywords ---
+Path: /newly_ranked_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getJustFellOffKeywords ---
+Path: /just_fell_off_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getTopSeoCompetitors ---
+Path: /top_seo_competitors
+Params: {"pageSize":10}
+Status: FAILED
+Error: 404
+
+--- Testing: getCompetingSeoKeywords ---
+Path: /competing_seo_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getRelatedKeywords ---
+Path: /related_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getTransactionalKeywords ---
+Path: /transactional_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getOrganic ---
+Path: /organic
+Params: {"pageSize":200}
+Status: FAILED
+Error: 404
+
+--- Testing: getDomainStats ---
+Path: /domain_stats
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getSeoClicks ---
+Path: /seo_clicks
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getKeywordRankHistory ---
+Path: /keyword_rank_history
+Params: {}
+Status: FAILED
+Error: 404
+
+
+================================================================================
+TESTING DOMAIN: NEWERASOLARENERGY.COM (LARGE)
+================================================================================
+
+--- Testing: getLiveSeoStats ---
+Path: /live_seo_stats
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getSeoKeywords ---
+Path: /seo_keywords
+Params: {"pageSize":200}
+Status: FAILED
+Error: 404
+
+--- Testing: getGainedRanksKeywords ---
+Path: /gained_ranks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getLostRanksKeywords ---
+Path: /lost_ranks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getGainedClicksKeywords ---
+Path: /gained_clicks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getLostClicksKeywords ---
+Path: /lost_clicks_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getNewlyRankedKeywords ---
+Path: /newly_ranked_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getJustFellOffKeywords ---
+Path: /just_fell_off_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getTopSeoCompetitors ---
+Path: /top_seo_competitors
+Params: {"pageSize":10}
+Status: FAILED
+Error: 404
+
+--- Testing: getCompetingSeoKeywords ---
+Path: /competing_seo_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getRelatedKeywords ---
+Path: /related_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getTransactionalKeywords ---
+Path: /transactional_keywords
+Params: {"pageSize":50}
+Status: FAILED
+Error: 404
+
+--- Testing: getOrganic ---
+Path: /organic
+Params: {"pageSize":200}
+Status: FAILED
+Error: 404
+
+--- Testing: getDomainStats ---
+Path: /domain_stats
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getSeoClicks ---
+Path: /seo_clicks
+Params: {}
+Status: FAILED
+Error: 404
+
+--- Testing: getKeywordRankHistory ---
+Path: /keyword_rank_history
+Params: {}
+Status: FAILED
+Error: 404

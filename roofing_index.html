@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpyFu Roofing Company Analysis - REAL DATA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 50px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.95);
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            color: #4a5568;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .main-card {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.8em;
+            color: #2d3748;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .domains-grid {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .domain-card {
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            border-radius: 12px;
+            padding: 25px;
+            border-left: 5px solid #667eea;
+        }
+        
+        .domain-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .domain-name {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #2d3748;
+        }
+        
+        .size-badge {
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.85em;
+            text-transform: uppercase;
+        }
+        
+        .size-small { background: #48bb78; color: white; }
+        .size-medium { background: #ed8936; color: white; }
+        .size-large { background: #e53e3e; color: white; }
+        
+        .domain-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .domain-stat {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .domain-stat-value {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .domain-stat-label {
+            font-size: 0.8em;
+            color: #718096;
+            margin-top: 5px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 18px 40px;
+            border-radius: 30px;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-align: center;
+            display: block;
+            max-width: 400px;
+            margin: 30px auto 0;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+        
+        .features-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+        
+        .features-list li {
+            padding: 12px 0;
+            padding-left: 30px;
+            position: relative;
+            color: #4a5568;
+            font-size: 1.05em;
+        }
+        
+        .features-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #48bb78;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        .footer {
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏗️ SpyFu Roofing Company Analysis</h1>
+            <p class="subtitle">Real API Data from 3 Actual Roofing Companies</p>
+            <p class="subtitle">All 4 Package Tiers (10¢, 11¢, 12¢, 15¢) | Generated October 21, 2025</p>
+        </header>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Dashboards</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">45</div>
+                <div class="stat-label">API Calls</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">$0.08</div>
+                <div class="stat-label">Total Cost</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Companies</div>
+            </div>
+        </div>
+        
+        <div class="main-card">
+            <h2 class="section-title">📊 Test Domains</h2>
+            
+            <div class="domains-grid">
+                <div class="domain-card">
+                    <div class="domain-header">
+                        <div class="domain-name">latite.com</div>
+                        <span class="size-badge size-small">SMALL</span>
+                    </div>
+                    <div class="domain-stats">
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">1,337</div>
+                            <div class="domain-stat-label">Keywords</div>
+                        </div>
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">679</div>
+                            <div class="domain-stat-label">Clicks/Mo</div>
+                        </div>
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">$13,965</div>
+                            <div class="domain-stat-label">Value/Mo</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="domain-card">
+                    <div class="domain-header">
+                        <div class="domain-name">metalroofingsource.com</div>
+                        <span class="size-badge size-medium">MEDIUM</span>
+                    </div>
+                    <div class="domain-stats">
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">7,284</div>
+                            <div class="domain-stat-label">Keywords</div>
+                        </div>
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">3,859</div>
+                            <div class="domain-stat-label">Clicks/Mo</div>
+                        </div>
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">$38,962</div>
+                            <div class="domain-stat-label">Value/Mo</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="domain-card">
+                    <div class="domain-header">
+                        <div class="domain-name">billraganroofing.com</div>
+                        <span class="size-badge size-large">LARGE</span>
+                    </div>
+                    <div class="domain-stats">
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">47,139</div>
+                            <div class="domain-stat-label">Keywords</div>
+                        </div>
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">47,778</div>
+                            <div class="domain-stat-label">Clicks/Mo</div>
+                        </div>
+                        <div class="domain-stat">
+                            <div class="domain-stat-value">$305,259</div>
+                            <div class="domain-stat-label">Value/Mo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h2 class="section-title">📦 What's Included</h2>
+            
+            <ul class="features-list">
+                <li><strong>10¢ Opportunity Hunter</strong> - Almost Page 1 keywords, Quick Wins, Page1 Gap analysis</li>
+                <li><strong>11¢ History Tracker</strong> - Lost/Gained keywords over 2 years, trend analysis</li>
+                <li><strong>12¢ Combo Package</strong> - Complete picture with opportunity + history + valuable keywords</li>
+                <li><strong>15¢ Competitor Assault</strong> - Competitive intelligence and battle analysis</li>
+                <li>Real CRM field mockups in ReadyMode 2-column format</li>
+                <li>Above-fold and below-fold data organization</li>
+                <li>Print-ready dashboards for sales agents</li>
+                <li>Real examples with actual CPCs, rankings, and potential value</li>
+            </ul>
+            
+            <a href="ROOFING_DASHBOARDS_COMPLETE.html" class="cta-button">
+                📊 View All 12 Dashboards
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p>Generated with SpyFu API v2 | 45 real API calls | $0.08 total cost</p>
+            <p>Data collected: October 21, 2025</p>
+        </div>
+    </div>
+</body>
+</html>

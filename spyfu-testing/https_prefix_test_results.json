@@ -1,0 +1,46 @@
+{
+  "viridisenergy.com": {
+    "getDomainCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error",
+      "rawData": "",
+      "useHttpsPrefix": true
+    },
+    "getSeoCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error",
+      "rawData": "",
+      "useHttpsPrefix": true
+    },
+    "getPaidKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error",
+      "rawData": "",
+      "useHttpsPrefix": true
+    },
+    "getAdHistory": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error",
+      "rawData": "",
+      "useHttpsPrefix": true
+    },
+    "getBuyingKeywords": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error",
+      "rawData": "",
+      "useHttpsPrefix": true
+    },
+    "getPaidCompetitors": {
+      "success": false,
+      "statusCode": 404,
+      "error": "JSON parse error",
+      "rawData": "",
+      "useHttpsPrefix": true
+    }
+  }
+}

@@ -1,0 +1,1124 @@
+{
+  "small": {
+    "A1": {
+      "modelKey": "A1",
+      "modelName": "GROUP A1: 10¢ BASIC",
+      "domain": "viridisenergy.com",
+      "targetCost": 0.1,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-949d88efd8ba99979292c0ce0becb6ed-4a3f8a85290f3eba-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-758994f25395e130a9949fc023cee612-11361840451de6be-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-5cd66e86521c24f7ad74187fa650489d-c9725ab182a38e4b-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-11eee3c5371030a8892b5c95e0f4c4da-64416caae5b95558-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-062c12f67a790fda2637455d23537b3f-c0792b1c8834d363-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A2": {
+      "modelKey": "A2",
+      "modelName": "GROUP A2: 12¢ COMPETITOR ASSAULT",
+      "domain": "viridisenergy.com",
+      "targetCost": 0.12,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-86769012c512576501702fb9dc26755b-e8fa1fc8eccb27c0-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Top competitor overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-11c565543113b7e239d67bd55064c2c2-4c0f826377f60c38-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-6b2080ac0ee556b81e2d6915a8bed0af-c9b6db6bc7cc79ed-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-9ee9dc8340d1fdffc48405bb3619e8de-cd9fd74a6466ee80-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-869ef155da5041b7d58387b811e766ed-3bb99732d981e601-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-c9128c22f1c1d99218e65b37c6bf49b5-169096ad29181a28-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-98be9f596d9b63c60ab5fdb28d930e6a-0cfeb904976d82aa-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A3": {
+      "modelKey": "A3",
+      "modelName": "GROUP A3: 15¢ INTELLIGENCE",
+      "domain": "viridisenergy.com",
+      "targetCost": 0.15,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-5e92ae74720ae7741d74a4852dbcbacb-57627499102acef3-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-b5c13c118ea13ae02b6a7d4abf7c01db-9943bc58ec43f1d8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-7301f5cf8e8378c2d5fbc8b59f0a3cc3-352531b6e39a5352-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 2 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2cceca49f3dbbe7387982feedc43a35d-46f37271f4f63ccd-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-0d57fc8da12a0fda87faab1ad18be457-abef847c5770b9e5-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-5cb788174617d28a61b9915792792bcd-4b073edb81220a72-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-0fa7ff39f55b18aa1e9f2a2702c68fd6-e3c65e276077298c-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-23ae3409865ea42c1e34e25be03e5678-5fa330b6cf45ad61-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A4": {
+      "modelKey": "A4",
+      "modelName": "GROUP A4: 20¢ DOMINATION",
+      "domain": "viridisenergy.com",
+      "targetCost": 0.2,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-6f2af2c7a560cb44d0c6c88c84ca6256-6420158e6112f783-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-789199604baceca5932ee5b94f55012d-186159e8cba1a08e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e7fc2e51e2b5b9ab33ec91445e2cd0d7-2374b9c05469b89e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 2 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2788ad1d6e510927ec7ef807b0a349bb-9cb77df54c91b30f-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 3 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-7d2373197082b95adbe7a93fb542e81b-b34ab59be99a8b09-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-0b35b72de721be50acdf1fdefc3ad050-1a53fe6d0acc9a08-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-b5ee230cd1d164bd3f56371a6d81011a-85c55c811fa0dc52-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Comp1 improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-d9c980d1b5bdfb182058b436697c7052-d4ac7d752d5c67eb-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-1f772db30a9bf22af7ba2e82a0022b22-df9750416bd4fd2d-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-24487c3e17104731b5d05755f1adf95d-bb2980a883bef4e4-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Your fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-d9900dd59c217a0369251c91e5bce2dc-03dd401f2a02642e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B1": {
+      "modelKey": "B1",
+      "modelName": "GROUP B1: 12¢ MOMENTUM TRACKER",
+      "domain": "viridisenergy.com",
+      "targetCost": 0.12,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Current overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-01af89ce9de0c5ca60d1085f90deffe9-3d27aaffdc8d95f5-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Current state",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-66a09cf2129033ab0be549b57ba49d26-b058e442371a4f1b-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-cfbc1ecca4e30e0a43a04ced2f2c1386-fbcfd538270f356d-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-d1deb55e01def1e6da8fe773b4a5254d-d81db4bc716a5030-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "New entries",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-cd99437ca2e4d6e19588d760d37006f4-598e069a1180f2e4-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e4eb9ea88c9cb97c0cb63b40d73f6c77-fafa415ad63f8166-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B2": {
+      "modelKey": "B2",
+      "modelName": "GROUP B2: 15¢ TREND ANALYZER",
+      "domain": "viridisenergy.com",
+      "targetCost": 0.15,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Current state",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-3893640ac5f78d01226e7081c009287d-c9add597ad699e2c-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Current keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f21cd45185939fa5e3c34a97cb0eacba-817e0a820eb89a40-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2258b7c2b97d0a2ecd7a3bfad61bf091-66c7103deaea835b-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-614436e2d32b6545414e192523c2d389-2b950b3a902abc4c-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "New entries",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2f079371573816f16df3d2c8cc38f7c5-c44d43140e278f9a-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2a9ca71c1633ecf26e916156873891e1-a66b0e68e843cd47-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Almost There zone #11-16",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-459009353ce01346bc3b0880a00e850e-dee4fe307d9de7b3-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B3": {
+      "modelKey": "B3",
+      "modelName": "GROUP B3: 20¢ HISTORICAL BATTLEFIELD",
+      "domain": "viridisenergy.com",
+      "targetCost": 0.2,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your current",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-53bc66edd9d280611af12e0d5494a314-5fdf0a8f089a0503-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2b728ee3c628a467e49211c298cc50c0-3def543f9b6fca5a-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Comp1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f424ef556302188761e58ecb5f41220a-4a0f8c0cc9ee6ed4-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-0d1ec4e0a157ca35004a0a2fe7a6afe4-37f83b44ba2b933f-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-6a109b952d8897945820290f9abd1346-4429f89e10f3f1a6-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Comp1 improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-ee0e373863550fa8533c1894d05aca90-500ddb7e8ad3718a-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-590e3524518bfbeccf4dc521aa7a8abf-ab8a57272444dae7-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-106ee1f99e57bfa8466e0b943313af14-c4b256ec05430936-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    }
+  },
+  "medium": {
+    "A1": {
+      "modelKey": "A1",
+      "modelName": "GROUP A1: 10¢ BASIC",
+      "domain": "poolsbybradley.com",
+      "targetCost": 0.1,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-3dac6d6af5bd821c18eb8ec5b828b885-99b2f564612a0317-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e63f9b79454423065d8605a90a17de54-e2edce61c0b8b034-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-59ee0577c8cdc58f9ed8fc5e1bd02176-821b0c9557d22b14-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-7b3cab36370f516c45b7b5307157a043-6db7b592b2662314-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-c2999aef49ce65a1c3f1f483ca8caedb-d235fc1b84e2a215-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A2": {
+      "modelKey": "A2",
+      "modelName": "GROUP A2: 12¢ COMPETITOR ASSAULT",
+      "domain": "poolsbybradley.com",
+      "targetCost": 0.12,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-c408d024cf217bd61d44069f33d35452-b4300b8bfcd847a3-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Top competitor overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-60476021aa66cbac6849fa3fb4a685c0-fcb2cd0443ba7633-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e39da3ebabea7c308dfee7bd75bfbc9f-5c6aa28ecc3e586a-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-1c4e56d67e050fdd2773f7056621081a-524266608ed1f164-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-dac40a2e74f808d960d399afbbc0b43e-cfd550e7da60021d-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-6bb07de2635756845b871a543cf9232c-b059fb2dcd9bcdad-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-04fa89387c496c5d39d6527ae4985982-aff6287ec867da6c-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A3": {
+      "modelKey": "A3",
+      "modelName": "GROUP A3: 15¢ INTELLIGENCE",
+      "domain": "poolsbybradley.com",
+      "targetCost": 0.15,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-5be05b758462c1cbe31e4ac61595be46-9a872dbdaa397b3b-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-7355bb153442f4bd854bdde23e5e221f-bbd7484f431527bf-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-a1078509547cf1c371b4834ddbf9d0a0-22ff057bd8ba9d9e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 2 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-914af3c81f10729eb1d9029ca880fb57-b2164ff91abe20d8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2f5a7544b1fd29414a5e28db40b16771-5f8b4659174c9bc2-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-a1b7bb072d278bb1295a944af9e8f7d4-5b44379372774ee7-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e82aec5d56aa4a2d11776d195679112a-e9a98cd03a610d1c-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-79509a549e59d4dc9c21b484ed8d388c-2f88778c1b103dc1-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A4": {
+      "modelKey": "A4",
+      "modelName": "GROUP A4: 20¢ DOMINATION",
+      "domain": "poolsbybradley.com",
+      "targetCost": 0.2,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-61056aa67b43ea5b95ead8a59cebefc6-5ce9240a60a9cf07-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-0f3b0473a34cc5e7c4888a0c278ab3d2-8e6fd179ffc1cb03-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-53a76d151e9184c91ffe198872149efd-d4dba33097968e88-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 2 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-1dd1d8ea0c88239036289d522e5cba90-b120edef7d730031-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 3 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-34a5a3fb753af81b5ed1a7e94256d6ad-3b3245a8bf025824-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-de565657ed0859068c1fe371030f50d5-093854583c5927eb-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-648bf3a163b0b3bc7ae5cee916e08f87-e5e10997ab617244-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Comp1 improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-cea1791fb06c35af88ecbc030ab2e5d4-46922c359df9cbfd-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-1092156fe324c36026829342fbfb0704-70cb0be3c570cfd7-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-8a61358a859b77421c9c2716de25c38f-f7d694872ccecbdf-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Your fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-64be06048565ca48e6f208eb35e9ff5c-c397209b98346ade-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B1": {
+      "modelKey": "B1",
+      "modelName": "GROUP B1: 12¢ MOMENTUM TRACKER",
+      "domain": "poolsbybradley.com",
+      "targetCost": 0.12,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Current overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-c80fd86688f34129e51ca7c601785b1f-c1a5ce2139b301b6-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Current state",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-66d5298e68856c0b90e377e64d40f5f0-b14d53801e3f2bfe-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f341385e422c250a51cc0b5cb067650d-c669aa20ec361849-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-123056f31fa4bac1254515bab2431a4a-fcddd43746ad25da-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "New entries",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-700f2da9dc8caf512bbc8b768921d9b1-afc80eb55b578c34-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-551ab6dbd5696a7dc6e09fddccb2b2b3-097282f0ebfca7b8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B2": {
+      "modelKey": "B2",
+      "modelName": "GROUP B2: 15¢ TREND ANALYZER",
+      "domain": "poolsbybradley.com",
+      "targetCost": 0.15,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Current state",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-dc5f6551340dff38db4afe002e4a7044-87e958fdbb8e1376-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Current keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-401aa0305621c8c8a88df98873434af9-2b864d9acf05340e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-49b67d2b909842a86b40dc7006debebe-c9d39f9fb9da7232-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-483472afa08b764e4e9715669bb08cbd-361fa328d1d7bd1f-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "New entries",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-4a880ca65811afb3a97ed9abefba9070-a9fff626ece30797-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-42e13df02eace8b3d0b6164bb88c0104-569fd39ee8057d0e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Almost There zone #11-16",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-ebd04876a45341567d79fbde749e514d-93592918a447009e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B3": {
+      "modelKey": "B3",
+      "modelName": "GROUP B3: 20¢ HISTORICAL BATTLEFIELD",
+      "domain": "poolsbybradley.com",
+      "targetCost": 0.2,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your current",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-9e674d001ef6fa093acaa5f77fa6a1ed-840af1976b71ecb4-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-016ef72d6d22e8ff7b021e683ef4f6e5-72bf0c2bc69d3888-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Comp1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e9bbe001d3dff83134fa6b3ffe93afe3-187c67ca9a2e7b21-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-bad9f00c4859678154df4446862d4e24-3455c7010b4c5f5d-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-df36088c66a4b9e64312a0931acf6943-1b3bb18cbec535c8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Comp1 improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-ad42d66f30de4209c7b7c3c790c03bd8-1854ed915a3a97ee-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-01caf5115764b660582cb927e18be2a5-5e8582a0b5b079a3-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-d24e08125453d7ba51429edba0587929-6a28451d08979b8e-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    }
+  },
+  "enterprise": {
+    "A1": {
+      "modelKey": "A1",
+      "modelName": "GROUP A1: 10¢ BASIC",
+      "domain": "skyscanner.com",
+      "targetCost": 0.1,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-6fab1178cafa80d17e5216522e655d5f-91a2940865edba70-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e9812b32dd97e4f2d35a108b3c10f859-924dc046bdd84892-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-77281093a59be97469083361863b6fc7-5270a02eeba1f8a8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f497167a4be0732fabd93ce5c86318b7-36aa906353201bb8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-4fd38e591d2d61e5827a4d8acaa04fe6-7b3dc0fe77c9aee2-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A2": {
+      "modelKey": "A2",
+      "modelName": "GROUP A2: 12¢ COMPETITOR ASSAULT",
+      "domain": "skyscanner.com",
+      "targetCost": 0.12,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-555efcba8331b8793bc2075c3c7160b0-f83fba32de315cca-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Top competitor overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-7b058d0fc8daa9d7d005f7a3673957bb-0ca119f8a0b1b763-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e048d21992bbc4a9b5306b26613a9b89-c2348aee2e39bb94-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-a29d53207c794b6248e1103276bfd180-6dfb157ad5c38e88-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-e5cbd22333e4f1bca12d97b3a489bae2-4cbf29c2f412f74f-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-faad3baa04b728dcdb2aff21e3474c0a-7b06bcb56588c0cc-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-36c1634a98e8aff7d2549499b9ec51c6-a38df7915ab505aa-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A3": {
+      "modelKey": "A3",
+      "modelName": "GROUP A3: 15¢ INTELLIGENCE",
+      "domain": "skyscanner.com",
+      "targetCost": 0.15,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-60f1f7f6ddf00f74e5b668a1f358a822-ea91627d2b089ed2-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-a79efdb513766e0cdc7f68f8e58cdff1-c656c82783524d4b-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-89c2e0f2454ebf0dd4e635638f92fc9b-b570638d501d4f17-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 2 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f56b820bc16e62498c64a98a51c50e95-786cdf805bee14db-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-fd85635ff05f897615a113ac7ae29ab8-fd0b02d2a85133cb-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-1e973a3f847801627ec2ca8fefae76e1-7e8fa035aea10432-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-6cf3fe9041e2baae62115ce8db6ce314-d3c4931cc63cc563-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-cb1ef76ab0a5b80b2ecd2d19d16f51c1-76499570042a6be3-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "A4": {
+      "modelKey": "A4",
+      "modelName": "GROUP A4: 20¢ DOMINATION",
+      "domain": "skyscanner.com",
+      "targetCost": 0.2,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-0c281da7849b96f9d676aaedeeea444a-b9686881973c102b-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your valuable keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-1816e5c2c3befdd9ff2365d0be8780b0-b488a9bad92f2a8f-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-851956520b1b3546316cce500fea103c-34f094dbe9b3f0c4-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 2 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-006456847fe1465a48c0476dc253ca9c-2cdf70587b3e2f4f-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Competitor 3 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-78f6e3979732442daa87f709ea0054f4-c43298cf10d020c4-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-dbfc8bc9cdfce6c9b4063118fb930f3e-2357e195bfc37fe8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-8c110a079185808bb5dd69a54b7763f4-43afd8ed35c94d67-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Comp1 improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-d2467dccecbcd533acbd715953e5e874-ef1d8a52dcf46156-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f55a29cb762d1f91dc1fc9da96dc5bc8-a99302a4cbe4b521-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new rankings",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f96f458e366adc0cd51737a49d8a36e5-e6baa274fed03c36-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Your fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-741cbd3df02114311bfc15ac32eac506-9468329e220f43c7-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B1": {
+      "modelKey": "B1",
+      "modelName": "GROUP B1: 12¢ MOMENTUM TRACKER",
+      "domain": "skyscanner.com",
+      "targetCost": 0.12,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Current overview",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-96d74c372b3ea85445c257a182272ea0-cb14f19de42fbe2a-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Current state",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-c18dfb851feeaa97d1ba44ec442894fb-ea9b291d06ef3f88-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-3cef8386306f2d23861c98f9cf1c6e7d-213a8ead488f4410-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-6a505e86b1fa30417b121af27ed35aa8-7ed431b446f0ff6b-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "New entries",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-76c984d7af501867aec6487985ddde7d-b3d6979224e715c1-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-09b79f675f6d95d0707d168d193ba7a5-0f911990d5a3936d-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B2": {
+      "modelKey": "B2",
+      "modelName": "GROUP B2: 15¢ TREND ANALYZER",
+      "domain": "skyscanner.com",
+      "targetCost": 0.15,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Current state",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-93d4b1e8124fe9b2d4542a89d54c5a21-a79b185e856b3ccf-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Current keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-94ccb2784d2dd47b3d5ca3f19cca091a-a9e402baead3da91-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Improvements last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f859e881efd7975609be0cae50225d8d-86aff139573de3dc-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Drops last 30d",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-b97c325ce0a0d01c5c7cdc3661ad876d-ad62d3370792efec-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "New entries",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-3ffcbffab145442bc4f8b2d210a4ea7c-6b62bc6a73e9cc26-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getJustFellOffKeywords",
+          "description": "Fell off page 1",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-cc765440b6e88cced51a10c4efb6797d-0d5c3fea74d72d0c-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Almost There zone #11-16",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2e9bb60af33e42697bf744cd0072a3f7-76a89906feb513f6-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    },
+    "B3": {
+      "modelKey": "B3",
+      "modelName": "GROUP B3: 20¢ HISTORICAL BATTLEFIELD",
+      "domain": "skyscanner.com",
+      "targetCost": 0.2,
+      "actualCost": 0,
+      "totalRows": 0,
+      "calls": [],
+      "sampleData": {},
+      "errors": [
+        {
+          "endpoint": "getLiveSeoStats",
+          "description": "Your current",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-5016ccf730baaf258cb8ab7640d77d3a-986a49fc7e80bd56-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be null\"]}}"
+        },
+        {
+          "endpoint": "getMostValuableKeywords",
+          "description": "Your keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-f0801e738cd61854671e3b91f39316c0-f7c0be24bc31fae3-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getSeoKeywords",
+          "description": "Comp1 keywords",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-7c49f614bb70a72da691bc679637de6f-fa3c56542c648517-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Your improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-574239f86b5a36fde72e9695ab27694d-6f2f6d543fe578b2-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Your drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-c3d8838c013d2839e5cd6aa40e718a33-1d7fa437f34b46af-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getLostRanksKeywords",
+          "description": "Comp1 improvements",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-2038e873b5962321ebfb172ea2fbd857-e0c954c8585709c8-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getGainedRanksKeywords",
+          "description": "Comp1 drops",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-b6f59eaeef6522a064364b6200cd0787-a178fb4c86f88446-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        },
+        {
+          "endpoint": "getNewlyRankedKeywords",
+          "description": "Your new",
+          "error": "HTTP 400: {\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"traceId\":\"00-7bb04fa66993927f39696f9c9ed7e795-a7930835c592036d-00\",\"errors\":{\"Query\":[\"The Query field is required.\",\"Query cannot be empty\",\"Query cannot be empty\"]}}"
+        }
+      ],
+      "crmFields": {
+        "1_Domain_Overview": "0 KWs | 0 clicks/mo | $0 value",
+        "5_Momentum": "0 improving | 0 declining | NET: +0"
+      }
+    }
+  }
+}

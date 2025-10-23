@@ -1,0 +1,115 @@
+═══════════════════════════════════════════════════════════════
+TRUE FELL-OFF KEYWORDS - WAS PAGE 1 (1-10), NOW PAGE 2+ (11+)
+Using getJustFellOffKeywords API with filtering
+═══════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: salemplasticsurgery.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 45 keywords analyzed | 0 TRUE fell-off | $0.0225 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   45 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: aestheticinstitute.ie
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 2 keywords analyzed | 0 TRUE fell-off | $0.0010 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   2 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: coppellwellness.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords analyzed | 0 TRUE fell-off | $0.0000 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   0 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: healthwestchiro.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords analyzed | 0 TRUE fell-off | $0.0000 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   0 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: 100percentdoc.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords analyzed | 0 TRUE fell-off | $0.0000 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   0 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: axiominjury.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 1 keywords analyzed | 0 TRUE fell-off | $0.0005 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   1 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: houstonbackandneck.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords analyzed | 0 TRUE fell-off | $0.0000 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   0 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: alignwc.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 89 keywords analyzed | 0 TRUE fell-off | $0.0445 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   89 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: infinityspine.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords analyzed | 0 TRUE fell-off | $0.0000 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   0 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: painreliefkc.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 4 keywords analyzed | 0 TRUE fell-off | $0.0020 API Cost
+❌ NO keywords truly fell off Page 1 (was 1-10, now 11+)
+   4 keywords analyzed but none dropped FROM Page 1 TO Page 2+
+
+
+✅ JSON report saved: true_fell_off_keywords_report.json
+✅ CSV report saved: true_fell_off_keywords_report.csv
+
+═══════════════════════════════════════════════════════════════
+SUMMARY STATISTICS
+═══════════════════════════════════════════════════════════════
+
+Domain                          | Analyzed | True Fell Off | API Cost
+--------------------------------|----------|---------------|----------
+salemplasticsurgery.com         |       45 |             0 |   $0.0225
+aestheticinstitute.ie           |        2 |             0 |   $0.0010
+coppellwellness.com             |        0 |             0 |   $0.0000
+healthwestchiro.com             |        0 |             0 |   $0.0000
+100percentdoc.com               |        0 |             0 |   $0.0000
+axiominjury.com                 |        1 |             0 |   $0.0005
+houstonbackandneck.com          |        0 |             0 |   $0.0000
+alignwc.com                     |       89 |             0 |   $0.0445
+infinityspine.com               |        0 |             0 |   $0.0000
+painreliefkc.com                |        4 |             0 |   $0.0020
+--------------------------------|----------|---------------|----------
+TOTALS                          |      141 |             0 | $  0.0705
+
+═══════════════════════════════════════════════════════════════
+KEY INSIGHTS
+═══════════════════════════════════════════════════════════════
+
+❌ NO DOMAINS LOST RANKINGS FROM PAGE 1 TO PAGE 2+
+   141 total keywords analyzed across all domains
+   All keyword changes were within Page 2+ rankings
+
+💡 Cold Calling Angle (if TRUE fell-off keywords exist):
+   "I noticed you lost X keywords from Page 1 last month."
+   "These were ranking in positions 1-10 and dropped to 11+."
+   "Want to know which ones so we can recover them?"
+
+═══════════════════════════════════════════════════════════════
+TOTAL API COST: $0.0705 for 10 domains
+═══════════════════════════════════════════════════════════════

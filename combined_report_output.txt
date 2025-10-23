@@ -1,0 +1,201 @@
+═══════════════════════════════════════════════════════════════
+COMBINED REPORT - DOMAIN STATS + TOP 10 KEYWORDS
+═══════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: salemplasticsurgery.com
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 1878
+   Monthly Value: $15950.00
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 233
+   API Cost: $0.1165
+💰 Total Cost for salemplasticsurgery.com: $0.1170
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: aestheticinstitute.ie
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 445
+   Monthly Value: $1279.00
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 28
+   API Cost: $0.0140
+💰 Total Cost for aestheticinstitute.ie: $0.0145
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: coppellwellness.com
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 30
+   Monthly Value: $70.06
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 2
+   API Cost: $0.0010
+💰 Total Cost for coppellwellness.com: $0.0015
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: healthwestchiro.com
+══════════════════════════════════════════════════════════════════════
+⚠️  No Domain Stats Available
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 0
+   API Cost: $0.0000
+💰 Total Cost for healthwestchiro.com: $0.0000
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: 100percentdoc.com
+══════════════════════════════════════════════════════════════════════
+⚠️  No Domain Stats Available
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 0
+   API Cost: $0.0000
+💰 Total Cost for 100percentdoc.com: $0.0000
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: axiominjury.com
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 67
+   Monthly Value: $718.10
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 2
+   API Cost: $0.0010
+💰 Total Cost for axiominjury.com: $0.0015
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: houstonbackandneck.com
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 11
+   Monthly Value: $88.25
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 0
+   API Cost: $0.0000
+💰 Total Cost for houstonbackandneck.com: $0.0005
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: alignwc.com
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 4715
+   Monthly Value: $12240.00
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 535
+   API Cost: $0.2675
+💰 Total Cost for alignwc.com: $0.2680
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: infinityspine.com
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 23
+   Monthly Value: $32.90
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 0
+   API Cost: $0.0000
+💰 Total Cost for infinityspine.com: $0.0005
+
+══════════════════════════════════════════════════════════════════════
+PROCESSING: painreliefkc.com
+══════════════════════════════════════════════════════════════════════
+✅ Domain Stats Retrieved
+   Total Keywords: 392
+   Monthly Value: $2639.00
+   API Cost: $0.0005
+✅ Top 10 Keywords Retrieved
+   Keyword Count: 15
+   API Cost: $0.0075
+💰 Total Cost for painreliefkc.com: $0.0080
+
+✅ CSV file saved: combined_domain_report.csv
+✅ JSON file saved: combined_domain_report.json
+
+
+══════════════════════════════════════════════════════════════════════
+SUMMARY REPORT
+══════════════════════════════════════════════════════════════════════
+
+salemplasticsurgery.com
+  Total Keywords: 1878
+  Top 10 KW Count: 233
+  Monthly Organic Value: $15950.00
+  Monthly Organic Clicks: 1442
+  Total API Cost: $0.1170
+
+aestheticinstitute.ie
+  Total Keywords: 445
+  Top 10 KW Count: 28
+  Monthly Organic Value: $1279.00
+  Monthly Organic Clicks: 35
+  Total API Cost: $0.0145
+
+coppellwellness.com
+  Total Keywords: 30
+  Top 10 KW Count: 2
+  Monthly Organic Value: $70.06
+  Monthly Organic Clicks: 118
+  Total API Cost: $0.0015
+
+healthwestchiro.com
+  Total Keywords: 0
+  Top 10 KW Count: 0
+  Monthly Organic Value: $0.00
+  Monthly Organic Clicks: 0
+  Total API Cost: $0.0000
+
+100percentdoc.com
+  Total Keywords: 0
+  Top 10 KW Count: 0
+  Monthly Organic Value: $0.00
+  Monthly Organic Clicks: 0
+  Total API Cost: $0.0000
+
+axiominjury.com
+  Total Keywords: 67
+  Top 10 KW Count: 2
+  Monthly Organic Value: $718.10
+  Monthly Organic Clicks: 13
+  Total API Cost: $0.0015
+
+houstonbackandneck.com
+  Total Keywords: 11
+  Top 10 KW Count: 0
+  Monthly Organic Value: $88.25
+  Monthly Organic Clicks: 1
+  Total API Cost: $0.0005
+
+alignwc.com
+  Total Keywords: 4715
+  Top 10 KW Count: 535
+  Monthly Organic Value: $12240.00
+  Monthly Organic Clicks: 2745
+  Total API Cost: $0.2680
+
+infinityspine.com
+  Total Keywords: 23
+  Top 10 KW Count: 0
+  Monthly Organic Value: $32.90
+  Monthly Organic Clicks: 1
+  Total API Cost: $0.0005
+
+painreliefkc.com
+  Total Keywords: 392
+  Top 10 KW Count: 15
+  Monthly Organic Value: $2639.00
+  Monthly Organic Clicks: 166
+  Total API Cost: $0.0080
+
+══════════════════════════════════════════════════════════════════════
+TOTAL API COST: $0.4115 for 10 domains
+AVERAGE COST PER DOMAIN: $0.0412
+══════════════════════════════════════════════════════════════════════

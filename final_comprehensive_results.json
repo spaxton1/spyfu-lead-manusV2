@@ -1,0 +1,209 @@
+{
+  "testDomain": "salemplasticsurgery.com",
+  "testDate": "2025-10-22T22:30:21.786Z",
+  "totalEndpointsTested": 24,
+  "totalWorking": 15,
+  "totalCostAllTests": 0.15550000000000003,
+  "workingEndpoints": [
+    {
+      "success": true,
+      "category": "Domain Stats",
+      "label": "Latest Domain Stats",
+      "path": "/apis/domain_stats_api/v2/getLatestDomainStats?domain=salemplasticsurgery.com",
+      "rows": 1,
+      "cost": 0.0005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "Domain Stats",
+      "label": "All Domain Stats",
+      "path": "/apis/domain_stats_api/v2/getAllDomainStats?domain=salemplasticsurgery.com",
+      "rows": 209,
+      "cost": 0.1045,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Most Valuable Keywords",
+      "path": "/apis/serp_api/v2/seo/getMostValuableKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Newly Ranked Keywords",
+      "path": "/apis/serp_api/v2/seo/getNewlyRankedKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Live SEO Stats",
+      "path": "/apis/serp_api/v2/seo/getLiveSeoStats?query=salemplasticsurgery.com",
+      "rows": 1,
+      "cost": 0.0005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "SEO Keywords",
+      "path": "/apis/serp_api/v2/seo/getSeoKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Just Made It Keywords (Ranks 11-20)",
+      "path": "/apis/serp_api/v2/seo/getJustMadeItKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Just Fell Off Keywords",
+      "path": "/apis/serp_api/v2/seo/getJustFellOffKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Gained Ranks Keywords",
+      "path": "/apis/serp_api/v2/seo/getGainedRanksKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "SEO Research",
+      "label": "Lost Ranks Keywords",
+      "path": "/apis/serp_api/v2/seo/getLostRanksKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "Top Pages",
+      "label": "Top Pages",
+      "path": "/apis/serp_api/v2/seo/getTopPages?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "Top Pages",
+      "label": "Most Traffic Pages",
+      "path": "/apis/serp_api/v2/seo/getMostTrafficTopPages?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "Top Pages",
+      "label": "New Top Pages",
+      "path": "/apis/serp_api/v2/seo/getNewTopPages?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 10,
+      "cost": 0.005,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "PPC Research",
+      "label": "Paid SERPs (Ads)",
+      "path": "/apis/serp_api/v2/ppc/getPaidSerps?query=salemplasticsurgery.com&pageSize=10",
+      "rows": 0,
+      "cost": 0,
+      "status": 200
+    },
+    {
+      "success": true,
+      "category": "Ad History",
+      "label": "Domain Ad History",
+      "path": "/apis/cloud_ad_history_api/v2/domain/getDomainAdHistory?domain=salemplasticsurgery.com&pageSize=10",
+      "rows": 0,
+      "cost": 0,
+      "status": 200
+    }
+  ],
+  "failedEndpoints": [
+    {
+      "success": false,
+      "category": "PPC Research",
+      "label": "Most Successful PPC",
+      "path": "/apis/serp_api/v2/ppc/getMostSuccessful?query=salemplasticsurgery.com&pageSize=10",
+      "status": 404
+    },
+    {
+      "success": false,
+      "category": "PPC Research",
+      "label": "New PPC Keywords",
+      "path": "/apis/serp_api/v2/ppc/getNewKeywords?query=salemplasticsurgery.com&pageSize=10",
+      "status": 404
+    },
+    {
+      "success": false,
+      "category": "Competitors",
+      "label": "Top SEO Competitors",
+      "path": "/apis/competitors_api/v2/seo/getTopSeoCompetitors?query=salemplasticsurgery.com&pageSize=10",
+      "status": 404
+    },
+    {
+      "success": false,
+      "category": "Competitors",
+      "label": "Top PPC Competitors",
+      "path": "/apis/competitors_api/v2/ppc/getTopPpcCompetitors?query=salemplasticsurgery.com&pageSize=10",
+      "status": 404
+    },
+    {
+      "success": false,
+      "category": "Competitors",
+      "label": "Combined Competitors",
+      "path": "/apis/competitors_api/v2/getCombinedTopCompetitors?query=salemplasticsurgery.com&pageSize=10",
+      "status": 404
+    },
+    {
+      "success": false,
+      "category": "Kombat",
+      "label": "Competing SEO Keywords",
+      "path": "/apis/keyword_api/v2/kombat/getCompetingSeoKeywords?query=salemplasticsurgery.com&competitor=plasticsurgery.org&pageSize=10",
+      "status": 400
+    },
+    {
+      "success": false,
+      "category": "Related Keywords",
+      "label": "Related Keywords",
+      "path": "/apis/keyword_research_api/v2/getRelatedKeywords?keyword=plastic%20surgery&pageSize=10",
+      "status": 404
+    },
+    {
+      "success": false,
+      "category": "Related Keywords",
+      "label": "Question Keywords",
+      "path": "/apis/keyword_research_api/v2/getQuestionKeywords?keyword=plastic%20surgery&pageSize=10",
+      "status": 404
+    },
+    {
+      "success": false,
+      "category": "Ranking History",
+      "label": "Historic Rankings",
+      "path": "/apis/cloud_ranking_history_api/v2/domain/getHistoricRankingsForDomain?domain=salemplasticsurgery.com&keyword=plastic%20surgery",
+      "status": 404
+    }
+  ]
+}

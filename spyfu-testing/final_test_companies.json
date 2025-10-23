@@ -1,0 +1,23 @@
+{
+  "small": {
+    "domain": "stormguardroofing.com",
+    "totalKw": 1,
+    "clicks": 0,
+    "value": 0,
+    "size": "SMALL"
+  },
+  "medium": {
+    "domain": "beyondexteriors.com",
+    "totalKw": 3968,
+    "clicks": 790,
+    "value": 29351.19996738434,
+    "size": "MEDIUM"
+  },
+  "large": {
+    "domain": "roofsimple.com",
+    "totalKw": 4997,
+    "clicks": 1563,
+    "value": 45339.88006424904,
+    "size": "LARGE"
+  }
+}

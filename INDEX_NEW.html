@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpyFu Roofing Analysis - NEW REAL DATA</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        h1 {
+            color: white;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .alert {
+            background: #ffd700;
+            color: #000;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .card h2 {
+            color: #2d3748;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        .card p {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .link-grid {
+            display: grid;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .link-button {
+            display: block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 18px 25px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .link-button:hover {
+            transform: translateY(-2px);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            color: #718096;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        .domain-list {
+            background: #f7fafc;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .domain-item {
+            padding: 10px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .domain-item:last-child { border-bottom: none; }
+        .domain-name { font-weight: bold; color: #2d3748; }
+        .domain-stats { color: #718096; font-size: 0.9em; margin-top: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏗️ SpyFu Roofing Analysis</h1>
+        
+        <div class="alert">
+            ✨ NEW REAL DATA! 3 Actual Roofing Companies · 12 Dashboards · Generated Oct 21, 2025
+        </div>
+        
+        <div class="card">
+            <h2>📊 Quick Stats</h2>
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Companies</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">12</div>
+                    <div class="stat-label">Dashboards</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">45</div>
+                    <div class="stat-label">API Calls</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">$0.08</div>
+                    <div class="stat-label">Total Cost</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>🎯 Test Companies</h2>
+            <div class="domain-list">
+                <div class="domain-item">
+                    <div class="domain-name">🟢 SMALL: latite.com</div>
+                    <div class="domain-stats">1,337 keywords | 679 clicks/mo | $13,965/mo value</div>
+                </div>
+                <div class="domain-item">
+                    <div class="domain-name">🟠 MEDIUM: metalroofingsource.com</div>
+                    <div class="domain-stats">7,284 keywords | 3,859 clicks/mo | $38,962/mo value</div>
+                </div>
+                <div class="domain-item">
+                    <div class="domain-name">🔴 LARGE: billraganroofing.com</div>
+                    <div class="domain-stats">47,139 keywords | 47,778 clicks/mo | $305,259/mo value</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📄 View Dashboards & Reports</h2>
+            <div class="link-grid">
+                <a href="roofing_index.html" class="link-button">
+                    🏠 Navigation Hub (Start Here)
+                </a>
+                <a href="ROOFING_DASHBOARDS_COMPLETE.html" class="link-button">
+                    📊 All 12 Dashboards (3 domains × 4 packages)
+                </a>
+                <a href="ROOFING_REAL_DATA_SUMMARY.md" class="link-button">
+                    📝 Full Summary Report (Markdown)
+                </a>
+                <a href="roofing_complete_data.json" class="link-button">
+                    💾 Raw API Data (137KB JSON)
+                </a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📦 Package Breakdown</h2>
+            <p><strong>10¢ Opportunity Hunter</strong> - Almost Page 1, Quick Wins, Page1 Gap</p>
+            <p><strong>11¢ History Tracker</strong> - Lost/Gained keywords over 2 years</p>
+            <p><strong>12¢ Combo</strong> - Complete picture with opportunity + history</p>
+            <p><strong>15¢ Competitor Assault</strong> - Competitive intelligence & battle analysis</p>
+        </div>
+        
+        <div style="text-align: center; color: white; margin-top: 40px; font-size: 0.9em;">
+            <p>Generated with real SpyFu API data · October 21, 2025</p>
+            <p>All data is REAL - no estimates or simulations!</p>
+        </div>
+    </div>
+</body>
+</html>

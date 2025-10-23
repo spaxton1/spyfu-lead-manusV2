@@ -1,0 +1,498 @@
+================================================================================
+OPTIMAL BUDGET PACKAGE ANALYSIS
+Testing different package configurations
+================================================================================
+
+================================================================================
+Testing: MINIMAL - Core Keywords Only
+Domain: viridisenergy.com (small)
+Strategy: Single call to getMostValuableKeywords
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=200)...
+   ✅ Retrieved 200 rows
+
+   📊 SUMMARY:
+      Total Rows: 201
+      Total Cost: $0.1005
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+================================================================================
+Testing: MINIMAL - Core Keywords Only
+Domain: poolsbybradley.com (medium)
+Strategy: Single call to getMostValuableKeywords
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=200)...
+   ✅ Retrieved 200 rows
+
+   📊 SUMMARY:
+      Total Rows: 201
+      Total Cost: $0.1005
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (1 found)
+   1. pool designers near me - Rank #43, $3.94 CPC
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+================================================================================
+Testing: MINIMAL - Core Keywords Only
+Domain: newerasolarenergy.com (large)
+Strategy: Single call to getMostValuableKeywords
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=200)...
+   ✅ Retrieved 74 rows
+
+   📊 SUMMARY:
+      Total Rows: 75
+      Total Cost: $0.0375
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+================================================================================
+Testing: BALANCED - Keywords + Changes
+Domain: viridisenergy.com (small)
+Strategy: Keywords plus key ranking changes
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=100)...
+   ✅ Retrieved 100 rows
+
+   Calling getGainedRanksKeywords (pageSize=25)...
+   ✅ Retrieved 25 rows
+
+   Calling getLostRanksKeywords (pageSize=25)...
+   ✅ Retrieved 25 rows
+
+   📊 SUMMARY:
+      Total Rows: 151
+      Total Cost: $0.0755
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (1 found)
+   1. how do photovoltaic cells work - Improved 31 positions → #37
+
+✅ NUGGET 4: Dramatic Drops (2 found)
+   1. off grid solar power system - Dropped 11 positions (#80 → #69)
+   2. how much energy does solar energy produce - Dropped 7 positions (#32 → #25)
+
+================================================================================
+Testing: BALANCED - Keywords + Changes
+Domain: poolsbybradley.com (medium)
+Strategy: Keywords plus key ranking changes
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=100)...
+   ✅ Retrieved 100 rows
+
+   Calling getGainedRanksKeywords (pageSize=25)...
+   ✅ Retrieved 25 rows
+
+   Calling getLostRanksKeywords (pageSize=25)...
+   ✅ Retrieved 25 rows
+
+   📊 SUMMARY:
+      Total Rows: 151
+      Total Cost: $0.0755
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (1 found)
+   1. pool designers near me - Rank #43, $3.94 CPC
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (2 found)
+   1. pool builders near me - Improved 36 positions → #56
+   2. custom pools near me - Improved 9 positions → #71
+
+✅ NUGGET 4: Dramatic Drops (3 found)
+   1. how long does it take for a pool to heat up by the sun - Dropped 26 positions (#96 → #70)
+   2. mike dean pools - Dropped 25 positions (#119 → #94)
+   3. minto builders florida - Dropped 9 positions (#43 → #34)
+
+================================================================================
+Testing: BALANCED - Keywords + Changes
+Domain: newerasolarenergy.com (large)
+Strategy: Keywords plus key ranking changes
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=100)...
+   ✅ Retrieved 74 rows
+
+   Calling getGainedRanksKeywords (pageSize=25)...
+   ✅ Retrieved 20 rows
+
+   Calling getLostRanksKeywords (pageSize=25)...
+   ✅ Retrieved 12 rows
+
+   📊 SUMMARY:
+      Total Rows: 107
+      Total Cost: $0.0535
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (0 found)
+
+✅ NUGGET 4: Dramatic Drops (2 found)
+   1. solar sales training in fl - Dropped 11 positions (#82 → #71)
+   2. solar sales training in fl - Dropped 11 positions (#91 → #80)
+
+================================================================================
+Testing: COMPREHENSIVE - All Key Data
+Domain: viridisenergy.com (small)
+Strategy: Full cold calling intelligence
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=150)...
+   ✅ Retrieved 150 rows
+
+   Calling getGainedRanksKeywords (pageSize=20)...
+   ✅ Retrieved 20 rows
+
+   Calling getLostRanksKeywords (pageSize=20)...
+   ✅ Retrieved 20 rows
+
+   Calling getJustFellOffKeywords (pageSize=10)...
+   ✅ Retrieved 10 rows
+
+   📊 SUMMARY:
+      Total Rows: 201
+      Total Cost: $0.1005
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (1 found)
+   1. how do photovoltaic cells work - Improved 31 positions → #37
+
+✅ NUGGET 4: Dramatic Drops (2 found)
+   1. off grid solar power system - Dropped 11 positions (#80 → #69)
+   2. how much energy does solar energy produce - Dropped 7 positions (#32 → #25)
+
+✅ NUGGET 5: Fell Off Page 1 (0 found)
+
+================================================================================
+Testing: COMPREHENSIVE - All Key Data
+Domain: poolsbybradley.com (medium)
+Strategy: Full cold calling intelligence
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=150)...
+   ✅ Retrieved 150 rows
+
+   Calling getGainedRanksKeywords (pageSize=20)...
+   ✅ Retrieved 20 rows
+
+   Calling getLostRanksKeywords (pageSize=20)...
+   ✅ Retrieved 20 rows
+
+   Calling getJustFellOffKeywords (pageSize=10)...
+   ✅ Retrieved 10 rows
+
+   📊 SUMMARY:
+      Total Rows: 201
+      Total Cost: $0.1005
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (1 found)
+   1. pool designers near me - Rank #43, $3.94 CPC
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (2 found)
+   1. pool builders near me - Improved 36 positions → #56
+   2. custom pools near me - Improved 9 positions → #71
+
+✅ NUGGET 4: Dramatic Drops (3 found)
+   1. how long does it take for a pool to heat up by the sun - Dropped 26 positions (#96 → #70)
+   2. mike dean pools - Dropped 25 positions (#119 → #94)
+   3. minto builders florida - Dropped 9 positions (#43 → #34)
+
+✅ NUGGET 5: Fell Off Page 1 (0 found)
+
+================================================================================
+Testing: COMPREHENSIVE - All Key Data
+Domain: newerasolarenergy.com (large)
+Strategy: Full cold calling intelligence
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getMostValuableKeywords (pageSize=150)...
+   ✅ Retrieved 74 rows
+
+   Calling getGainedRanksKeywords (pageSize=20)...
+   ✅ Retrieved 20 rows
+
+   Calling getLostRanksKeywords (pageSize=20)...
+   ✅ Retrieved 12 rows
+
+   Calling getJustFellOffKeywords (pageSize=10)...
+   ✅ Retrieved 0 rows
+
+   📊 SUMMARY:
+      Total Rows: 107
+      Total Cost: $0.0535
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (0 found)
+
+✅ NUGGET 4: Dramatic Drops (2 found)
+   1. solar sales training in fl - Dropped 11 positions (#82 → #71)
+   2. solar sales training in fl - Dropped 11 positions (#91 → #80)
+
+✅ NUGGET 5: Fell Off Page 1 (0 found)
+
+================================================================================
+Testing: OPTIMIZED - Best Value
+Domain: viridisenergy.com (small)
+Strategy: Optimal mix for cold calling
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getSeoKeywords (pageSize=100)...
+   ✅ Retrieved 100 rows
+
+   Calling getGainedRanksKeywords (pageSize=30)...
+   ✅ Retrieved 30 rows
+
+   Calling getLostRanksKeywords (pageSize=20)...
+   ✅ Retrieved 20 rows
+
+   Calling getJustFellOffKeywords (pageSize=15)...
+   ✅ Retrieved 15 rows
+
+   📊 SUMMARY:
+      Total Rows: 166
+      Total Cost: $0.0830
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (1 found)
+   1. how do photovoltaic cells work - Improved 31 positions → #37
+
+✅ NUGGET 4: Dramatic Drops (2 found)
+   1. off grid solar power system - Dropped 11 positions (#80 → #69)
+   2. how much energy does solar energy produce - Dropped 7 positions (#32 → #25)
+
+✅ NUGGET 5: Fell Off Page 1 (0 found)
+
+================================================================================
+Testing: OPTIMIZED - Best Value
+Domain: poolsbybradley.com (medium)
+Strategy: Optimal mix for cold calling
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getSeoKeywords (pageSize=100)...
+   ✅ Retrieved 100 rows
+
+   Calling getGainedRanksKeywords (pageSize=30)...
+   ✅ Retrieved 30 rows
+
+   Calling getLostRanksKeywords (pageSize=20)...
+   ✅ Retrieved 20 rows
+
+   Calling getJustFellOffKeywords (pageSize=15)...
+   ✅ Retrieved 15 rows
+
+   📊 SUMMARY:
+      Total Rows: 166
+      Total Cost: $0.0830
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (1 found)
+   1. pool designers near me - Rank #43, $3.94 CPC
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (2 found)
+   1. pool builders near me - Improved 36 positions → #56
+   2. custom pools near me - Improved 9 positions → #71
+
+✅ NUGGET 4: Dramatic Drops (3 found)
+   1. how long does it take for a pool to heat up by the sun - Dropped 26 positions (#96 → #70)
+   2. mike dean pools - Dropped 25 positions (#119 → #94)
+   3. minto builders florida - Dropped 9 positions (#43 → #34)
+
+✅ NUGGET 5: Fell Off Page 1 (0 found)
+
+================================================================================
+Testing: OPTIMIZED - Best Value
+Domain: newerasolarenergy.com (large)
+Strategy: Optimal mix for cold calling
+================================================================================
+
+   Calling getLiveSeoStats (pageSize=1)...
+   ✅ Retrieved 1 rows
+
+   Calling getSeoKeywords (pageSize=100)...
+   ✅ Retrieved 74 rows
+
+   Calling getGainedRanksKeywords (pageSize=30)...
+   ✅ Retrieved 20 rows
+
+   Calling getLostRanksKeywords (pageSize=20)...
+   ✅ Retrieved 12 rows
+
+   Calling getJustFellOffKeywords (pageSize=15)...
+   ✅ Retrieved 0 rows
+
+   📊 SUMMARY:
+      Total Rows: 107
+      Total Cost: $0.0535
+      Within Budget ($0.12): ✅ YES
+
+
+################################################################################
+DATA NUGGET ANALYSIS FROM RETRIEVED DATA
+################################################################################
+
+✅ NUGGET 1: High-CPC Keywords (0 found)
+
+✅ NUGGET 2: Low-Hanging Fruit (0 found)
+
+✅ NUGGET 3: Positive Momentum (0 found)
+
+✅ NUGGET 4: Dramatic Drops (2 found)
+   1. solar sales training in fl - Dropped 11 positions (#82 → #71)
+   2. solar sales training in fl - Dropped 11 positions (#91 → #80)
+
+✅ NUGGET 5: Fell Off Page 1 (0 found)
+
+
+================================================================================
+FINAL RECOMMENDATIONS
+================================================================================
+
+| Package | Domain | Size | Rows | Cost | Budget OK |
+|---------|--------|------|------|------|-----------|
+| MINIMAL - Core Keywo | viridisenergy.com       | small  | 201  | $0.1005 | ✅ |
+| MINIMAL - Core Keywo | poolsbybradley.com      | medium | 201  | $0.1005 | ✅ |
+| MINIMAL - Core Keywo | newerasolarenergy.com   | large  | 75   | $0.0375 | ✅ |
+| BALANCED - Keywords  | viridisenergy.com       | small  | 151  | $0.0755 | ✅ |
+| BALANCED - Keywords  | poolsbybradley.com      | medium | 151  | $0.0755 | ✅ |
+| BALANCED - Keywords  | newerasolarenergy.com   | large  | 107  | $0.0535 | ✅ |
+| COMPREHENSIVE - All  | viridisenergy.com       | small  | 201  | $0.1005 | ✅ |
+| COMPREHENSIVE - All  | poolsbybradley.com      | medium | 201  | $0.1005 | ✅ |
+| COMPREHENSIVE - All  | newerasolarenergy.com   | large  | 107  | $0.0535 | ✅ |
+| OPTIMIZED - Best Val | viridisenergy.com       | small  | 166  | $0.0830 | ✅ |
+| OPTIMIZED - Best Val | poolsbybradley.com      | medium | 166  | $0.0830 | ✅ |
+| OPTIMIZED - Best Val | newerasolarenergy.com   | large  | 107  | $0.0535 | ✅ |
+
+
+🏆 RECOMMENDED PACKAGE: MINIMAL - Core Keywords Only
+   Max Rows: 201
+   Max Cost: $0.1005
+   Works for: small, medium, large domains
+
+✅ Results saved to optimal_package_results.json

@@ -1,0 +1,405 @@
+═══════════════════════════════════════════════════════════════
+TESTING 30 DOMAINS - Top 10 Ranked Keywords Only
+API: getMostValuableKeywords with rank.min=1&rank.max=10
+═══════════════════════════════════════════════════════════════
+
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: salemplasticsurgery.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | coolsculpting winston salem              |        100 | $  0.00 |          2 | $0.00
+  10 | cosmetic surgery in North Carolina       |          0 | $  0.00 |          0 | $0.00
+  10 | lip fillers winston salem                |          0 | $  0.00 |          0 | $0.00
+  10 | botox Winston-Salem                      |          0 | $  7.88 |          0 | $0.00
+  10 | emsculpt before and after 4 sessions thi |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: aestheticinstitute.ie
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   9 | dublin lip fillers                       |          0 | $  0.00 |          0 | $0.00
+   9 | dublin plastic surgery                   |         44 | $  0.00 |          1 | $0.00
+   9 | facelifts dublin                         |          0 | $  0.00 |          0 | $0.00
+   8 | breast augmentation surgery dublin       |          0 | $  0.00 |          0 | $0.00
+   8 | dublin aesthetics                        |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: coppellwellness.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 2 keywords in top 10 positions | $0.0010 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   1 | coppell wellness center                  |        135 | $  0.00 |         22 | $0.00
+   1 | coppell wellness                         |        420 | $  0.00 |         70 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: healthwestchiro.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords in top 10 positions | $0.0000 cost
+⚠️  No keywords ranking in positions 1-10
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: 100percentdoc.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords in top 10 positions | $0.0000 cost
+⚠️  No keywords ranking in positions 1-10
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: axiominjury.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 2 keywords in top 10 positions | $0.0010 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   9 | carrollton injury rehab & chiropractic   |         55 | $  0.00 |          1 | $0.00
+   7 | chiropractor in Carrolton Tx             |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: houstonbackandneck.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords in top 10 positions | $0.0000 cost
+⚠️  No keywords ranking in positions 1-10
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: alignwc.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | dizziness caused by dehydration          |         55 | $  0.63 |          1 | $0.63
+  10 | chinese acupuncture push                 |          0 | $  0.00 |          0 | $0.00
+  10 | can dehydration cause dizziness          |        540 | $  0.00 |          9 | $0.00
+  10 | natural remedies for inner ear vertigo   |          0 | $  0.00 |          0 | $0.00
+  10 | what foods cause dizziness               |         44 | $  0.00 |          1 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.63/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: infinityspine.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords in top 10 positions | $0.0000 cost
+⚠️  No keywords ranking in positions 1-10
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: painreliefkc.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | applied kinesiologist chiropractor near  |          0 | $  0.00 |          0 | $0.00
+   9 | dr carlston                              |        105 | $  0.00 |          2 | $0.00
+   8 | unwinding craniosacral therapy           |         28 | $  0.00 |          1 | $0.00
+   7 | kinesiology chiropractic                 |         44 | $  5.74 |          1 | $5.74
+   6 | craniosacral therapy unwinding           |         28 | $  0.00 |          1 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $5.74/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: drdilanchian.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   8 | henrik dilanchian                        |         80 | $  0.00 |          2 | $0.00
+   7 | chiropractic Central City East LA        |          0 | $  0.00 |          0 | $0.00
+   5 | henrik dilanchian                        |         80 | $  0.00 |          3 | $0.00
+   3 | dilanchian chiropractic van nuys         |         12 | $  0.00 |          1 | $0.00
+   1 | dr dilanchian                            |         44 | $  0.00 |          7 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: redlandsspineandsport.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   6 | redlands chiropractic                    |        220 | $  1.89 |          6 | $11.34
+   4 | dr donia                                 |         50 | $  0.00 |          2 | $0.00
+   1 | sports massage redlands ca               |          0 | $  0.00 |          0 | $0.00
+   1 | sports massage redlands                  |          0 | $  0.00 |          0 | $0.00
+   1 | redlands spine and sport                 |         44 | $  0.00 |          7 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $11.34/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: farrarchiro.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | neuropathy chiropractic care             |          0 | $  0.00 |          0 | $0.00
+  10 | chiropractic 75025                       |          0 | $  0.00 |          0 | $0.00
+  10 | chiropractor 75075                       |          0 | $  0.00 |          0 | $0.00
+  10 | cbi chiropractor                         |         12 | $  0.00 |          0 | $0.00
+  10 | best chiropractic in Plano TX            |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: armadillosportchiropractic.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | massage calallen                         |          0 | $  0.00 |          0 | $0.00
+  10 | corpus christi chiropractic              |        135 | $  0.00 |          2 | $0.00
+  10 | Corpus Christi chiropractor              |        135 | $  2.20 |          2 | $4.40
+  10 | massage in portland texas                |          0 | $  0.00 |          0 | $0.00
+  10 | chiropractic in Corpus Christi 78476     |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $4.40/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: fredsfloors.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | flooring stores in franklin tn           |         12 | $  0.00 |          0 | $0.00
+  10 | tarkett murfreesboro tn                  |        150 | $  0.00 |          3 | $0.00
+  10 | laminate floor services                  |         75 | $  0.00 |          1 | $0.00
+   9 | flooring service near me                 |         80 | $  0.00 |          2 | $0.00
+   9 | flooring stores franklin tn              |         12 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: gsamarillo.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   9 | golden spread amarillo tx                |         40 | $  0.00 |          1 | $0.00
+   9 | commercial roofing amarillo              |          0 | $  0.00 |          0 | $0.00
+   9 | residential roofing amarillo             |          0 | $  0.00 |          0 | $0.00
+   6 | golden spread amarillo texas             |         40 | $  0.00 |          1 | $0.00
+   6 | golden spread amarillo                   |        190 | $  0.00 |          5 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: dreyersdki.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | fire damage cleaners Cork                |          0 | $  0.00 |          0 | $0.00
+  10 | water restoration gainesville fl         |         12 | $  0.00 |          0 | $0.00
+  10 | water damage ocala                       |          0 | $  0.00 |          0 | $0.00
+  10 | palatka flood restoration                |          0 | $  0.00 |          0 | $0.00
+   9 | rug capet cleaners service residential   |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: associatedsvs.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | associated cleaning equipment            |         28 | $  0.00 |          0 | $0.00
+   8 | associated services company              |         65 | $  0.00 |          1 | $0.00
+   8 | post construction cleaning tallahassee f |          0 | $  0.00 |          0 | $0.00
+   8 | associated services inc                  |        105 | $  0.00 |          2 | $0.00
+   8 | associated services                      |        180 | $  0.00 |          4 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: advantageoverheaddoor.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 3 keywords in top 10 positions | $0.0015 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | advantage overhead door                  |         55 | $  0.00 |          1 | $0.00
+   6 | advantage garage doors                   |         44 | $  0.00 |          1 | $0.00
+   1 | advantage overhead door                  |         55 | $  0.00 |          9 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: uniquepoolspcb.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 2 keywords in top 10 positions | $0.0010 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   8 | unique pools                             |        400 | $  1.37 |          9 | $12.33
+   7 | swimming pools designer                  |          0 | $  1.29 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $12.33/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: makaipools.net
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 1 keywords in top 10 positions | $0.0005 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   2 | makai pool                               |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: windowdoorpro.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 1 keywords in top 10 positions | $0.0005 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+   2 | window and door pro                      |         12 | $  0.00 |          1 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: myneighborhoodwindows.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | neighbors windows                        |         44 | $  2.58 |          1 | $2.58
+  10 | window replacement brevard               |          0 | $  0.00 |          0 | $0.00
+  10 | windows and doors melbourne              |          2 | $  4.43 |          0 | $0.00
+  10 | brevard window & doors                   |          0 | $  0.00 |          0 | $0.00
+   9 | doors and windows melbourne              |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $2.58/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: accentkitchenandfloor.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords in top 10 positions | $0.0000 cost
+⚠️  No keywords ranking in positions 1-10
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: jvgaragedoor.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 3 keywords in top 10 positions | $0.0015 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | Garage Door Operators Kansas City MO     |          0 | $  0.00 |          0 | $0.00
+   6 | garage door safety force                 |          0 | $  0.00 |          0 | $0.00
+   2 | garage door repair independence mo       |          9 | $  0.00 |          1 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: aaronoverheaddoor.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | garage door repair seaside               |          0 | $  0.00 |          0 | $0.00
+  10 | garage door repair hollister ca          |          0 | $  0.00 |          0 | $0.00
+  10 | garage door repair scotts valley ca      |          0 | $  0.00 |          0 | $0.00
+  10 | monterey bay door                        |          0 | $  0.00 |          0 | $0.00
+  10 | aaron garage doors                       |         44 | $  7.84 |          1 | $7.84
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $7.84/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: mb-landdesign.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords in top 10 positions | $0.0000 cost
+⚠️  No keywords ranking in positions 1-10
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: ccroofingcompany.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | c and c roofing and home repair          |          0 | $  0.00 |          0 | $0.00
+  10 | roofing company huntsville tx            |          0 | $  0.00 |          0 | $0.00
+  10 | roofing and construction                 |        180 | $ 13.00 |          3 | $39.00
+   8 | c and c roofing                          |         44 | $  0.00 |          1 | $0.00
+   8 | c & c roofing and home repair            |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $39.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: ashleefence.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 5 keywords in top 10 positions | $0.0025 cost
+
+Top Keywords (Ranked 1-10):
+Rank | Keyword | Search Vol | CPC (Exact) | SEO Clicks | Monthly Value
+-----|---------|------------|-------------|------------|---------------
+  10 | crossbuck fence cost                     |         70 | $  0.00 |          1 | $0.00
+  10 | cincinanti digital marketing agency      |          0 | $  0.00 |          0 | $0.00
+  10 | ky 3 board fence                         |          0 | $  0.00 |          0 | $0.00
+  10 | middletown ohio fence                    |          0 | $  0.00 |          0 | $0.00
+   9 | cincinanti roofing contractor            |          0 | $  0.00 |          0 | $0.00
+
+💰 TOTAL VALUE FROM TOP 10 RANKINGS: $0.00/month
+
+══════════════════════════════════════════════════════════════════════
+DOMAIN: bocanresidentialimprovements.com
+══════════════════════════════════════════════════════════════════════
+✅ SUCCESS | 0 keywords in top 10 positions | $0.0000 cost
+⚠️  No keywords ranking in positions 1-10
+
+
+══════════════════════════════════════════════════════════════════════
+FINAL SUMMARY
+══════════════════════════════════════════════════════════════════════
+Total Domains Tested: 30
+Successful: 30
+Failed: 0
+Total API Cost: $0.0470
+Average Cost Per Domain: $0.0016
+══════════════════════════════════════════════════════════════════════

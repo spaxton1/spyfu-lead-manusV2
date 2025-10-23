@@ -1,0 +1,26 @@
+{
+  "latite.com": {
+    "totalSampled": 5,
+    "page1Count": 1,
+    "almostPage1Count": 1,
+    "page2to10Count": 4,
+    "page1Pct": "20.0",
+    "almostPct": "20.0"
+  },
+  "metalroofingsource.com": {
+    "totalSampled": 5,
+    "page1Count": 0,
+    "almostPage1Count": 0,
+    "page2to10Count": 5,
+    "page1Pct": "0.0",
+    "almostPct": "0.0"
+  },
+  "billraganroofing.com": {
+    "totalSampled": 5,
+    "page1Count": 1,
+    "almostPage1Count": 1,
+    "page2to10Count": 4,
+    "page1Pct": "20.0",
+    "almostPct": "20.0"
+  }
+}
