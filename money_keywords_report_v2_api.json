@@ -1,0 +1,385 @@
+{
+  "generatedAt": "2025-10-23T08:18:52.045Z",
+  "dataSource": "V2 (Rank 11-75)",
+  "configuration": {
+    "topMoneyKeywords": 5,
+    "topLocalKeywords": 3
+  },
+  "algorithm": {
+    "step1": "Sort by highest CPC",
+    "step2": "Apply local identifier check (29,880 cities + states + ZIP codes)",
+    "excluded": "Removed generic nationwide searches: 'near me', 'local', 'city'"
+  },
+  "cityDatabase": {
+    "totalCities": 29880,
+    "source": "https://github.com/kelvins/US-Cities-Database"
+  },
+  "results": [
+    {
+      "domain": "salemplasticsurgery.com",
+      "totalKeywords": 161,
+      "moneyKeywords": [
+        {
+          "keyword": "aesthetic surgeons",
+          "cpc": 11.42,
+          "volume": 12,
+          "rank": 60,
+          "url": "https://www.salemplasticsurgery.com/"
+        },
+        {
+          "keyword": "plastic surgery jacksonville nc",
+          "cpc": 10.36,
+          "volume": 44,
+          "rank": 55,
+          "url": "https://www.salemplasticsurgery.com/"
+        },
+        {
+          "keyword": "smart lipo for men",
+          "cpc": 9.91,
+          "volume": 28,
+          "rank": 17,
+          "url": "https://www.salemplasticsurgery.com/our-services/body/smartlipo-triplex/"
+        },
+        {
+          "keyword": "co2 laser for face",
+          "cpc": 9.75,
+          "volume": 200,
+          "rank": 45,
+          "url": "https://www.salemplasticsurgery.com/our-services/skin/laser-skin-resurfacing-co2-laser/"
+        },
+        {
+          "keyword": "breast lift procedure",
+          "cpc": 9.38,
+          "volume": 270,
+          "rank": 30,
+          "url": "https://www.salemplasticsurgery.com/our-services/breast/breast-lift/"
+        }
+      ],
+      "localKeywords": [
+        {
+          "keyword": "plastic surgery jacksonville nc",
+          "cpc": 10.36,
+          "volume": 44,
+          "rank": 55,
+          "url": "https://www.salemplasticsurgery.com/",
+          "localMatch": true
+        },
+        {
+          "keyword": "plastic surgery north carolina",
+          "cpc": 8.65,
+          "volume": 44,
+          "rank": 14,
+          "url": "https://www.salemplasticsurgery.com/",
+          "localMatch": true
+        },
+        {
+          "keyword": "plastic surgeon nc",
+          "cpc": 8,
+          "volume": 190,
+          "rank": 27,
+          "url": "https://www.salemplasticsurgery.com/",
+          "localMatch": true
+        }
+      ]
+    },
+    {
+      "domain": "aestheticinstitute.ie",
+      "totalKeywords": 5,
+      "moneyKeywords": [
+        {
+          "keyword": "fraxel laser cost",
+          "cpc": 3.08,
+          "volume": 630,
+          "rank": 67,
+          "url": "https://www.aestheticinstitute.ie/news/fraxel-laser-rejuvenation/"
+        },
+        {
+          "keyword": "jawline surgery",
+          "cpc": 2.96,
+          "volume": 1300,
+          "rank": 56,
+          "url": "https://www.aestheticinstitute.ie/treatments/face/chin-neck-line-surgery/"
+        },
+        {
+          "keyword": "loose skin on thighs",
+          "cpc": 1.65,
+          "volume": 90,
+          "rank": 68,
+          "url": "http://www.aestheticinstitute.ie/treatments/body/thigh-lift/"
+        },
+        {
+          "keyword": "macrolane",
+          "cpc": 1.19,
+          "volume": 44,
+          "rank": 48,
+          "url": "http://www.aestheticinstitute.ie/before-and-after/body/macrolane/"
+        },
+        {
+          "keyword": "ear pin back",
+          "cpc": 1.18,
+          "volume": 12,
+          "rank": 74,
+          "url": "http://www.aestheticinstitute.ie/treatments/face/protruding-ears/"
+        }
+      ],
+      "localKeywords": [
+        {
+          "keyword": "fraxel laser cost",
+          "cpc": 3.08,
+          "volume": 630,
+          "rank": 67,
+          "url": "https://www.aestheticinstitute.ie/news/fraxel-laser-rejuvenation/",
+          "localMatch": true
+        }
+      ]
+    },
+    {
+      "domain": "coppellwellness.com",
+      "totalKeywords": 0,
+      "moneyKeywords": [],
+      "localKeywords": []
+    },
+    {
+      "domain": "healthwestchiro.com",
+      "totalKeywords": 0,
+      "moneyKeywords": [],
+      "localKeywords": []
+    },
+    {
+      "domain": "100percentdoc.com",
+      "totalKeywords": 0,
+      "moneyKeywords": [],
+      "localKeywords": []
+    },
+    {
+      "domain": "axiominjury.com",
+      "totalKeywords": 7,
+      "moneyKeywords": [
+        {
+          "keyword": "chiropractors carrollton tx",
+          "cpc": 9,
+          "volume": 28,
+          "rank": 43,
+          "url": "https://axiominjury.com/meet-the-doctor"
+        },
+        {
+          "keyword": "chiropractors carrollton tx",
+          "cpc": 9,
+          "volume": 28,
+          "rank": 35,
+          "url": "https://axiominjury.com/"
+        },
+        {
+          "keyword": "chiropractor carrollton tx",
+          "cpc": 5.56,
+          "volume": 180,
+          "rank": 32,
+          "url": "https://axiominjury.com/"
+        },
+        {
+          "keyword": "chiropractor carrollton tx",
+          "cpc": 5.56,
+          "volume": 180,
+          "rank": 42,
+          "url": "https://axiominjury.com/chiropractic-adjustments"
+        },
+        {
+          "keyword": "chiropractor carrollton",
+          "cpc": 2.83,
+          "volume": 100,
+          "rank": 39,
+          "url": "https://axiominjury.com/"
+        }
+      ],
+      "localKeywords": [
+        {
+          "keyword": "chiropractors carrollton tx",
+          "cpc": 9,
+          "volume": 28,
+          "rank": 43,
+          "url": "https://axiominjury.com/meet-the-doctor",
+          "localMatch": true
+        },
+        {
+          "keyword": "chiropractors carrollton tx",
+          "cpc": 9,
+          "volume": 28,
+          "rank": 35,
+          "url": "https://axiominjury.com/",
+          "localMatch": true
+        },
+        {
+          "keyword": "chiropractor carrollton tx",
+          "cpc": 5.56,
+          "volume": 180,
+          "rank": 32,
+          "url": "https://axiominjury.com/",
+          "localMatch": true
+        }
+      ]
+    },
+    {
+      "domain": "houstonbackandneck.com",
+      "totalKeywords": 0,
+      "moneyKeywords": [],
+      "localKeywords": []
+    },
+    {
+      "domain": "alignwc.com",
+      "totalKeywords": 74,
+      "moneyKeywords": [
+        {
+          "keyword": "North Shore Chiropractic",
+          "cpc": 9.36,
+          "volume": 135,
+          "rank": 29,
+          "url": "https://alignwc.com/the-corrective-chiropractic-advantage-northbrook-chiropractic/"
+        },
+        {
+          "keyword": "sciatic pinched nerve",
+          "cpc": 8.83,
+          "volume": 44,
+          "rank": 65,
+          "url": "https://alignwc.com/sciatica-nerve-pain-mystery-possible-suspects-for-your-sciatica-woes/"
+        },
+        {
+          "keyword": "migraine and vertigo",
+          "cpc": 8.24,
+          "volume": 135,
+          "rank": 45,
+          "url": "https://alignwc.com/3-potential-causes-suffering-from-migraine-associated-vertigo/"
+        },
+        {
+          "keyword": "alleviate sciatica",
+          "cpc": 7.85,
+          "volume": 80,
+          "rank": 72,
+          "url": "https://alignwc.com/how-get-rid-sciatica-pain-5-steps-help/"
+        },
+        {
+          "keyword": "sciatica hip pain relief",
+          "cpc": 7.82,
+          "volume": 260,
+          "rank": 41,
+          "url": "https://alignwc.com/how-get-rid-sciatica-pain-5-steps-help/"
+        }
+      ],
+      "localKeywords": [
+        {
+          "keyword": "North Shore Chiropractic",
+          "cpc": 9.36,
+          "volume": 135,
+          "rank": 29,
+          "url": "https://alignwc.com/the-corrective-chiropractic-advantage-northbrook-chiropractic/",
+          "localMatch": true
+        },
+        {
+          "keyword": "massage pressure points",
+          "cpc": 3.38,
+          "volume": 135,
+          "rank": 59,
+          "url": "https://alignwc.com/acupressure-for-vertigo-relief-3-pressure-points-try/",
+          "localMatch": true
+        },
+        {
+          "keyword": "northfield chiropractic",
+          "cpc": 3.08,
+          "volume": 44,
+          "rank": 23,
+          "url": "https://alignwc.com/service-area/northfield-illinois/",
+          "localMatch": true
+        }
+      ]
+    },
+    {
+      "domain": "infinityspine.com",
+      "totalKeywords": 1,
+      "moneyKeywords": [
+        {
+          "keyword": "infinity of scottsdale",
+          "cpc": 2.76,
+          "volume": 70,
+          "rank": 50,
+          "url": "https://www.infinityspine.com/"
+        }
+      ],
+      "localKeywords": [
+        {
+          "keyword": "infinity of scottsdale",
+          "cpc": 2.76,
+          "volume": 70,
+          "rank": 50,
+          "url": "https://www.infinityspine.com/",
+          "localMatch": true
+        }
+      ]
+    },
+    {
+      "domain": "painreliefkc.com",
+      "totalKeywords": 18,
+      "moneyKeywords": [
+        {
+          "keyword": "applied kinesiology chiropractor",
+          "cpc": 7.58,
+          "volume": 230,
+          "rank": 30,
+          "url": "https://painreliefkc.com/how-chiropractors-use-applied-kinesiology-to-diagnose-and-treat-conditions/"
+        },
+        {
+          "keyword": "integrated chiropractic",
+          "cpc": 7.55,
+          "volume": 180,
+          "rank": 70,
+          "url": "https://painreliefkc.com/integrative-chiropractic-care-an-effective-solution-for-chronic-pain/"
+        },
+        {
+          "keyword": "chiropractic kinesiology",
+          "cpc": 5.13,
+          "volume": 44,
+          "rank": 69,
+          "url": "https://painreliefkc.com/understanding-the-benefits-of-applied-kinesiology-in-chiropractic-care/"
+        },
+        {
+          "keyword": "chiropractor and knee pain",
+          "cpc": 4.96,
+          "volume": 44,
+          "rank": 43,
+          "url": "https://painreliefkc.com/knee-pain/"
+        },
+        {
+          "keyword": "integrative chiropractic",
+          "cpc": 4.39,
+          "volume": 480,
+          "rank": 59,
+          "url": "https://painreliefkc.com/integrative-chiropractic-care-an-effective-solution-for-chronic-pain/"
+        }
+      ],
+      "localKeywords": [
+        {
+          "keyword": "chiropractor overland park",
+          "cpc": 3.82,
+          "volume": 135,
+          "rank": 54,
+          "url": "https://painreliefkc.com/",
+          "localMatch": true
+        },
+        {
+          "keyword": "kingston chiropractor",
+          "cpc": 3.26,
+          "volume": 125,
+          "rank": 67,
+          "url": "https://painreliefkc.com/chiropractor-overland-park-ks/",
+          "localMatch": true
+        },
+        {
+          "keyword": "muscle energy techniques",
+          "cpc": 1.57,
+          "volume": 220,
+          "rank": 48,
+          "url": "https://painreliefkc.com/unlock-your-bodys-potential-with-muscle-energy-technique/",
+          "localMatch": true
+        }
+      ]
+    }
+  ]
+}
