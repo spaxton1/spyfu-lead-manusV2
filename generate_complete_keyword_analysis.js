@@ -139,6 +139,45 @@ function analyzeKeywords(domain) {
     });
   }
   
+  // === QUICK WINS & LOCAL WINS (Page 1 Only) ===
+  console.log(`\n\n${'━'.repeat(80)}`);
+  console.log(`🎯 QUICK WINS & LOCAL WINS (Top 10 Page 1 Keywords)`);
+  console.log('━'.repeat(80));
+  
+  // QuickWin: Top 3 highest CPC from Top 10 (Page 1)
+  const quickWins = [...page1Keywords]
+    .filter(kw => kw.cpc > 0 && kw.rank >= 1 && kw.rank <= 10)
+    .sort((a, b) => b.cpc - a.cpc)
+    .slice(0, 3);
+  
+  console.log(`\n🚀 QUICK WINS (Top 3 Highest CPC in Top 10):\n`);
+  if (quickWins.length === 0) {
+    console.log(`   (No QuickWin keywords found)\n`);
+  } else {
+    quickWins.forEach((kw, idx) => {
+      const kwName = `QuickWin${idx + 1}`.padEnd(12);
+      const kwText = kw.keyword.length > 38 ? kw.keyword.substring(0, 35) + '...' : kw.keyword.padEnd(38);
+      console.log(`${kwName} | ${kwText} | $${kw.cpc.toFixed(2).padStart(7)} CPC | ${kw.volume.toString().padStart(6)} Vol | Rank #${kw.rank}`);
+    });
+  }
+  
+  // LocalWin: Top 2 highest CPC LOCAL keywords from Top 10 (Page 1)
+  const localWins = [...page1Keywords]
+    .filter(kw => hasLocalIdentifier(kw.keyword) && kw.rank >= 1 && kw.rank <= 10)
+    .sort((a, b) => b.cpc - a.cpc)
+    .slice(0, 2);
+  
+  console.log(`\n📍 LOCAL WINS (Top 2 Highest CPC Local in Top 10):\n`);
+  if (localWins.length === 0) {
+    console.log(`   (No LocalWin keywords found)\n`);
+  } else {
+    localWins.forEach((kw, idx) => {
+      const kwName = `LocalWin${idx + 1}`.padEnd(12);
+      const kwText = kw.keyword.length > 38 ? kw.keyword.substring(0, 35) + '...' : kw.keyword.padEnd(38);
+      console.log(`${kwName} | ${kwText} | $${kw.cpc.toFixed(2).padStart(7)} CPC | ${kw.volume.toString().padStart(6)} Vol | Rank #${kw.rank}`);
+    });
+  }
+  
   // === MONEY KEYWORDS ANALYSIS (Rank 11-75) ===
   console.log(`\n\n${'━'.repeat(80)}`);
   console.log(`💎 MONEY KEYWORDS ANALYSIS (Rank 11-75)`);
@@ -200,6 +239,8 @@ function analyzeKeywords(domain) {
   
   return {
     domain,
+    quickWins: quickWins,
+    localWins: localWins,
     page1Analysis: {
       top10CPC: page1ByCPC,
       top10Local: page1Local

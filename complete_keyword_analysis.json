@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-23T08:45:53.171Z",
+  "generatedAt": "2025-10-23T09:05:56.133Z",
   "description": "Complete keyword analysis combining Page 1 (rank 1-10) and Money Keywords (rank 11-75)",
   "dataSources": {
     "page1": "combined_domain_report_with_rankings.json (rank 1-10)",
@@ -9,6 +9,45 @@
   "results": [
     {
       "domain": "salemplasticsurgery.com",
+      "quickWins": [
+        {
+          "keyword": "dermaplaning winston salem",
+          "rank": 4,
+          "cpc": 20.41,
+          "volume": 40,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "laser hair removal winston-salem",
+          "rank": 8,
+          "cpc": 13.79,
+          "volume": 28,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "botox Winston-Salem",
+          "rank": 10,
+          "cpc": 7.88,
+          "volume": 0,
+          "source": "Page 1"
+        }
+      ],
+      "localWins": [
+        {
+          "keyword": "dermaplaning winston salem",
+          "rank": 4,
+          "cpc": 20.41,
+          "volume": 40,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "laser hair removal winston-salem",
+          "rank": 8,
+          "cpc": 13.79,
+          "volume": 28,
+          "source": "Page 1"
+        }
+      ],
       "page1Analysis": {
         "top10CPC": [
           {
@@ -248,6 +287,31 @@
     },
     {
       "domain": "aestheticinstitute.ie",
+      "quickWins": [
+        {
+          "keyword": "liposuction dublin",
+          "rank": 6,
+          "cpc": 1.44,
+          "volume": 10,
+          "source": "Page 1"
+        }
+      ],
+      "localWins": [
+        {
+          "keyword": "liposuction dublin",
+          "rank": 6,
+          "cpc": 1.44,
+          "volume": 10,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "dublin lip fillers",
+          "rank": 9,
+          "cpc": 0,
+          "volume": 0,
+          "source": "Page 1"
+        }
+      ],
       "page1Analysis": {
         "top10CPC": [
           {
@@ -410,6 +474,23 @@
     },
     {
       "domain": "coppellwellness.com",
+      "quickWins": [],
+      "localWins": [
+        {
+          "keyword": "coppell wellness center",
+          "rank": 1,
+          "cpc": 0,
+          "volume": 135,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "coppell wellness",
+          "rank": 1,
+          "cpc": 0,
+          "volume": 420,
+          "source": "Page 1"
+        }
+      ],
       "page1Analysis": {
         "top10CPC": [],
         "top10Local": [
@@ -457,6 +538,23 @@
     },
     {
       "domain": "axiominjury.com",
+      "quickWins": [],
+      "localWins": [
+        {
+          "keyword": "carrollton injury rehab & chiropractic",
+          "rank": 9,
+          "cpc": 0,
+          "volume": 55,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "chiropractor in Carrolton Tx",
+          "rank": 7,
+          "cpc": 0,
+          "volume": 0,
+          "source": "Page 1"
+        }
+      ],
       "page1Analysis": {
         "top10CPC": [],
         "top10Local": [
@@ -569,6 +667,45 @@
     },
     {
       "domain": "alignwc.com",
+      "quickWins": [
+        {
+          "keyword": "surgery for vertigo",
+          "rank": 1,
+          "cpc": 8.54,
+          "volume": 44,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "can tmj cause dizziness floating feeling",
+          "rank": 10,
+          "cpc": 6.2,
+          "volume": 320,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "acupuncture for dizziness",
+          "rank": 9,
+          "cpc": 4.55,
+          "volume": 135,
+          "source": "Page 1"
+        }
+      ],
+      "localWins": [
+        {
+          "keyword": "northbrook chiropractic",
+          "rank": 6,
+          "cpc": 2.34,
+          "volume": 0,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "northbrook chiropractic",
+          "rank": 1,
+          "cpc": 2.34,
+          "volume": 0,
+          "source": "Page 1"
+        }
+      ],
       "page1Analysis": {
         "top10CPC": [
           {
@@ -808,6 +945,8 @@
     },
     {
       "domain": "infinityspine.com",
+      "quickWins": [],
+      "localWins": [],
       "page1Analysis": {
         "top10CPC": [],
         "top10Local": []
@@ -849,6 +988,30 @@
     },
     {
       "domain": "painreliefkc.com",
+      "quickWins": [
+        {
+          "keyword": "kinesiology chiropractic",
+          "rank": 7,
+          "cpc": 5.74,
+          "volume": 44,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "chiropractic kinesiology",
+          "rank": 3,
+          "cpc": 5.13,
+          "volume": 44,
+          "source": "Page 1"
+        },
+        {
+          "keyword": "kinesiology chiropractor",
+          "rank": 4,
+          "cpc": 3.53,
+          "volume": 300,
+          "source": "Page 1"
+        }
+      ],
+      "localWins": [],
       "page1Analysis": {
         "top10CPC": [
           {
