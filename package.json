@@ -29,14 +29,20 @@
     "git:push": "git push origin main"
   },
   "dependencies": {
-    "hono": "^4.7.12"
+    "bcryptjs": "^3.0.2",
+    "hono": "^4.7.12",
+    "jose": "^6.1.0",
+    "papaparse": "^5.5.3"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250705.0",
     "@hono/vite-cloudflare-pages": "^0.4.2",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/papaparse": "^5.3.16",
+    "tsx": "^4.20.6",
+    "typescript": "^5.7.3",
     "vite": "^5.4.18",
-    "wrangler": "^3.102.0",
-    "typescript": "^5.7.3"
+    "wrangler": "^3.102.0"
   },
   "engines": {
     "node": ">=18.0.0"

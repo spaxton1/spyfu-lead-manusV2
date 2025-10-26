@@ -8,10 +8,28 @@ The SpyFu Lead Intelligence Platform uses **Cloudflare D1** (SQLite-based) for d
 
 ```
 ┌─────────────────┐
+│     users       │ (NEW - User Management)
+├─────────────────┤
+│ id              │
+│ email           │ (unique)
+│ password_hash   │
+│ role            │ (admin, agent)
+│ first_name      │
+│ last_name       │
+│ created_at      │
+│ last_login      │
+│ is_active       │
+└─────────────────┘
+         │
+         │ 1:N (admin assigns leads to agents)
+         │
+         ↓
+┌─────────────────┐
 │   projects      │
 ├─────────────────┤
 │ id              │──┐
 │ name            │  │
+│ created_by      │  │ (admin user_id)
 │ api_tier        │  │
 │ created_at      │  │
 │ status          │  │
@@ -19,19 +37,20 @@ The SpyFu Lead Intelligence Platform uses **Cloudflare D1** (SQLite-based) for d
                      │
                      │ 1:N
                      │
-                     │
-┌─────────────────┐  │      ┌──────────────────┐
-│   leads         │◄─┘      │   spyfu_data     │
-├─────────────────┤         ├──────────────────┤
-│ id              │──────1:1│ id               │
-│ project_id      │────────▶│ domain           │ (unique)
-│ domain          │         │ api_1_trends     │ (JSON)
-│ company         │         │ api_2_page1      │ (JSON)
-│ contact_name    │         │ api_3_money      │ (JSON)
-│ phone           │         │ api_4_competitors│ (JSON)
-│ email           │         │ fetched_at       │
-│ created_at      │         │ tier_used        │
-└─────────────────┘         └──────────────────┘
+                     ↓
+┌─────────────────┐       ┌──────────────────┐
+│   leads         │       │   spyfu_data     │
+├─────────────────┤       ├──────────────────┤
+│ id              │───1:1─│ id               │
+│ project_id      │──────▶│ domain           │ (unique)
+│ domain          │       │ api_1_trends     │ (JSON)
+│ company         │       │ api_2_page1      │ (JSON)
+│ contact_name    │       │ api_3_money      │ (JSON)
+│ phone           │       │ api_4_competitors│ (JSON)
+│ email           │       │ fetched_at       │
+│ assigned_to     │       │ tier_used        │
+│ created_at      │       └──────────────────┘
+└─────────────────┘
          │                           │
          │ 1:1                       │
          │                           │
@@ -94,14 +113,54 @@ The SpyFu Lead Intelligence Platform uses **Cloudflare D1** (SQLite-based) for d
 
 ## Table Definitions
 
-### 1. `projects`
+### 1. `users` (NEW - User Management)
 
-Represents a lead processing campaign.
+Stores admin and agent accounts for lead assignment system.
+
+```sql
+CREATE TABLE users (
+  id TEXT PRIMARY KEY DEFAULT (hex(randomblob(16))),
+  email TEXT UNIQUE NOT NULL,
+  password_hash TEXT NOT NULL,
+  role TEXT NOT NULL CHECK (role IN ('admin', 'agent')),
+  first_name TEXT,
+  last_name TEXT,
+  is_active INTEGER DEFAULT 1,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  last_login DATETIME
+);
+
+CREATE INDEX idx_users_email ON users(email);
+CREATE INDEX idx_users_role ON users(role);
+CREATE INDEX idx_users_active ON users(is_active);
+```
+
+**Fields:**
+- `id`: Unique user identifier
+- `email`: Login email (unique)
+- `password_hash`: Bcrypt hashed password
+- `role`: `admin` (can create agents, upload CSVs, assign leads) or `agent` (can only view assigned leads)
+- `first_name`, `last_name`: User display name
+- `is_active`: 1 = active, 0 = disabled (soft delete)
+- `created_at`: Account creation timestamp
+- `last_login`: Last successful login
+
+**Default Admin Account:**
+```sql
+-- Password: "admin123" (MUST be changed on first login)
+INSERT INTO users (id, email, password_hash, role, first_name, last_name)
+VALUES ('admin001', 'admin@spyfu.local', '$2a$10$...', 'admin', 'System', 'Administrator');
+```
+
+### 2. `projects`
+
+Represents a lead processing campaign (created by admin).
 
 ```sql
 CREATE TABLE projects (
   id TEXT PRIMARY KEY DEFAULT (hex(randomblob(16))),
   name TEXT NOT NULL,
+  created_by TEXT NOT NULL REFERENCES users(id),
   api_tier TEXT NOT NULL CHECK (api_tier IN ('full', 'partial', 'minimal')),
   status TEXT DEFAULT 'pending' CHECK (status IN ('pending', 'processing', 'completed', 'error')),
   total_leads INTEGER DEFAULT 0,
@@ -112,11 +171,13 @@ CREATE TABLE projects (
 
 CREATE INDEX idx_projects_status ON projects(status);
 CREATE INDEX idx_projects_created ON projects(created_at);
+CREATE INDEX idx_projects_created_by ON projects(created_by);
 ```
 
 **Fields:**
 - `id`: UUID-style unique identifier
 - `name`: User-provided project name (e.g., "Q1 2024 Enterprise Leads")
+- `created_by`: Foreign key to users table (admin who created this project)
 - `api_tier`: Pricing tier selected
   - `full`: $0.17/lead (all 4 APIs)
   - `partial`: $0.15/lead (APIs 1-3, no competitors)
@@ -150,6 +211,9 @@ CREATE TABLE leads (
   contact_name TEXT,
   phone TEXT,
   email TEXT,
+  assigned_to TEXT REFERENCES users(id),
+  assigned_at DATETIME,
+  original_csv_data TEXT,
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   UNIQUE(project_id, domain)
 );
@@ -158,6 +222,7 @@ CREATE INDEX idx_leads_project ON leads(project_id);
 CREATE INDEX idx_leads_domain ON leads(domain);
 CREATE INDEX idx_leads_phone ON leads(phone);
 CREATE INDEX idx_leads_email ON leads(email);
+CREATE INDEX idx_leads_assigned ON leads(assigned_to);
 ```
 
 **Fields:**
@@ -168,6 +233,9 @@ CREATE INDEX idx_leads_email ON leads(email);
 - `contact_name`: Contact person
 - `phone`: Phone number (for Chrome extension lookup)
 - `email`: Email address
+- `assigned_to`: Foreign key to users table (agent assigned to this lead)
+- `assigned_at`: Timestamp when lead was assigned
+- `original_csv_data`: JSON - Stores entire CSV row for export
 - `created_at`: When lead was added
 
 **UNIQUE Constraint:** Same domain can't exist twice in same project.
