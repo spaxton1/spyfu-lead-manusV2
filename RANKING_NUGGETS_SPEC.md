@@ -25,9 +25,9 @@
 | 10 | Top Traffic KW | `jawline surgery men\|#10\|13 Clicks` | 35 chars |
 | 11 | Competitor 1 | `skinsurg.net\|14,929 KWs\|$56K` | 31 chars |
 | 12 | Competitor 2 | `winstonderm.com\|11,660 KWs\|$42K` | 34 chars |
-| 13 | Competitor 3 | `salemplastic.com\|8,000 KWs\|$30K` | 33 chars |
-| 14 | Competitor 4 | `piedmontplast.com\|6,000 KWs\|$20K` | 35 chars |
-| 15 | Competitor Ranks | `plastic NC\|#1 C1\|#2 C2` | 24 chars |
+| 13 | Competitor Ranks | `plastic NC\|#1 C1\|#2 C2` | 24 chars |
+| 14 | Competitor 3 | `salemplastic.com\|8,000 KWs\|$30K` | 33 chars |
+| 15 | Competitor 4 | `piedmontplast.com\|6,000 KWs\|$20K` | 35 chars |
 
 ### **Below-the-Fold (17 rows)** - Additional detail
 
@@ -287,7 +287,7 @@
 
 ### **CSV Structure:**
 ```csv
-domain,company_name,contact_name,phone,snapshot,page1,page2,quickwins,historicaltrend,localkw_l1,localkw_l2,kwtraffic,topcpckw,toptraffickw,competitor1,competitor2,competitor3,competitor4,competitorranks,comphotbuttons,client1mo,client2mo,client3mo,client4mo,localkw_l3,localkw_l4,localkw_l5,lowhang1,lowhang2,lowhang3,lowhang4,lowhang5,moneykw2,moneykw3,moneykw4,moneykw5
+domain,company_name,contact_name,phone,snapshot,page1,page2,quickwins,historicaltrend,localkw_l1,localkw_l2,kwtraffic,topcpckw,toptraffickw,competitor1,competitor2,competitorranks,competitor3,competitor4,comphotbuttons,client1mo,client2mo,client3mo,client4mo,localkw_l3,localkw_l4,localkw_l5,lowhang1,lowhang2,lowhang3,lowhang4,lowhang5,moneykw2,moneykw3,moneykw4,moneykw5
 rhmd.com,RHMD,John,555-1234,"2,496 KWs | $8,281 | 888 Clicks |36A","233/9.3% | 30 #1 | 219 T3 | 14 4-10",...
 ```
 
