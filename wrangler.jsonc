@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "spyfu-lead-intelligence",
+  "compatibility_date": "2024-01-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "pages_build_output_dir": "./dist",
+  
+  // D1 Database configuration
+  // IMPORTANT: Create production database first:
+  //   npx wrangler d1 create spyfu-production
+  // Then replace "your-database-id" with actual ID from output
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "spyfu-production",
+      "database_id": "your-database-id"
+    }
+  ]
+  
+  // Environment variables (set via wrangler secret put):
+  // - SPYFU_API_KEY: SpyFu API authentication key
+  // - SLACK_WEBHOOK_URL: (Optional) For error notifications
+}
