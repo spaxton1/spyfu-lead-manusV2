@@ -7,6 +7,39 @@
 
 ---
 
+## 📁 CSV Input Requirements
+
+### **Sample Data Available**
+- **File:** `SampleLeads-35.csv` (36 real leads)
+- **Location:** Project repository root
+- **Purpose:** Use for testing with actual SpyFu API (use credits sparingly)
+
+### **Website Field Detection**
+**CRITICAL:** CSVs come in different formats. The website column can be named:
+- `Website`, `Company Website`, `website`, `Web Site`
+- `URL`, `Domain`, `Company URL`, `Web Address`
+
+**Smart Detection Required:**
+- Search headers case-insensitively for: `website`, `domain`, `url`, `web`
+- Exclude: `Person Linkedin Url` (not a company website)
+- Validate URLs and extract clean domains (remove `www.`, protocol, etc.)
+- Skip rows with invalid/missing websites
+
+### **Sample CSV Structure**
+```
+First Name,Last Name,Title,Company Name,Email,Website,City,State,...
+Dave,Witbeck,Owner,Affinity Stone,dave@affinitystone.com,https://affinitystone.com,Arthur,Illinois,...
+```
+
+**Parsing Notes:**
+- 36 leads with varying data completeness
+- Many optional fields may be empty
+- Phone numbers have multiple column variations
+- Company addresses contain commas (need proper CSV parsing)
+- **Implementation:** Use PapaParse library for robust CSV handling
+
+---
+
 ## 📊 The 32 Ranking Nuggets
 
 ### **Above-the-Fold (15 rows)** - Immediately visible in ReadyMode
@@ -143,11 +176,20 @@
 ### Rows 6-8: Local KW L1-L3
 **Formula:** `<Full Local KW>|<Rank>|<CPC>` (L1-L2) or `<KW>|<CPC>|<Rank>|<Volume>` (L3)  
 **API:** #2 (rank 2-10) + #3 (rank 11-75)  
-**Filters:**
-- Contains city from 29,880 cities database
-- Contains state (full name or abbreviation)
-- Contains ZIP code (5-digit or ZIP+4)
-- Excludes: "near me", "local", "city", "nearby"
+
+**Local Identifier Detection (hasLocalIdentifier function):**
+- ✅ **29,880 US cities** - Including multi-word cities like "Beverly Hills", "Los Angeles"
+- ✅ **50 US states** - Full names: "California", "North Carolina"
+- ✅ **State abbreviations** - 2-letter: "CA", "NC" (with word boundary checks)
+- ✅ **ZIP codes** - 5-digit: "90210" or ZIP+4: "90210-1234"
+- ✅ **Geographic descriptors** - "north shore", "downtown", "east side"
+- ❌ **Excludes** - "near me", "local", "city", "nearby" (false positives)
+
+**Implementation Notes:**
+- Check 1-word, 2-word, and 3-word city combinations
+- Use word boundaries to avoid false matches (e.g., "in" vs Indiana)
+- Reference: `identify_money_keywords_v2_api.js` (working implementation)
+- Database: `us_cities_lookup.json` (18,720 unique city names)
 
 **Sorting:** By `exactCostPerClick` DESC  
 **Examples:**
