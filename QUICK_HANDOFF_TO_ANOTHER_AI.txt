@@ -1,0 +1,94 @@
+═══════════════════════════════════════════════════════════════════
+  QUICK HANDOFF PROMPT - Copy & Paste to Another AI
+═══════════════════════════════════════════════════════════════════
+
+COPY EVERYTHING BELOW THIS LINE AND PASTE TO ANOTHER AI:
+
+---
+
+I need you to build a SpyFu Lead Intelligence Platform. This project has COMPLETE documentation already written - you just need to implement the code.
+
+GitHub Repository: https://github.com/spaxton1/spyfu-lead-manusV2
+
+Please do this:
+
+1. Clone the repository:
+   git clone https://github.com/spaxton1/spyfu-lead-manusV2.git
+   cd spyfu-lead-manusV2
+
+2. Read these files IN ORDER:
+   - AI_HANDOFF_PROMPT.md (THIS IS YOUR MAIN GUIDE - read this first!)
+   - COMPLETE_PROJECT_PROMPT.md (full project context)
+   - IMPLEMENTATION_PHASES.md (what to build)
+   - RANKING_NUGGETS_SPEC.md (the 32 nuggets specification)
+
+3. Key facts you need to know:
+   - This is a BATCH CSV enhancement tool (NOT real-time)
+   - It calculates 32 "Ranking Nuggets" from SpyFu API data
+   - Tech stack: Hono + TypeScript + Cloudflare D1 + Vite
+   - Start with Phase 1: CSV parser, SpyFu API client, Nugget calculator
+
+4. SpyFu API Key (you'll need this):
+   MDM5MzBkOWMtNTkzNi00ZGVjLTlhNmItZTQ5OWZmMjk3NGE5OllHQlFINVlJ
+
+5. The 32 Nuggets MUST be in this exact order:
+   1. Snapshot
+   2. Page 1
+   3. Page 2
+   4. Quick Wins
+   5. Historical Trend
+   6-7. Local KW L1-L2
+   8. KW Traffic
+   9-10. Top CPC/Traffic KW
+   11. Competitor 1
+   12. Competitor 2
+   13. Competitor Ranks ← CRITICAL: This is position 13 (not 15)!
+   14. Competitor 3
+   15. Competitor 4
+   16. Comp Hot Buttons
+   17-20. Client 1-4 Mo
+   21-23. Local KW L3-L5
+   24-28. LowHang 1-5
+   29-32. Money KW 2-5
+
+6. After reading the docs, tell me:
+   "I've read the documentation. I understand this is a batch CSV enhancement tool that stores SpyFu data and calculates 32 Ranking Nuggets. I'm ready to start Phase 1. Should I begin with the CSV parser?"
+
+Everything you need is in the repository. All specifications are complete. Your job is just to implement the code.
+
+Let me know when you're ready to start!
+
+---
+
+═══════════════════════════════════════════════════════════════════
+  END OF PROMPT
+═══════════════════════════════════════════════════════════════════
+
+REPOSITORY DETAILS:
+- Primary: https://github.com/spaxton1/spyfu-lead-intelligence
+- Backup:  https://github.com/spaxton1/spyfu-lead-manusV2
+- Both repositories are IDENTICAL and fully synchronized
+- Latest commit: 8d1b9053b495b0f80e461e7b74112e5cb5d99575
+
+FILES IN REPOSITORY:
+- AI_HANDOFF_PROMPT.md (17KB) - MAIN GUIDE FOR NEW AI
+- COMPLETE_PROJECT_PROMPT.md (11.5KB) - Full project context
+- README.md (8.5KB) - Project overview
+- IMPLEMENTATION_PHASES.md (27.9KB) - What to build
+- RANKING_NUGGETS_SPEC.md - All 32 nuggets (CORRECTED ORDER)
+- DATABASE_SCHEMA.md (21.6KB) - Complete D1 schema
+- API_DOCUMENTATION.md (18KB) - All 4 SpyFu APIs
+- ARCHITECTURE.md (23KB) - System design
+- Plus 5 more documentation files
+- Test data: master_test_results.json (3MB real API responses)
+- US Cities: us_cities_lookup.json (500KB, 29,880 cities)
+- Database seed data: seed.sql
+
+CURRENT STATUS:
+- ✅ All documentation complete
+- ✅ Project structure created
+- ✅ Database schema designed
+- ✅ Both GitHub repositories set up
+- ⏳ Phase 1 implementation ready to start
+
+The backup AI can start immediately with zero context needed.
